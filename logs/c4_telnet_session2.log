@@ -1,0 +1,656 @@
+......
+-> ......ls
+spy 
+traces.bin 
+MOUNT_SAFE_FLAG.tst 
+user_data 
+qtembedded-0 
+picture_cache 
+internet_online 
+HarmoniesChecked.tst 
+cover_art_mp3_z0 
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 spy/
+-rwxrwxrwx  1 0       0                36480 Dec  4  2017 traces.bin 
+-rwxrwxrwx  1 0       0                    0 Jan  1  1999 MOUNT_SAFE_FLAG.tst 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 user_data/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 qtembedded-0/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 picture_cache/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 internet_online/
+-rwxrwxrwx  1 0       0                    8 Jan  1  2007 HarmoniesChecked.tst 
+-rwxrwxrwx  1 0       0                94964 Jan  7 08:19 cover_art_mp3_z0 
+value = 0 = 0x0
+-> cd "user_data"
+value = 0 = 0x0
+-> dir
+C interp: unknown symbol name 'dir'.
+-> ls
+. 
+.. 
+sqlite 
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 11 09:08 sqlite/
+value = 0 = 0x0
+-> cd "sd?q........        ........cd "sqlite"
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Jan 11 09:08 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 5120 Jan  1  1999 config.sqlite 
+-rwxrwxrwx  1 0       0                 8192 Jan 13 10:44 versions.sqlite 
+-rwxrwxrwx  1 0       0                   51 Jan  2 11:38 media_catalog.sqlite.inf 
+-rwxrwxrwx  1 0       0                27648 Dec 31  2018 nav_poi.sqlite 
+-rwxrwxrwx  1 0       0               293182 Jan  2 11:38 media_catalog.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 11 09:08 connectivity.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 11 09:08 browser.sqlite.inf 
+-rwxrwxrwx  1 0       0                 1425 Jan 11 09:08 connectivity.sqlite 
+-rwxrwxrwx  1 0       0                 2387 Jan 11 09:08 browser.sqlite 
+value = 0 = 0x0
+-> ll "/bd0"
+
+Listing Directory /bd0:
+drwxrwxrwx  1 0       0                32768 Dec 20  2013 Video/
+drwxrwxrwx  1 0       0                32768 Dec 20  2013 Music/
+drwxrwxrwx  1 0       0                32768 Dec 20  2013 Documents/
+drwxrwxrwx  1 0       0                32768 Dec 30  2013 Images/
+drwxrwxrSH  1 0       0                32768 May 25  2017 System Volume Information/
+-rwxrwxAwx  1 0       0                   32 Jun 27  2017 Propri..taire.txt 
+-rwxrwxAwx  1 0       0           2089762978 Jun 11  2017 Michelet Fashion Week.mp4 
+drwxrwxrwx  1 0       0                32768 Oct 21  2017 SPY/
+value = 0 = 0x0
+-> ll"...   ...ll "/bd0/SPY"
+
+Listing Directory /bd0/SPY:
+drwxrwxrwx  1 0       0                32768 Oct 21  2017 ./
+drwxrwxrwx  1 0       0                32768 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                32768 Oct 21  2017 01_201710211138/
+value = 0 = 0x0
+-> .ll
+drwxrwxrwx  1 0       0                 4096 Jan 11 09:08 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 5120 Jan  1  1999 config.sqlite 
+-rwxrwxrwx  1 0       0                 8192 Jan 13 10:44 versions.sqlite 
+-rwxrwxrwx  1 0       0                   51 Jan  2 11:38 media_catalog.sqlite.inf 
+-rwxrwxrwx  1 0       0                27648 Dec 31  2018 nav_poi.sqlite 
+-rwxrwxrwx  1 0       0               293182 Jan  2 11:38 media_catalog.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 11 09:08 connectivity.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 11 09:08 browser.sqlite.inf 
+-rwxrwxrwx  1 0       0                 1425 Jan 11 09:08 connectivity.sqlite 
+-rwxrwxrwx  1 0       0                 2387 Jan 11 09:08 browser.sqlite 
+value = 0 = 0x0
+-> 0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device remove notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - /bd0 has been unmounted
+0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device attach notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - Mounting device (PDT 0x0 PQ 0x0 RMB 0x1) VID = Multiple : PID = Card  Reader     : REV = 1.00
+0x7ed0040 (BusM A): INFO: usb2Msc - Device 0x3 LUN 0 of 3864576 (KB) will be mounted with base name /bd0
+0x7ed0040 (BusM A): usb2MscXbdMount: mediumPresent TRUE
+0x7eb4530 (tErfTask): INFO: usb2Msc - Device /bd0 has been claimed by filesystem
+0x84af6e0 (tUsb2FsAppNotifierTask): USB2FS_NOTIFY : DEVICE /bd0 READY
+0x7192d50 (tBootRomInterruptBootTask): BootRomInterruptBootTask searching on device /bd0
+0x7192d50 (tBootRomInterruptBootTask): BootRomInterruptBootTask start
+.ll "/d...D......
+0x002acecc vxTaskEntry  +0x48 : 0x004c839c ()
+0x004c839c shellTask    +0x4f8: shellExec ()
+0x004c7d00 shellExec    +0x80 : 0x004c5a14 ()
+0x004c5a78 shellTaskDefaultBaseNameGet+0x42c: ledRead ()
+0x004af930 ledRead      +0x9c : 0x004cf6d8 ()
+0x004cf898 viLedLibInit +0x1e4: read ()
+0x00490048 close        +0xc8 : 0x00491e4c ()
+0x00491e94 iosRead      +0x4c : 0x00495b3c ()
+0x00495b88 ptyDevRemove +0x264: tyRead ()
+0x00497a84 tyRead       +0x28 : semTake ()
+0x0058409c semTake      +0xbc : semBTake ()
+
+Shell task 'tShellRem118898568' restarted...
+
+-> 1234?.................... ............... ...
+value = 123 = 0x7b = '{'
+-> ....
+-> 
+-> ll "/bd0/.....
+C interp: token '"' not recognized.
+-> ll "/bd0"
+
+Listing Directory /bd0:
+drwxrwxrwx  1 0       0                 4096 Jan 13 10:49 USB_DRIVE/
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Jan 13 10:49 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 5120 Jan  1  1999 config.sqlite 
+-rwxrwxrwx  1 0       0                 8192 Jan 13 10:44 versions.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 13 10:49 media_catalog.sqlite.inf 
+-rwxrwxrwx  1 0       0                27648 Dec 31  2018 nav_poi.sqlite 
+-rwxrwxrwx  1 0       0                 3574 Jan 13 10:49 media_catalog.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 11 09:08 connectivity.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 11 09:08 browser.sqlite.inf 
+-rwxrwxrwx  1 0       0                 1425 Jan 11 09:08 connectivity.sqlite 
+-rwxrwxrwx  1 0       0                 2387 Jan 11 09:08 browser.sqlite 
+value = 0 = 0x0
+-> copy "./*","/bd0"
+Can't open input file "./*" errno = 0x38000f
+value = -1 = 0xffffffff
+-> copy "*","/bd0"
+Can't open input file "*" errno = 0x38000f
+value = -1 = 0xffffffff
+-> pwd
+/SYSTEM_TMP_DATA/user_data/sqlite
+value = 34 = 0x22 = '"'
+-> copy "/SYSTEM_TMP_DATA/user_data/sqlite/*","/bd0/"
+Can't open input file "/SYSTEM_TMP_DATA/user_data/sqlite/*" errno = 0x38000f
+value = -1 = 0xffffffff
+-> copy "
+0x002acecc vxTaskEntry  +0x48 : 0x004c839c ()
+0x004c839c shellTask    +0x4f8: shellExec ()
+0x004c7d00 shellExec    +0x80 : 0x004c5a14 ()
+0x004c5a78 shellTaskDefaultBaseNameGet+0x42c: ledRead ()
+0x004af930 ledRead      +0x9c : 0x004cf6d8 ()
+0x004cf898 viLedLibInit +0x1e4: read ()
+0x00490048 close        +0xc8 : 0x00491e4c ()
+0x00491e94 iosRead      +0x4c : 0x00495b3c ()
+0x00495b88 ptyDevRemove +0x264: tyRead ()
+0x00497a84 tyRead       +0x28 : semTake ()
+0x0058409c semTake      +0xbc : semBTake ()
+
+Shell task 'tShellRem118898568' restarted...
+
+-> devs
+drv name                
+  0 /null               
+  1 /tyCo/0             
+  1 /tyCo/1             
+  1 /tyCo/2             
+  1 /tyCo/3             
+  7 /romfs              
+  4 /S                  
+  3 /SYSTEM_DATA        
+  3 /ram                
+ 13 /tgtsvr             
+ 14 /spi/0              
+ 15 /spi/1              
+ 16 /i2c1               
+ 17 /i2s0               
+ 17 /i2s5               
+ 17 /i2s1               
+ 17 /i2s2               
+ 17 /i2s3               
+ 17 /i2s4               
+ 18 /sound/dsp_mp3cd    
+ 18 /sound/dsp_usb      
+ 18 /sound/dsp_cda      
+ 18 /sound/dsp_mic      
+ 18 /sound/tuner        
+ 18 /sound/dsp_a2dp     
+ 18 /sound/ipod         
+ 18 /sound/wav          
+ 18 /sound/tts          
+ 18 /sound/ts           
+ 18 /sound/bt_wav       
+ 19 /G                  
+ 22 /dev/tap            
+ 23 /DevFp              
+ 24 /DevNet             
+ 25 /DevDiag            
+ 26 /DevKbd             
+ 28 /DevEol             
+  3 /sdhc:1             
+  3 /sdhc:0             
+  3 /SYSTEM             
+  3 /SYSTEM_TMP_DATA    
+  3 /USER_DATA          
+  3 /USER_DATA_BACKUP   
+  3 /EXTENDED_PARTITION 
+ 16 /i2c0               
+ 30 /kim                
+ 31 /ts                 
+  2 /pipe/qt_094444a8   
+ 27 /seri/1             
+  3 /PORTAL_RAMDISK_CACHE
+  2 /pipe/qt_1076e5a0   
+  5 stdio_pty_11fde648.S
+  6 stdio_pty_11fde648.M
+  3 /bd0                
+ 11 /usb2Msc0           
+value = 25 = 0x19
+-> copy "/USER_DATA/user_data/sqlite/*","/bd0/"
+Can't open input file "/USER_DATA/user_data/sqlite/*" errno = 0x38000f
+value = -1 = 0xffffffff
+-> ll "/USER_DATA/user_data/sqlite/"
+
+Listing Directory /USER_DATA/user_data/sqlite/:
+drwxrwxrwx  1 0       0                 4096 Jan 13 10:50 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                17941 Jan 11 18:48 agenda.sqlite 
+-rwxrwxrwx  1 0       0                 6144 Jan  6 15:29 navigation.sqlite 
+-rwxrwxrwx  1 0       0                   48 Jan 13 10:50 diagnosis.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 13 10:50 up_common.sqlite.inf 
+-rwxrwxrwx  1 0       0                 1100 Jan 13 10:50 diagnosis.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 13 10:50 up_user_hmi.sqlite.inf 
+-rwxrwxrwx  1 0       0                 8176 Jan 13 10:50 up_common.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan  1  2007 up_config.sqlite.inf 
+-rwxrwxrwx  1 0       0                 3619 Jan 13 10:50 up_user_hmi.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 12 11:53 up_user.sqlite.inf 
+-rwxrwxrwx  1 0       0                10192 Jan  1  2007 up_config.sqlite 
+-rwxrwxrwx  1 0       0                   48 Nov  4  2017 config_options.sqlite.inf 
+-rwxrwxrwx  1 0       0                 5052 Jan 12 11:53 up_user.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 12 11:53 Pictures.sqlite.inf 
+-rwxrwxrwx  1 0       0                  610 Nov  4  2017 config_options.sqlite 
+-rwxrwxrwx  1 0       0                 4411 Jan 12 11:53 Pictures.sqlite 
+-rwxrwxrwx  1 0       0                20480 Aug 26  2018 nav_dest.sqlite 
+-rwxrwxrwx  1 0       0                  266 Jan  1  2007 version_history.sqlite 
+-rwxrwxrwx  1 0       0                  557 Feb  1  2000 media_jkb_catalog.sqlite 
+-rwxrwxrwx  1 0       0                 2635 Feb  1  2000 diag_zi.sqlite 
+-rwxrwxrwx  1 0       0                   48 Feb  1  2000 media_jkb_catalog.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Feb  1  2000 diag_zi.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 12 11:53 Trip.sqlite.inf 
+-rwxrwxrwx  1 0       0                 5946 Jan 12 11:53 Trip.sqlite 
+-rwxrwxrwx  1 0       0                   48 Jan  1  2007 version_history.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 11 18:48 agenda.sqlite.inf 
+value = 0 = 0x0
+-> cp
+value = -1 = 0xffffffff
+-> cp "/USER_DATA/user_data/sqlite/*","/bd0/"
+copying file /USER_DATA/user_data/sqlite/agenda.sqlite -> /bd0//agenda.sqlite
+copying file /USER_DATA/user_data/sqlite/navigation.sqlite -> /bd0//navigation.sqlite
+copying file /USER_DATA/user_data/sqlite/diagnosis.sqlite.inf -> /bd0//diagnosis.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/up_common.sqlite.inf -> /bd0//up_common.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/diagnosis.sqlite -> /bd0//diagnosis.sqlite
+copying file /USER_DATA/user_data/sqlite/up_user_hmi.sqlite.inf -> /bd0//up_user_hmi.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/up_common.sqlite -> /bd0//up_common.sqlite
+copying file /USER_DATA/user_data/sqlite/up_config.sqlite.inf -> /bd0//up_config.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/up_user_hmi.sqlite -> /bd0//up_user_hmi.sqlite
+copying file /USER_DATA/user_data/sqlite/up_user.sqlite.inf -> /bd0//up_user.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/up_config.sqlite -> /bd0//up_config.sqlite
+copying file /USER_DATA/user_data/sqlite/config_options.sqlite.inf -> /bd0//config_options.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/up_user.sqlite -> /bd0//up_user.sqlite
+copying file /USER_DATA/user_data/sqlite/Pictures.sqlite.inf -> /bd0//Pictures.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/config_options.sqlite -> /bd0//config_options.sqlite
+copying file /USER_DATA/user_data/sqlite/Pictures.sqlite -> /bd0//Pictures.sqlite
+copying file /USER_DATA/user_data/sqlite/nav_dest.sqlite -> /bd0//nav_dest.sqlite
+copying file /USER_DATA/user_data/sqlite/version_history.sqlite -> /bd0//version_history.sqlite
+copying file /USER_DATA/user_data/sqlite/media_jkb_catalog.sqlite -> /bd0//media_jkb_catalog.sqlite
+copying file /USER_DATA/user_data/sqlite/diag_zi.sqlite -> /bd0//diag_zi.sqlite
+copying file /USER_DATA/user_data/sqlite/media_jkb_catalog.sqlite.inf -> /bd0//media_jkb_catalog.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/diag_zi.sqlite.inf -> /bd0//diag_zi.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/Trip.sqlite.inf -> /bd0//Trip.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/Trip.sqlite -> /bd0//Trip.sqlite
+copying file /USER_DATA/user_data/sqlite/version_history.sqlite.inf -> /bd0//version_history.sqlite.inf
+copying file /USER_DATA/user_data/sqlite/agenda.sqlite.inf -> /bd0//agenda.sqlite.inf
+value = 0 = 0x0
+-> ll "/db.......B....b...........       .......
+-> ll "/bd0"
+
+Listing Directory /bd0:
+drwxrwxrwx  1 0       0                 4096 Jan 13 10:49 USB_DRIVE/
+-rwxrwxrwx  1 0       0                17941 Jan 11 18:48 agenda.sqlite 
+-rwxrwxrwx  1 0       0                 6144 Jan  6 15:29 navigation.sqlite 
+-rwxrwxrwx  1 0       0                   48 Jan 13 10:50 diagnosis.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 13 10:50 up_common.sqlite.inf 
+-rwxrwxrwx  1 0       0                 1100 Jan 13 10:50 diagnosis.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 13 10:50 up_user_hmi.sqlite.inf 
+-rwxrwxrwx  1 0       0                 8176 Jan 13 10:50 up_common.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan  1  2007 up_config.sqlite.inf 
+-rwxrwxrwx  1 0       0                 3619 Jan 13 10:50 up_user_hmi.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 12 11:53 up_user.sqlite.inf 
+-rwxrwxrwx  1 0       0                10192 Jan  1  2007 up_config.sqlite 
+-rwxrwxrwx  1 0       0                   48 Nov  4  2017 config_options.sqlite.inf 
+-rwxrwxrwx  1 0       0                 5052 Jan 12 11:53 up_user.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 12 11:53 Pictures.sqlite.inf 
+-rwxrwxrwx  1 0       0                  610 Nov  4  2017 config_options.sqlite 
+-rwxrwxrwx  1 0       0                 4411 Jan 12 11:53 Pictures.sqlite 
+-rwxrwxrwx  1 0       0                20480 Aug 26  2018 nav_dest.sqlite 
+-rwxrwxrwx  1 0       0                  266 Jan  1  2007 version_history.sqlite 
+-rwxrwxrwx  1 0       0                  557 Feb  1  2000 media_jkb_catalog.sqlite 
+-rwxrwxrwx  1 0       0                 2635 Feb  1  2000 diag_zi.sqlite 
+-rwxrwxrwx  1 0       0                   48 Feb  1  2000 media_jkb_catalog.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Feb  1  2000 diag_zi.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 12 11:53 Trip.sqlite.inf 
+-rwxrwxrwx  1 0       0                 5946 Jan 12 11:53 Trip.sqlite 
+-rwxrwxrwx  1 0       0                   48 Jan  1  2007 version_history.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 11 18:48 agenda.sqlite.inf 
+value = 0 = 0x0
+-> 0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device remove notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - /bd0 has been unmounted
+0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device attach notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - Mounting device (PDT 0x0 PQ 0x0 RMB 0x1) VID = Generic  : PID = STORAGE DEVICE   : REV = 0272
+0x7ed0040 (BusM A): INFO: usb2Msc - Device 0x3 LUN 0 of 31166976 (KB) will be mounted with base name /bd0
+0x7ed0040 (BusM A): usb2MscXbdMount: mediumPresent TRUE
+0x7eb4530 (tErfTask): INFO: usb2Msc - Device /bd0 has been claimed by filesystem
+0x84af6e0 (tUsb2FsAppNotifierTask): USB2FS_NOTIFY : DEVICE /bd0 READY
+0x8ce5b60 (tBootRomInterruptBootTask): BootRomInterruptBootTask searching on device /bd0
+0x8ce5b60 (tBootRomInterruptBootTask): BootRomInterruptBootTask start
+0x7eca450 (EHCD_IH0): MSC WORKAROUND, DISCONNECT IT, URB status: -8 
+0x7eca450 (EHCD_IH0):  device ATTACHED 3 
+0x7eca450 (EHCD_IH0): PortCount 
+0x7eca450 (EHCD_IH0): PortCount 
+0x7eca450 (EHCD_IH0):  Port Index  0 
+0x92fe488 (tUsb2Msc0): MSC : RESET ENDPOINT, EP Add=0x81
+0x92fe488 (tUsb2Msc0): MSC : RESET ENDPOINT, hstStatus=-8
+0x92fe488 (tUsb2Msc0): MSC : RESET ENDPOINT, EP Add=0x2
+0x92fe488 (tUsb2Msc0): MSC : RESET ENDPOINT, hstStatus=-8
+0x7ed0040 (BusM A): HUBEVENT : pPortStatus->wPortStatus 0x100,pPortStatus->wPortChange 0x1
+0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device remove notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - /bd0 has been unmounted
+0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device attach notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - Mounting device (PDT 0x0 PQ 0x0 RMB 0x1) VID = Multiple : PID = Card  Reader     : REV = 1.00
+0x7ed0040 (BusM A): INFO: usb2Msc - Device 0x3 LUN 0 of 7860224 (KB) will be mounted with base name /bd0
+0x7ed0040 (BusM A): usb2MscXbdMount: mediumPresent TRUE
+0x7eb4530 (tErfTask): INFO: usb2Msc - Device /bd0 has been claimed by filesystem
+0x84af6e0 (tUsb2FsAppNotifierTask): USB2FS_NOTIFY : DEVICE /bd0 READY
+0x126756d0 (tBootRomInterruptBootTask): BootRomInterruptBootTask searching on device /bd0
+0x126756d0 (tBootRomInterruptBootTask): BootRomInterruptBootTask start
+0x431a3b8 (BCM_UPGRADE): 436827 - (C_UPG_PLUGIN_Interface) Constructor : init of attributes 
+436830 - (C_ZAR_UPG_PLUGIN) << Start of LOGS >>
+0x431a3b8 (BCM_UPGRADE): Create Log file '/SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt'
+
+
+
+*************************************
+*************************************
+(C_ZAR_UPGRADE_PLUGIN) Date : 2019/01/13
+(C_ZAR_UPGRADE_PLUGIN) Time : 13:10
+(C_ZAR_UPGRADE_PLUGIN) SubVersion of Plugin : ZAR_UMZ_4.5.8
+*************************************
+*************************************
+436854 - (C_ZAR_UPG_PLUGIN) GetVersionOfInterface : 6
+436856 - (C_ZAR_UPG_PLUGIN) GetVersionOfPlugin : 100
+436856 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+436857 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+436858 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+436859 - (C_BCM_UPGRADE) << CheckTrustedSource + >>
+437296 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/SMEG_PLUS_UPG/upgplugin.out' 
+437297 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+437297 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 1809204570 
+437511 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE1/ZAR_POI.BIN' 
+437512 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+437512 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 1077184447 
+437726 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE1/ZAR_POI.BIN.inf' 
+437727 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+437727 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 2382054815 
+437943 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE2/ZAR_POI.BIN' 
+437944 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+437944 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 3630933967 
+438158 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE2/ZAR_POI.BIN.inf' 
+438159 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+438160 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 1863565970 
+Size of (/bd0//SMEG_PLUS_UPG/upgplugin.out) = 164539
+Size of (/bd0//DATA/BASE1/ZAR_POI.BIN) = 1500708
+Size of (/bd0//DATA/BASE1/ZAR_POI.BIN.inf) = 216
+Size of (/bd0//DATA/BASE2/ZAR_POI.BIN) = 1496926
+Size of (/bd0//DATA/BASE2/ZAR_POI.BIN.inf) = 216
+438505 - (C_BCM_UPGRADE) << CheckTrustedSource - >>
+438507 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+438508 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+438509 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+ ==================  STEP 1  ===================
+                 CHECK COMPATIBILITY 
+ ===============================================
+check Proto type 'AudioBT' or 'NAV'
+	This is a 'NAV' Proto!
+GetMediaInfosFromUSBkey() Get Media Info From USB Key! 
+	MEDIA_NAME: MM_ZAR_2018_11_cat6
+	CONTINENT_ID: 01
+	VERSION: 20181105
+	CONTINENT_NAME: EUROPE
+	POI_PROVIDER: PSA
+Check Symbols : 
+	BCM_NAV_BUILD_DEST symbol  : OK
+	StopUpgrade symbol  : OK
+	StartUpgrade symbol  : OK
+	RemovePOIForUpgrade symbol  : OK
+	unlockSD symbol  : OK
+	SetMediaContinentID symbol  : OK
+	SetMediaContinentID with param symbol  : OK
+Check RADAR activation status : 
+	Radar status activated  : OK
+Continent Upgrade Is Authorised?
+438544 - (C_UPG_PLUGIN_Interface) << GetInstalledContinent + >>
+	Continents are the same on media: 1 = 1
+	SetMediaContinentID(t_continent_id) address found!
+438546 - (C_BCM_UPGRADE) << SetMediaContinentID + >>
+438548 - (C_BCM_UPGRADE) SetMediaContinentID : m_media_installed_continent = 320738708
+438548 - (C_BCM_UPGRADE) << SetMediaContinentID - >>
+Check Version
+ZAR_POI.BIN.inf path : /sdhc:0/MAPPE/POI_USER/ZAR_POI.BIN.inf
+Check if ZAR_POI.BIN.inf Is present? 
+	ZAR_POI.BIN.inf IS FOUND!
+	Installed VERSION: 20181105
+	Installed Version= 20181105; upgrade version= 20181105
+Check Size
+	Available space :'1211727872' 
+438560 - (C_UPG_PLUGIN_Interface) <<GetCIDSize + >>
+	m_plugin_partition_block_size = 32768
+	plugin Size [CID_SIZE_32] = 2621440
+	plugin Size as double = 0.000000
+	ZAR Size :0.000000 
+	UPGRADE CAN BE LAUNCHED!
+CHECK COMPATIBILITY TASK SUCCEED 
+ Go on Step 2
+0x131f71f8 (UPG_Plug): 438568 - (C_UPG_PLUGIN_Interface) << StaticCheckCompatibilityTask : l_upgrade_state = 3 >>
+438578 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+438580 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+438580 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+438581 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos + >>
+438582 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos - >>
+438582 - (C_ZAR_UPG_PLUGIN) GetVersionOfData : 320736010
+438584 - (C_ZAR_UPG_PLUGIN) GetOldSizeOfData : 0
+438584 - (C_ZAR_UPG_PLUGIN) GetSizeOfData : 1
+438585 - (C_ZAR_UPG_PLUGIN) <GetIdentifier + >
+438586 - (C_ZAR_UPG_PLUGIN) <GetIdentifier - >
+(C_BCM_UPGRADE_SERVER) IHMCancelCurrentAction () 
+
+447384 - (C_ZAR_UPG_PLUGIN) << CancelCurrentAction + >>
+447384 - (C_ZAR_UPG_PLUGIN) << CancelCurrentAction - >>
+447765 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+447766 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+447767 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+447767 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos + >>
+447768 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos - >>
+447769 - (C_ZAR_UPG_PLUGIN) GetVersionOfData : 320736010
+447769 - (C_ZAR_UPG_PLUGIN) GetOldSizeOfData : 0
+447788 - (C_ZAR_UPG_PLUGIN) GetSizeOfData : 1
+447788 - (C_ZAR_UPG_PLUGIN) <GetIdentifier + >
+447789 - (C_ZAR_UPG_PLUGIN) <GetIdentifier - >
+447790 - << C_BCM_UPGRADE::LaunchEndOfUpgrade + >>
+
+447791 - << C_BCM_UPGRADE::LaunchEndOfUpgrade - >>
+
+ ==================  STEP 4  ===================
+                  END OF UPGRADE 
+ ===============================================
+Stop of LOGS 
+End Of Upgrade Task 
+448389 - (C_ZAR_UPG_PLUGIN) Upgrade ZAR / POI : _finit
+448390 - (C_ZAR_UPG_PLUGIN) << Destructor + >>
+448390 - (C_ZAR_UPG_PLUGIN) << Destructor - >>
+0x431a3b8 (BCM_UPGRADE): 448390 - (C_UPG_PLUGIN_Interface) Destructor : reset of attributes 
+
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 
+-> 0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device remove notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - /bd0 has been unmounted
+(C_BCM_UPGRADE_SERVER) IHMCancelCurrentAction () 
+
+0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device attach notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - Mounting device (PDT 0x0 PQ 0x0 RMB 0x1) VID = Multiple : PID = Card  Reader     : REV = 1.00
+0x7ed0040 (BusM A): INFO: usb2Msc - Device 0x3 LUN 0 of 7860224 (KB) will be mounted with base name /bd0
+0x7ed0040 (BusM A): usb2MscXbdMount: mediumPresent TRUE
+0x7eb4530 (tErfTask): INFO: usb2Msc - Device /bd0 has been claimed by filesystem
+NOTIFY: hDevice 0x3 lun 0 (/bd0) medium changed (mediumInsert = 1)
+454913 - (C_BCM_UPG) << HandleMountEvent + >>
+
+454914 - (C_BCM_UPG) HandleMountEvent () l_disk_name = /bd0
+
+454914 - (C_BCM_UPG) HandleMountEvent () Send MSG_BCM_UPGRADE_UPG_KEY_INSERTED 
+
+454925 - (C_BCM_UPG) HandleMountEvent () Upgrade Key detected   
+
+454926 - (C_BCM_UPG) HandleMountEvent () Send MSG_BCM_UPGRADE_USB_DEVICE_PRESENT
+
+454926 - (C_BCM_UPG) << HandleMountEvent - >>
+
+0x84af6e0 (tUsb2FsAppNotifierTask): USB2FS_NOTIFY : DEVICE /bd0 READY
+0x12056d30 (tBootRomInterruptBootTask): BootRomInterruptBootTask searching on device /bd0
+0x12056d30 (tBootRomInterruptBootTask): BootRomInterruptBootTask start
+454971 - (C_BCM_UPGRADE) << IsBTCommunicationInProgress + >>
+454972 - (C_BCM_UPGRADE) << IsBTCommunicationInProgress - >>
+
+Symbols file of CCCOD [/bd0/SMEG_PLUS_UPG/UpgPlugin.out.txt.gz.inf] is not aligned with application
+Symboles already loaded
+
+
+0=DownloadAllSymbol(/SYSTEM/Application/PKG/abs_symbols_base.txt.gz) time=0 ticks
+Symboles already loaded
+
+
+0=DownloadAllSymbol(/SYSTEM/Application/PKG/abs_symbols.txt.gz) time=0 ticks
+455262 - (C_ZAR_UPG_PLUGIN) Upgrade ZAR / POI : _init
+
+0x131c60e8=MMdlopen(/bd0/SMEG_PLUS_UPG/UpgPlugin.out,0) time=260 ticks
+0x431a3b8 (BCM_UPGRADE): 455800 - (C_UPG_PLUGIN_Interface) Constructor : init of attributes 
+455800 - (C_ZAR_UPG_PLUGIN) << Constructor + >>
+stdio_pty_11fde648.S -                                                 
+455807 - (C_ZAR_UPG_PLUGIN) << Start of LOGS >>
+
+
+
+*************************************
+*************************************
+(C_ZAR_UPGRADE_PLUGIN) Date : 2019/01/13
+(C_ZAR_UPGRADE_PLUGIN) Time : 13:10
+(C_ZAR_UPGRADE_PLUGIN) SubVersion of Plugin : ZAR_UMZ_4.5.8
+*************************************
+*************************************
+455832 - (C_ZAR_UPG_PLUGIN) GetVersionOfInterface : 6
+455832 - (C_ZAR_UPG_PLUGIN) GetVersionOfPlugin : 100
+455834 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+455835 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+455836 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+455838 - (C_BCM_UPGRADE) << CheckTrustedSource + >>
+456273 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/SMEG_PLUS_UPG/upgplugin.out' 
+456273 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+456274 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 1809204570 
+456491 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE1/ZAR_POI.BIN' 
+456492 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+456492 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 1077184447 
+456706 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE1/ZAR_POI.BIN.inf' 
+456707 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+456707 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 2382054815 
+456924 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE2/ZAR_POI.BIN' 
+456925 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+456925 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 3630933967 
+457140 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE2/ZAR_POI.BIN.inf' 
+457141 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+457141 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 1863565970 
+Size of (/bd0//SMEG_PLUS_UPG/upgplugin.out) = 164539
+Size of (/bd0//DATA/BASE1/ZAR_POI.BIN) = 1500708
+Size of (/bd0//DATA/BASE1/ZAR_POI.BIN.inf) = 216
+Size of (/bd0//DATA/BASE2/ZAR_POI.BIN) = 1496926
+Size of (/bd0//DATA/BASE2/ZAR_POI.BIN.inf) = 216
+457474 - (C_BCM_UPGRADE) << CheckTrustedSource - >>
+457476 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+457478 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+457478 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+ ==================  STEP 1  ===================
+                 CHECK COMPATIBILITY 
+ ===============================================
+check Proto type 'AudioBT' or 'NAV'
+	This is a 'NAV' Proto!
+GetMediaInfosFromUSBkey() Get Media Info From USB Key! 
+	MEDIA_NAME: MM_ZAR_2018_11_cat6
+	CONTINENT_ID: 01
+	VERSION: 20181105
+	CONTINENT_NAME: EUROPE
+	POI_PROVIDER: PSA
+Check Symbols : 
+	BCM_NAV_BUILD_DEST symbol  : OK
+	StopUpgrade symbol  : OK
+	StartUpgrade symbol  : OK
+	RemovePOIForUpgrade symbol  : OK
+	unlockSD symbol  : OK
+	SetMediaContinentID symbol  : OK
+	SetMediaContinentID with param symbol  : OK
+Check RADAR activation status : 
+	Radar status activated  : OK
+Continent Upgrade Is Authorised?
+457513 - (C_UPG_PLUGIN_Interface) << GetInstalledContinent + >>
+	Continents are the same on media: 1 = 1
+	SetMediaContinentID(t_continent_id) address found!
+457516 - (C_BCM_UPGRADE) << SetMediaContinentID + >>
+457518 - (C_BCM_UPGRADE) SetMediaContinentID : m_media_installed_continent = 112382836
+457518 - (C_BCM_UPGRADE) << SetMediaContinentID - >>
+Check Version
+ZAR_POI.BIN.inf path : /sdhc:0/MAPPE/POI_USER/ZAR_POI.BIN.inf
+Check if ZAR_POI.BIN.inf Is present? 
+	ZAR_POI.BIN.inf IS FOUND!
+	Installed VERSION: 20181105
+	Installed Version= 20181105; upgrade version= 20181105
+Check Size
+	Available space :'1211727872' 
+457528 - (C_UPG_PLUGIN_Interface) <<GetCIDSize + >>
+	m_plugin_partition_block_size = 32768
+	plugin Size [CID_SIZE_32] = 2621440
+	plugin Size as double = 0.000000
+	ZAR Size :0.000000 
+	UPGRADE CAN BE LAUNCHED!
+CHECK COMPATIBILITY TASK SUCCEED 
+ Go on Step 2
+0x7155940 (UPG_Plug): 457536 - (C_UPG_PLUGIN_Interface) << StaticCheckCompatibilityTask : l_upgrade_state = 3 >>
+457543 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+457544 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+457546 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+457546 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos + >>
+457548 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos - >>
+457549 - (C_ZAR_UPG_PLUGIN) GetVersionOfData : 162156770
+457550 - (C_ZAR_UPG_PLUGIN) GetOldSizeOfData : 0
+457551 - (C_ZAR_UPG_PLUGIN) GetSizeOfData : 1
+457552 - (C_ZAR_UPG_PLUGIN) <GetIdentifier + >
+457553 - (C_ZAR_UPG_PLUGIN) <GetIdentifier - >
+0x12056d30 (UPG_Plug): 459412 - (C_UPG_PLUGIN_Interface) << StaticCheckMediaTask : Key still pluged >>
+ ==================  STEP 2  ===================
+                  CHECK MEDIA 
+ ===============================================
+Valid CRC checking
+(C_UPG_PLG_Interface): << ++ DeleteSDTemporaryFiles ++>>
+(C_UPG_PLG_Interface): DeleteSDTemporaryFiles: '/sdhc:0/MAPPE_OLD' is not a directory
+(C_UPG_PLG_Interface): << -- DeleteSDTemporaryFiles -->>
+(C_UPG_PLG_Interface): << ++ DeleteSDTemporaryFiles ++>>
+(C_UPG_PLG_Interface): DeleteSDTemporaryFiles: '/sdhc:0/MAPPE/TEMP' is not a directory
+(C_UPG_PLG_Interface): << -- DeleteSDTemporaryFiles -->>
+(C_UPG_PLG_Interface): << ++ DeleteSDTemporaryFiles ++>>
+(C_UPG_PLG_Interface): DeleteSDTemporaryFiles: '/sdhc:0/MAPPE/MERGE' is not a directory
+(C_UPG_PLG_Interface): << -- DeleteSDTemporaryFiles -->>
+(C_UPG_PLG_Interface): << ++ DeleteSDTemporaryFiles ++>>
+(C_UPG_PLG_Interface): DeleteSDTemporaryFiles: '/sdhc:0/MAPPE/tmp_poi' is not a directory
+(C_UPG_PLG_Interface): << -- DeleteSDTemporaryFiles -->>
+VALID MEDIA DATA -> file : '/bd0/DATA/BASE2/ZAR_POI.BIN'
+CHECK MEDIA TASK SUCCEED : UPG_PLUGIN_MEDIA_OK! 
+Go on Step 3
+459832 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+459834 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+459836 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+459837 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos + >>
+459839 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos - >>
+459840 - (C_ZAR_UPG_PLUGIN) GetVersionOfData : 162156770
+459840 - (C_ZAR_UPG_PLUGIN) GetOldSizeOfData : 0
+459842 - (C_ZAR_UPG_PLUGIN) GetSizeOfData : 1
+459842 - (C_ZAR_UPG_PLUGIN) <GetIdentifier + >
+459843 - (C_ZAR_UPG_PLUGIN) <GetIdentifier - >
+459853 - (C_ZAR_UPG_PLUGIN) << ResetElementsToUpgrade + >>
+459855 - (C_ZAR_UPG_PLUGIN) << ResetElementsToUpgrade - >>
+459855 - (C_ZAR_UPG_PLUGIN) << PushElements + >>
+459855 - (C_ZAR_UPG_PLUGIN) << PushElements - >>

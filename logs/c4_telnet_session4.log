@@ -1,0 +1,1932 @@
+..ll
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:17 UPG/
+-rwxrwxrwx  1 0       0                 3689 Jan 15 18:45 log_error.txt 
+-rwxrwxrwx  1 0       0                12044 Jan  1  1999 reboot.txt 
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 SELF/
+drwxrwxrwx  1 0       0                 4096 Jan 10 21:22 TAR/
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 Log_error/
+value = 0 = 0x0
+-> cd "/SYSTEM_TMP_DATA/spy/"
+value = 0 = 0x0
+-> llr
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:17 UPG/
+-rwxrwxrwx  1 0       0                 3689 Jan 15 18:45 log_error.txt 
+-rwxrwxrwx  1 0       0                12044 Jan  1  1999 reboot.txt 
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 SELF/
+drwxrwxrwx  1 0       0                 4096 Jan 10 21:22 TAR/
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 Log_error/
+
+Listing Directory UPG:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:17 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0                  612 Jan  1  2007 UPG_log.txt 
+-rwxrwxrwx  1 0       0               962635 Jan  1  1999 UPG_log.txt_1 
+-rwxrwxrwx  1 0       0                 1536 Jan 20 18:17 UPG_history.txt 
+-rwxrwxrwx  1 0       0                 6288 Jan 20 18:17 UPG_ZAR_log.txt_1 
+-rwxrwxrwx  1 0       0                 8476 Jan 13 10:59 UPG_ZAR_log.txt_2 
+-rwxrwxrwx  1 0       0                 6165 Dec 31  2018 UPG_ZAR_log.txt_3 
+-rwxrwxrwx  1 0       0                 6165 Sep 16  2018 UPG_ZAR_log.txt_4 
+
+Listing Directory SELF:
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+drwxrwxrwx  1 0       0                 4096 Oct 21  2018 18702/
+
+Listing Directory SELF/18702:
+drwxrwxrwx  1 0       0                 4096 Oct 21  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 ../
+-rwxrwxrwx  1 0       0                  132 Aug 23  2018 01_201808230852.bin.gz 
+-rwxrwxrwx  1 0       0                  132 Aug 23  2018 02_201808230915.bin.gz 
+-rwxrwxrwx  1 0       0                  140 Aug 27  2018 03_201808271831.bin.gz 
+-rwxrwxrwx  1 0       0                  131 Sep  2  2018 04_201809021133.bin.gz 
+-rwxrwxrwx  1 0       0                  131 Oct 21  2018 05_201810211036.bin.gz 
+
+Listing Directory TAR:
+drwxrwxrwx  1 0       0                 4096 Jan 10 21:22 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0               720220 Aug 28  2018 01_201808281754-USER.tar.gz 
+-rwxrwxrwx  1 0       0               660186 Jan 10 21:22 02_201901102123-USER.tar.gz 
+
+Listing Directory Log_error:
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0                 4715 Aug 28  2018 01_201808281754.txt.gz 
+value = 0 = 0x0
+-> cd "/bd0"
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Jan 19 00:53 DATA/
+drwxrwxrwx  1 0       0                 4096 Dec  3  2018 SMEG_UPG/
+drwxrwxrwx  1 0       0                 4096 Jan 13 11:34 BNEP/
+drwxrwxrSH  1 0       0                 4096 Jan 13 11:35 System Volume Information/
+drwxrwxrwx  1 0       0                 4096 Dec  3  2018 SMEG_IV2_UPG/
+drwxrwxrwx  1 0       0                 4096 Dec  3  2018 SMEG_PLUS_UPG/
+drwxrwxrwx  1 0       0                 4096 Dec  3  2018 UPG/
+-rwxrwxAwx  1 0       0                   94 Nov  4  2014 POI_VER.POI 
+-rwxrwxAwx  1 0       0                 1317 Dec  3  2018 MEDIA_CONTENT.md5 
+-rwxrwxAwx  1 0       0                 6148 Jan 19 00:53 .DS_Store 
+-rwxrwxAwx  1 0       0                   36 Jul 20  2015 POI_RT5.INF 
+-rwxrwxAwx  1 0       0                   33 Jul  7  2015 POI.INF 
+value = 0 = 0x0
+-> cd BEP??. .. .. .. .. ."BNEP"
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Jan 13 11:34 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:16 ../
+drwxrwxrwx  1 0       0                 4096 Jan 13 11:34 C4PII_Config/
+-rwxrwxAwx  1 0       0               140573 Jan 10 21:50 c4_telnet_session.log 
+-rwxrwxAwx  1 0       0               492016 Jan 10 21:49 c4_telnet_session.pcapng 
+-rwxrwxAwx  1 0       0                32373 Jan 13 11:03 c4_telnet_session2.log 
+-rwxrwxAwx  1 0       0               205352 Jan 13 10:59 c4_telnet_session2.pcapng 
+-rwxrwxAwx  1 0       0                  125 Jan 20 18:02 TRICKS.TXT 
+-rwxrwxAwx  1 0       0                 9429 Jan 13 19:40 INFOS.TXT 
+-rwxrwxAwx  1 0       0              3952235 Jan 13 20:01 MANUAL.PDF 
+value = 0 = 0x0
+-> mkdir "dump"
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:19 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:16 ../
+drwxrwxrwx  1 0       0                 4096 Jan 13 11:34 C4PII_Config/
+-rwxrwxAwx  1 0       0               140573 Jan 10 21:50 c4_telnet_session.log 
+-rwxrwxAwx  1 0       0               492016 Jan 10 21:49 c4_telnet_session.pcapng 
+-rwxrwxAwx  1 0       0                32373 Jan 13 11:03 c4_telnet_session2.log 
+-rwxrwxAwx  1 0       0               205352 Jan 13 10:59 c4_telnet_session2.pcapng 
+-rwxrwxAwx  1 0       0                  125 Jan 20 18:02 TRICKS.TXT 
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:19 dump/
+-rwxrwxAwx  1 0       0                 9429 Jan 13 19:40 INFOS.TXT 
+-rwxrwxAwx  1 0       0              3952235 Jan 13 20:01 MANUAL.PDF 
+value = 0 = 0x0
+-> cd dump
+cd: error = 0x13.
+value = -1 = 0xffffffff
+-> cd "dump"
+value = 0 = 0x0
+-> cp ". .
+value = -1 = 0xffffffff
+-> help cp
+
+help                           Print this list
+dbgHelp                        Print debugger help info
+edrHelp                        Print ED&R help info
+ioHelp                         Print I/O utilities help info
+nfsHelp                        Print nfs help info
+netHelp                        Print network help info
+rtpHelp                        Print process help info
+spyHelp                        Print task histogrammer help info
+timexHelp                      Print execution timer help info
+h         [n]                  Print (or set) shell history
+i         [task]               Summary of tasks' TCBs
+ti        task                 Complete info on TCB for task
+sp        adr,args...          Spawn a task, pri=100, opt=0x19, stk=20000
+taskSpawn name,pri,opt,stk,adr,args... Spawn a task
+tip       "dev=device1#tag=tagStr1", "dev=device2#tag=tagStr2", ...
+                               Connect to one or multiple serial lines
+td        task                 Delete a task
+ts        task                 Suspend a task
+tr        task                 Resume a task
+
+Type <CR> to continue, Q<CR> or q<CR> to stop: 
+
+tw        task                 Print pending task detailed info
+w         [task]               Print pending task info
+d         [adr[,nunits[,width]]] Display memory
+m         adr[,width]          Modify memory
+mRegs     [reg[,task]]         Modify a task's registers interactively
+pc        [task]               Return task's program counter
+iam       "user"[,"passwd"]    Set user name and passwd
+whoami                         Print user name
+devs                           List devices
+ld        [syms[,noAbort][,"name"]] Load stdin, or file, into memory
+                               (syms = add symbols to table:
+                               -1 = none, 0 = globals, 1 = all)
+lkup      ["substr"]           List symbols in system symbol table
+lkAddr    address              List symbol table entries near address
+checkStack  [task]             List task stack sizes and usage
+printErrno  value              Print the name of a status value
+period    secs,adr,args...     Spawn task to call function periodically
+repeat    n,adr,args...        Spawn task to call function n times (0=forever)
+version                        Print VxWorks version info, and boot line
+shConfig  ["config"]           Display or set shell configuration variables
+
+Type <CR> to continue, Q<CR> or q<CR> to stop: ^[[A
+
+strFree   [address]            Free strings allocated within the shell (-1=all)
+
+NOTE:  Arguments specifying 'task' can be either task ID or name.
+
+value = 1 = 0x1
+-> ioHelp
+
+cd         "path"          Set current working path
+pwd                        Print working path
+ls         ["wpat"[,long]] List contents of directory
+ll         ["wpat"]        List contents of directory - long format
+lsr        ["wpat"[,long]] Recursive list of directory contents
+llr        ["wpat"]        Recursive detailed list of directory
+rename     "old","new"     Change name of file
+copy       ["in"][,"out"]  Copy in file to out file (0 = std in/out)
+cp         "wpat","dst"    Copy many files to another dir
+xcopy      "wpat","dst"    Recursively copy files
+mv         "wpat","dst"    Move files into another directory
+xdelete    "wpat"          Delete a file, wildcard list or tree
+attrib     "path","attr"   Modify file attributes
+xattrib    "wpat","attr"   Recursively modify file attributes
+chkdsk     "device", L, V  Consistency check DOS file system
+dosfsDiskFormat "device"    DOSFS  file system format.
+hrfsDiskFormat  "device", N HRFS file system format.
+commit     "device"          Commit current transaction
+
+
+Type <CR> to continue, Q<CR> to stop: 
+
+"attr" contains one or more of: " + - A H S R" characters
+"wpat" may be name of a file, directory or wildcard pattern
+ in which case "dst" must be a directory name
+chkdsk() params: L=0, check only, L=2, check and fix, V=0x200 verbose
+hrfsDiskFormat() params: N number of files for file system, N=0 maximum
+                         number of files
+
+value = 1 = 0x1
+-> llr
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:19 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:19 ../
+value = 0 = 0x0
+-> cp "/SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt","."
+copying file /SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt -> ./UPG_ZAR_log.txt
+Can't open input file "/SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt" errno = 0x380003
+value = -1 = 0xffffffff
+-> ll"?. .. . "/SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt"
+
+Listing Directory /SYSTEM_TMP_DATA/spy/UPG:
+value = 0 = 0x0
+-> ll "/SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. ."
+
+Listing Directory /SYSTEM_TMP_DATA/spy/UPG:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:17 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0                  612 Jan  1  2007 UPG_log.txt 
+-rwxrwxrwx  1 0       0               962635 Jan  1  1999 UPG_log.txt_1 
+-rwxrwxrwx  1 0       0                 1536 Jan 20 18:17 UPG_history.txt 
+-rwxrwxrwx  1 0       0                 6288 Jan 20 18:17 UPG_ZAR_log.txt_1 
+-rwxrwxrwx  1 0       0                 8476 Jan 13 10:59 UPG_ZAR_log.txt_2 
+-rwxrwxrwx  1 0       0                 6165 Dec 31  2018 UPG_ZAR_log.txt_3 
+-rwxrwxrwx  1 0       0                 6165 Sep 16  2018 UPG_ZAR_log.txt_4 
+value = 0 = 0x0
+-> cp "/SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .*","."
+skipping directory /SYSTEM_TMP_DATA/spy/UPG
+copying file /SYSTEM_TMP_DATA/spy/log_error.txt -> ./log_error.txt
+copying file /SYSTEM_TMP_DATA/spy/reboot.txt -> ./reboot.txt
+skipping directory /SYSTEM_TMP_DATA/spy/SELF
+skipping directory /SYSTEM_TMP_DATA/spy/TAR
+skipping directory /SYSTEM_TMP_DATA/spy/Log_error
+value = 0 = 0x0
+-> ioHelp
+
+cd         "path"          Set current working path
+pwd                        Print working path
+ls         ["wpat"[,long]] List contents of directory
+ll         ["wpat"]        List contents of directory - long format
+lsr        ["wpat"[,long]] Recursive list of directory contents
+llr        ["wpat"]        Recursive detailed list of directory
+rename     "old","new"     Change name of file
+copy       ["in"][,"out"]  Copy in file to out file (0 = std in/out)
+cp         "wpat","dst"    Copy many files to another dir
+xcopy      "wpat","dst"    Recursively copy files
+mv         "wpat","dst"    Move files into another directory
+xdelete    "wpat"          Delete a file, wildcard list or tree
+attrib     "path","attr"   Modify file attributes
+xattrib    "wpat","attr"   Recursively modify file attributes
+chkdsk     "device", L, V  Consistency check DOS file system
+dosfsDiskFormat "device"    DOSFS  file system format.
+hrfsDiskFormat  "device", N HRFS file system format.
+commit     "device"          Commit current transaction
+
+
+Type <CR> to continue, Q<CR> to stop: 
+
+"attr" contains one or more of: " + - A H S R" characters
+"wpat" may be name of a file, directory or wildcard pattern
+ in which case "dst" must be a directory name
+chkdsk() params: L=0, check only, L=2, check and fix, V=0x200 verbose
+hrfsDiskFormat() params: N number of files for file system, N=0 maximum
+                         number of files
+
+value = 1 = 0x1
+-> q. .xcopy "/SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .*","."
+copying dir /SYSTEM_TMP_DATA/spy/UPG -> ./UPG
+creating directory ./UPG 
+copying file /SYSTEM_TMP_DATA/spy/UPG/UPG_log.txt -> ./UPG/UPG_log.txt
+copying file /SYSTEM_TMP_DATA/spy/UPG/UPG_log.txt_1 -> ./UPG/UPG_log.txt_1
+copying file /SYSTEM_TMP_DATA/spy/UPG/UPG_history.txt -> ./UPG/UPG_history.txt
+copying file /SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt_1 -> ./UPG/UPG_ZAR_log.txt_1
+copying file /SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt_2 -> ./UPG/UPG_ZAR_log.txt_2
+copying file /SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt_3 -> ./UPG/UPG_ZAR_log.txt_3
+copying file /SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt_4 -> ./UPG/UPG_ZAR_log.txt_4
+copying file /SYSTEM_TMP_DATA/spy/log_error.txt -> ./log_error.txt
+copying file /SYSTEM_TMP_DATA/spy/reboot.txt -> ./reboot.txt
+copying dir /SYSTEM_TMP_DATA/spy/SELF -> ./SELF
+creating directory ./SELF 
+copying dir /SYSTEM_TMP_DATA/spy/SELF/18702 -> ./SELF/18702
+creating directory ./SELF/18702 
+copying file /SYSTEM_TMP_DATA/spy/SELF/18702/01_201808230852.bin.gz -> ./SELF/18702/01_201808230852.bin.gz
+copying file /SYSTEM_TMP_DATA/spy/SELF/18702/02_201808230915.bin.gz -> ./SELF/18702/02_201808230915.bin.gz
+copying file /SYSTEM_TMP_DATA/spy/SELF/18702/03_201808271831.bin.gz -> ./SELF/18702/03_201808271831.bin.gz
+copying file /SYSTEM_TMP_DATA/spy/SELF/18702/04_201809021133.bin.gz -> ./SELF/18702/04_201809021133.bin.gz
+copying file /SYSTEM_TMP_DATA/spy/SELF/18702/05_201810211036.bin.gz -> ./SELF/18702/05_201810211036.bin.gz
+copying dir /SYSTEM_TMP_DATA/spy/TAR -> ./TAR
+creating directory ./TAR 
+copying file /SYSTEM_TMP_DATA/spy/TAR/01_201808281754-USER.tar.gz -> ./TAR/01_201808281754-USER.tar.gz
+copying file /SYSTEM_TMP_DATA/spy/TAR/02_201901102123-USER.tar.gz -> ./TAR/02_201901102123-USER.tar.gz
+copying dir /SYSTEM_TMP_DATA/spy/Log_error -> ./Log_error
+creating directory ./Log_error 
+copying file /SYSTEM_TMP_DATA/spy/Log_error/01_201808281754.txt.gz -> ./Log_error/01_201808281754.txt.gz
+value = 0 = 0x0
+-> llr
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:19 ../
+-rwxrwxrwx  1 0       0                 3689 Jan 15 18:45 log_error.txt 
+-rwxrwxrwx  1 0       0                12044 Jan  1  1999 reboot.txt 
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 UPG/
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 SELF/
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 TAR/
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 Log_error/
+
+Listing Directory UPG:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ../
+-rwxrwxrwx  1 0       0                  612 Jan  1  2007 UPG_log.txt 
+-rwxrwxrwx  1 0       0               962635 Jan  1  1999 UPG_log.txt_1 
+-rwxrwxrwx  1 0       0                 1536 Jan 20 18:17 UPG_history.txt 
+-rwxrwxrwx  1 0       0                 6288 Jan 20 18:17 UPG_ZAR_log.txt_1 
+-rwxrwxrwx  1 0       0                 8476 Jan 13 10:59 UPG_ZAR_log.txt_2 
+-rwxrwxrwx  1 0       0                 6165 Dec 31  2018 UPG_ZAR_log.txt_3 
+-rwxrwxrwx  1 0       0                 6165 Sep 16  2018 UPG_ZAR_log.txt_4 
+
+Listing Directory SELF:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ../
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 18702/
+
+Listing Directory SELF/18702:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ../
+-rwxrwxrwx  1 0       0                  132 Aug 23  2018 01_201808230852.bin.gz 
+-rwxrwxrwx  1 0       0                  132 Aug 23  2018 02_201808230915.bin.gz 
+-rwxrwxrwx  1 0       0                  140 Aug 27  2018 03_201808271831.bin.gz 
+-rwxrwxrwx  1 0       0                  131 Sep  2  2018 04_201809021133.bin.gz 
+-rwxrwxrwx  1 0       0                  131 Oct 21  2018 05_201810211036.bin.gz 
+
+Listing Directory TAR:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ../
+-rwxrwxrwx  1 0       0               720220 Aug 28  2018 01_201808281754-USER.tar.gz 
+-rwxrwxrwx  1 0       0               660186 Jan 10 21:22 02_201901102123-USER.tar.gz 
+
+Listing Directory Log_error:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ./
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:22 ../
+-rwxrwxrwx  1 0       0                 4715 Aug 28  2018 01_201808281754.txt.gz 
+value = 0 = 0x0
+-> cd "/SYSTEM_TMP_DATA"
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 spy/
+-rwxrwxrwx  1 0       0                36480 Dec  4  2017 traces.bin 
+-rwxrwxrwx  1 0       0                    0 Jan  1  1999 MOUNT_SAFE_FLAG.tst 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 user_data/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 qtembedded-0/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 picture_cache/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 internet_online/
+-rwxrwxrwx  1 0       0                    8 Jan  1  2007 HarmoniesChecked.tst 
+-rwxrwxrwx  1 0       0                94964 Jan 18 08:46 cover_art_mp3_z0 
+value = 0 = 0x0
+-> llr
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 spy/
+-rwxrwxrwx  1 0       0                36480 Dec  4  2017 traces.bin 
+-rwxrwxrwx  1 0       0                    0 Jan  1  1999 MOUNT_SAFE_FLAG.tst 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 user_data/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 qtembedded-0/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 picture_cache/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 internet_online/
+-rwxrwxrwx  1 0       0                    8 Jan  1  2007 HarmoniesChecked.tst 
+-rwxrwxrwx  1 0       0                94964 Jan 18 08:46 cover_art_mp3_z0 
+
+Listing Directory spy:
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:17 UPG/
+-rwxrwxrwx  1 0       0                 3689 Jan 15 18:45 log_error.txt 
+-rwxrwxrwx  1 0       0                12044 Jan  1  1999 reboot.txt 
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 SELF/
+drwxrwxrwx  1 0       0                 4096 Jan 10 21:22 TAR/
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 Log_error/
+
+Listing Directory spy/UPG:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:17 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0                  612 Jan  1  2007 UPG_log.txt 
+-rwxrwxrwx  1 0       0               962635 Jan  1  1999 UPG_log.txt_1 
+-rwxrwxrwx  1 0       0                 1536 Jan 20 18:17 UPG_history.txt 
+-rwxrwxrwx  1 0       0                 6288 Jan 20 18:17 UPG_ZAR_log.txt_1 
+-rwxrwxrwx  1 0       0                 8476 Jan 13 10:59 UPG_ZAR_log.txt_2 
+-rwxrwxrwx  1 0       0                 6165 Dec 31  2018 UPG_ZAR_log.txt_3 
+-rwxrwxrwx  1 0       0                 6165 Sep 16  2018 UPG_ZAR_log.txt_4 
+
+Listing Directory spy/SELF:
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+drwxrwxrwx  1 0       0                 4096 Oct 21  2018 18702/
+
+Listing Directory spy/SELF/18702:
+drwxrwxrwx  1 0       0                 4096 Oct 21  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 ../
+-rwxrwxrwx  1 0       0                  132 Aug 23  2018 01_201808230852.bin.gz 
+-rwxrwxrwx  1 0       0                  132 Aug 23  2018 02_201808230915.bin.gz 
+-rwxrwxrwx  1 0       0                  140 Aug 27  2018 03_201808271831.bin.gz 
+-rwxrwxrwx  1 0       0                  131 Sep  2  2018 04_201809021133.bin.gz 
+-rwxrwxrwx  1 0       0                  131 Oct 21  2018 05_201810211036.bin.gz 
+
+Listing Directory spy/TAR:
+drwxrwxrwx  1 0       0                 4096 Jan 10 21:22 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0               720220 Aug 28  2018 01_201808281754-USER.tar.gz 
+-rwxrwxrwx  1 0       0               660186 Jan 10 21:22 02_201901102123-USER.tar.gz 
+
+Listing Directory spy/Log_error:
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0                 4715 Aug 28  2018 01_201808281754.txt.gz 
+
+Listing Directory user_data:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 19 11:48 sqlite/
+
+Listing Directory user_data/sqlite:
+drwxrwxrwx  1 0       0                 4096 Jan 19 11:48 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 5120 Jan  1  1999 config.sqlite 
+-rwxrwxrwx  1 0       0                 8192 Jan 20 18:05 versions.sqlite 
+-rwxrwxrwx  1 0       0                   51 Jan 14 08:55 media_catalog.sqlite.inf 
+-rwxrwxrwx  1 0       0                27648 Jan 20 18:17 nav_poi.sqlite 
+-rwxrwxrwx  1 0       0               293182 Jan 14 08:55 media_catalog.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 13 11:01 connectivity.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 19 11:48 browser.sqlite.inf 
+-rwxrwxrwx  1 0       0                 1427 Jan 13 11:01 connectivity.sqlite 
+-rwxrwxrwx  1 0       0                 2387 Jan 19 11:48 browser.sqlite 
+
+Listing Directory qtembedded-0:
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 11 09:02 fonts/
+
+Listing Directory qtembedded-0/fonts:
+drwxrwxrwx  1 0       0                 4096 Jan 11 09:02 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ../
+-rwxrwxrwx  1 0       0                  871 Jan  1  2007 fontdb 
+-rwxrwxrwx  1 0       0                14358 Jan 10 20:50 plaques_gill_sans_21_25.qsf 
+-rwxrwxrwx  1 0       0                28754 Jan 13 10:44 plaques_gill_sans_26_25.qsf 
+-rwxrwxrwx  1 0       0                39184 Jan 11 08:59 plaques_gill_sans_30_25.qsf 
+-rwxrwxrwx  1 0       0                41050 Jan  6 19:22 plaques_gill_sans_33_25.qsf 
+-rwxrwxrwx  1 0       0                 8832 Aug 20  2018 plaques_gill_sans_36_25.qsf 
+-rwxrwxrwx  1 0       0                 1956 Jan  1  2007 plaques_gill_sans_2_25.qsf 
+-rwxrwxrwx  1 0       0                32600 Aug 20  2018 gillsansslider_62_25.qsf 
+-rwxrwxrwx  1 0       0                20264 Aug 20  2018 dejavu_sans_62_50.qsf 
+-rwxrwxrwx  1 0       0                 1948 Aug 20  2018 gill_sans_psa_30_50.qsf 
+-rwxrwxrwx  1 0       0                 1948 Aug 20  2018 gill_sans_psa_31_50.qsf 
+-rwxrwxrwx  1 0       0                 1948 Aug 20  2018 gill_sans_psa_32_50.qsf 
+-rwxrwxrwx  1 0       0                 2178 Aug 20  2018 gill_sans_psa_29_50.qsf 
+-rwxrwxrwx  1 0       0                44196 Aug 26  2018 gill_sans_psa_29_75.qsf 
+-rwxrwxrwx  1 0       0                 1948 Aug 20  2018 gill_sans_psa_30_75.qsf 
+-rwxrwxrwx  1 0       0                 1948 Aug 20  2018 gill_sans_psa_31_75.qsf 
+-rwxrwxrwx  1 0       0                 1948 Aug 20  2018 gill_sans_psa_32_75.qsf 
+-rwxrwxrwx  1 0       0                18628 Aug 26  2018 dejavu_sans_29_50.qsf 
+-rwxrwxrwx  1 0       0                 5022 Jan 10 20:53 gill_sans_psa_12_50.qsf 
+-rwxrwxrwx  1 0       0                16572 Aug 20  2018 dejavu_sans_26_50.qsf 
+-rwxrwxrwx  1 0       0                 7330 Aug 20  2018 gill_sans_psa_26_50.qsf 
+-rwxrwxrwx  1 0       0                 5162 Jan 11 09:00 gill_sans_psa_14_50.qsf 
+-rwxrwxrwx  1 0       0                 4510 Jan 11 09:02 gill_sans_psa_10_50.qsf 
+-rwxrwxrwx  1 0       0                 2392 Jan 10 20:53 gill_sans_psa_12_75.qsf 
+-rwxrwxrwx  1 0       0                 4454 Jan 11 09:02 gill_sans_psa_13_50.qsf 
+-rwxrwxrwx  1 0       0                 4038 Jan 11 09:02 gill_sans_psa_11_50.qsf 
+
+Listing Directory picture_cache:
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Aug 22  2018 TMP/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 HMI_PICTURE/
+drwxrwxrwx  1 0       0                 4096 Aug 22  2018 MEDIA_COVERFLOW_CACHE/
+
+Listing Directory picture_cache/TMP:
+drwxrwxrwx  1 0       0                 4096 Aug 22  2018 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ../
+
+Listing Directory picture_cache/HMI_PICTURE:
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ../
+
+Listing Directory picture_cache/MEDIA_COVERFLOW_CACHE:
+drwxrwxrwx  1 0       0                 4096 Aug 22  2018 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ../
+-rwxrwxrwx  1 0       0                27842 Aug 22  2018 Music_Arctic Monkeys_Whatever People Say I am Thats What Im Not_Arctic Monkeys - 01 - The View From The Afternoon_mp3 
+-rwxrwxrwx  1 0       0                27525 Aug 22  2018 Music_Ben Harper_Both Sides Of The Gun_101 - Morning Yearning_mp3 
+-rwxrwxrwx  1 0       0                25637 Aug 22  2018 Music_Ben Harper_Burn to Shine_BEN HARPER - Alone_mp3 
+-rwxrwxrwx  1 0       0                34805 Aug 22  2018 Music_Ben Harper_Cool Man_BEN HARPER - Burn one down_mp3 
+-rwxrwxrwx  1 0       0                16539 Aug 22  2018 Music_Ben Harper_Diamonds On The Inside_01 - With My Two Hands_mp3 
+
+Listing Directory internet_online:
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+value = 0 = 0x0
+-> devs
+drv name                
+  0 /null               
+  1 /tyCo/0             
+  1 /tyCo/1             
+  1 /tyCo/2             
+  1 /tyCo/3             
+  7 /romfs              
+  4 /S                  
+  3 /SYSTEM_DATA        
+  3 /ram                
+ 13 /tgtsvr             
+ 14 /spi/0              
+ 15 /spi/1              
+ 16 /i2c1               
+ 17 /i2s0               
+ 17 /i2s5               
+ 17 /i2s1               
+ 17 /i2s2               
+ 17 /i2s3               
+ 17 /i2s4               
+ 18 /sound/dsp_mp3cd    
+ 18 /sound/dsp_usb      
+ 18 /sound/dsp_cda      
+ 18 /sound/dsp_mic      
+ 18 /sound/tuner        
+ 18 /sound/dsp_a2dp     
+ 18 /sound/ipod         
+ 18 /sound/wav          
+ 18 /sound/tts          
+ 18 /sound/ts           
+ 18 /sound/bt_wav       
+ 19 /G                  
+ 22 /dev/tap            
+ 23 /DevFp              
+ 24 /DevNet             
+ 25 /DevDiag            
+ 26 /DevKbd             
+ 28 /DevEol             
+  3 /sdhc:1             
+  3 /sdhc:0             
+  3 /SYSTEM             
+  3 /SYSTEM_TMP_DATA    
+  3 /USER_DATA          
+  3 /USER_DATA_BACKUP   
+  3 /EXTENDED_PARTITION 
+ 16 /i2c0               
+ 30 /kim                
+ 31 /ts                 
+  2 /pipe/qt_099247b0   
+ 27 /seri/1             
+  3 /PORTAL_RAMDISK_CACHE
+  2 /pipe/qt_048de2e0   
+  3 /bd0                
+ 11 /usb2Msc0           
+  5 stdio_pty_6a07020.S 
+  6 stdio_pty_6a07020.M 
+value = 25 = 0x19
+-> cd "/SYSTEM"
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Application/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ring_tones/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 wait_tones/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 config/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Data_base/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 internet_default/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 AVR_img/
+value = 0 = 0x0
+-> llr
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Application/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ring_tones/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 wait_tones/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 config/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Data_base/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 internet_default/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 AVR_img/
+
+Listing Directory Application:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Boot/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 CCOD/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ENG/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 BlackFin/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 PKG/
+
+Listing Directory Application/Boot:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+
+Listing Directory Application/CCOD:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 1380 Jan  1  1999 libcheatcode_AFTT.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_AFTT.out.inf 
+-rwxrwxrwx  1 0       0                  169 Jan  1  1999 libcheatcode_AFTT.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_AFTT.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 1155 Jan  1  1999 libcheatcode_ARKBYP.out 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_ARKBYP.out.inf 
+-rwxrwxrwx  1 0       0                  147 Jan  1  1999 libcheatcode_ARKBYP.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_ARKBYP.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 3635 Jan  1  1999 libcheatcode_AUDIOINFO.out 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 libcheatcode_AUDIOINFO.out.inf 
+-rwxrwxrwx  1 0       0                  391 Jan  1  1999 libcheatcode_AUDIOINFO.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_AUDIOINFO.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 1540 Jan  1  1999 libcheatcode_BT.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_BT.out.inf 
+-rwxrwxrwx  1 0       0                   92 Jan  1  1999 libcheatcode_BT.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_BT.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 1149 Jan  1  1999 libcheatcode_BT0DB.out 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 libcheatcode_BT0DB.out.inf 
+-rwxrwxrwx  1 0       0                  137 Jan  1  1999 libcheatcode_BT0DB.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_BT0DB.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 1540 Jan  1  1999 libcheatcode_BTADC.out 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_BTADC.out.inf 
+-rwxrwxrwx  1 0       0                   92 Jan  1  1999 libcheatcode_BTADC.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_BTADC.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 5195 Jan  1  1999 libcheatcode_BTINFO.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_BTINFO.out.inf 
+-rwxrwxrwx  1 0       0                  461 Jan  1  1999 libcheatcode_BTINFO.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_BTINFO.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 3052 Jan  1  1999 libcheatcode_BTSTARTER.out 
+-rwxrwxrwx  1 0       0                  103 Jan  1  1999 libcheatcode_BTSTARTER.out.inf 
+-rwxrwxrwx  1 0       0                  285 Jan  1  1999 libcheatcode_BTSTARTER.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_BTSTARTER.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 2777 Jan  1  1999 libcheatcode_CATCLN.out 
+-rwxrwxrwx  1 0       0                  103 Jan  1  1999 libcheatcode_CATCLN.out.inf 
+-rwxrwxrwx  1 0       0                  346 Jan  1  1999 libcheatcode_CATCLN.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_CATCLN.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 1540 Jan  1  1999 libcheatcode_ECSAVE.out 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_ECSAVE.out.inf 
+-rwxrwxrwx  1 0       0                   92 Jan  1  1999 libcheatcode_ECSAVE.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_ECSAVE.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                13243 Jan  1  1999 libcheatcode_FPS.out 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 libcheatcode_FPS.out.inf 
+-rwxrwxrwx  1 0       0                  391 Jan  1  1999 libcheatcode_FPS.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_FPS.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 2212 Jan  1  1999 libcheatcode_HWINFO.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_HWINFO.out.inf 
+-rwxrwxrwx  1 0       0                  309 Jan  1  1999 libcheatcode_HWINFO.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_HWINFO.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0               181516 Jan  1  1999 libcheatcode_MIRE.out 
+-rwxrwxrwx  1 0       0                  102 Jan  1  1999 libcheatcode_MIRE.out.inf 
+-rwxrwxrwx  1 0       0                 1298 Jan  1  1999 libcheatcode_MIRE.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_MIRE.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 3578 Jan  1  1999 libcheatcode_MMIMON.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_MMIMON.out.inf 
+-rwxrwxrwx  1 0       0                  236 Jan  1  1999 libcheatcode_MMIMON.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_MMIMON.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 3681 Jan  1  1999 libcheatcode_MSDREFRESH.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_MSDREFRESH.out.inf 
+-rwxrwxrwx  1 0       0                  497 Jan  1  1999 libcheatcode_MSDREFRESH.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_MSDREFRESH.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 2710 Jan  1  1999 libcheatcode_NETINFO.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_NETINFO.out.inf 
+-rwxrwxrwx  1 0       0                  339 Jan  1  1999 libcheatcode_NETINFO.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_NETINFO.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 7996 Jan  1  1999 libcheatcode_PING.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_PING.out.inf 
+-rwxrwxrwx  1 0       0                  499 Jan  1  1999 libcheatcode_PING.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_PING.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 2750 Jan  1  1999 libcheatcode_REBOOT.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_REBOOT.out.inf 
+-rwxrwxrwx  1 0       0                  291 Jan  1  1999 libcheatcode_REBOOT.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_REBOOT.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 1362 Jan  1  1999 libcheatcode_SPYCLN.out 
+-rwxrwxrwx  1 0       0                  100 Jan  1  1999 libcheatcode_SPYCLN.out.inf 
+-rwxrwxrwx  1 0       0                  155 Jan  1  1999 libcheatcode_SPYCLN.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_SPYCLN.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 2858 Jan  1  1999 libcheatcode_SPYSTORE.out 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_SPYSTORE.out.inf 
+-rwxrwxrwx  1 0       0                  282 Jan  1  1999 libcheatcode_SPYSTORE.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_SPYSTORE.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 1144 Jan  1  1999 libcheatcode_SPYTAKE.out 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_SPYTAKE.out.inf 
+-rwxrwxrwx  1 0       0                  138 Jan  1  1999 libcheatcode_SPYTAKE.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_SPYTAKE.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                12024 Jan  1  1999 libcheatcode_SWINFO.out 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 libcheatcode_SWINFO.out.inf 
+-rwxrwxrwx  1 0       0                  474 Jan  1  1999 libcheatcode_SWINFO.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_SWINFO.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                64900 Jan  1  1999 libcheatcode_SYSMON.out 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 libcheatcode_SYSMON.out.inf 
+-rwxrwxrwx  1 0       0                 1072 Jan  1  1999 libcheatcode_SYSMON.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_SYSMON.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                10364 Jan  1  1999 libcheatcode_TUNERINFO.out 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 libcheatcode_TUNERINFO.out.inf 
+-rwxrwxrwx  1 0       0                  452 Jan  1  1999 libcheatcode_TUNERINFO.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_TUNERINFO.out.txt.gz.inf 
+-rwxrwxrwx  1 0       0                 1716 Jan  1  1999 libcheatcode_ZAINFO.out 
+-rwxrwxrwx  1 0       0                  102 Jan  1  1999 libcheatcode_ZAINFO.out.inf 
+-rwxrwxrwx  1 0       0                  237 Jan  1  1999 libcheatcode_ZAINFO.out.txt.gz 
+-rwxrwxrwx  1 0       0                   90 Jan  1  1999 libcheatcode_ZAINFO.out.txt.gz.inf 
+
+Listing Directory Application/ENG:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+
+Listing Directory Application/BlackFin:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0               835058 Jan  1  1999 DAB_SW_MAXIM_PRS1.dat 
+
+Listing Directory Application/PKG:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                82691 Jan  1  1999 abs_symbols.txt.gz 
+-rwxrwxrwx  1 0       0              1091397 Jan  1  1999 abs_symbols_base.txt.gz 
+-rwxrwxrwx  1 0       0                  337 Jan  1  1999 abs_symbols_light.txt.gz 
+-rwxrwxrwx  1 0       0                 9238 Jan  1  1999 abs_symbols_nav.txt.gz 
+-rwxrwxrwx  1 0       0               194281 Jan  1  1999 symbols_bsp.txt.gz 
+
+Listing Directory ring_tones:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0               396206 Jan  1  1999 busyRT.wav 
+-rwxrwxrwx  1 0       0                19900 Jan  1  1999 errorRT.wav 
+-rwxrwxrwx  1 0       0                19900 Jan  1  1999 koRT.wav 
+-rwxrwxrwx  1 0       0                19724 Jan  1  1999 okRT.wav 
+-rwxrwxrwx  1 0       0               157018 Jan  1  1999 ring1RT.wav 
+-rwxrwxrwx  1 0       0               315816 Jan  1  1999 ring2RT.wav 
+-rwxrwxrwx  1 0       0               316264 Jan  1  1999 ring3RT.wav 
+-rwxrwxrwx  1 0       0               156830 Jan  1  1999 ring4RT.wav 
+-rwxrwxrwx  1 0       0               313838 Jan  1  1999 ring5RT.wav 
+
+Listing Directory wait_tones:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0               467272 Jan  1  1999 MM_HoldOn_CRC_8kHz.wav 
+-rwxrwxrwx  1 0       0               411128 Jan  1  1999 MM_HoldOn_CZC_8kHz.wav 
+-rwxrwxrwx  1 0       0               648164 Jan  1  1999 MM_HoldOn_DUN_8kHz.wav 
+-rwxrwxrwx  1 0       0               553964 Jan  1  1999 MM_HoldOn_ENG_8kHz.wav 
+-rwxrwxrwx  1 0       0               655724 Jan  1  1999 MM_HoldOn_FRF_8kHz.wav 
+-rwxrwxrwx  1 0       0               708848 Jan  1  1999 MM_HoldOn_GED_8kHz.wav 
+-rwxrwxrwx  1 0       0               590704 Jan  1  1999 MM_HoldOn_HRH_8kHz.wav 
+-rwxrwxrwx  1 0       0               698132 Jan  1  1999 MM_HoldOn_ITI_8kHz.wav 
+-rwxrwxrwx  1 0       0               589760 Jan  1  1999 MM_HoldOn_PLP_8kHz.wav 
+-rwxrwxrwx  1 0       0               620828 Jan  1  1999 MM_HoldOn_PTP_8kHz.wav 
+-rwxrwxrwx  1 0       0               623636 Jan  1  1999 MM_HoldOn_RUR_8kHz.wav 
+-rwxrwxrwx  1 0       0               617876 Jan  1  1999 MM_HoldOn_SPE_8kHz.wav 
+-rwxrwxrwx  1 0       0               450896 Jan  1  1999 MM_HoldOn_TRT_8kHz.wav 
+
+Listing Directory config:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 dbus/
+
+Listing Directory config/dbus:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 session.d/
+
+Listing Directory config/dbus/session.d:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+
+Listing Directory Data_base:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                   21 Sep 19  2017 media.inf 
+-rwxrwxrwx  1 0       0                   90 Sep 19  2017 smeg.inf 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 boardfs/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 graphics/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 radio/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 sqlite/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 TMP/
+-rwxrwxrwx  1 0       0                  152 Sep 19  2017 SD_DIR_TTS.bin.size 
+-rwxrwxrwx  1 0       0                  146 Sep 19  2017 SD_DIR.bin.size 
+-rwxrwxrwx  1 0       0                   18 Jan  1  1999 vehicle.ini 
+
+Listing Directory Data_base/boardfs:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 GUI_STYLE/
+
+Listing Directory Data_base/boardfs/GUI_STYLE:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 1318 Jan  1  1999 gui_config.xml 
+-rwxrwxrwx  1 0       0                  626 Jan  1  1999 gui_harmonies.xml 
+-rwxrwxrwx  1 0       0                 1837 Jan  1  1999 gui_languages.xml 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 GUIS_RESSOURCES/
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 gui_sounds/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 gui_texts/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony1/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony2/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony3/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony5/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony4/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony7/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony8/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony12/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony6/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Harmony9/
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/gui_sounds:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                13892 Jan  1  1999 Abandon.wav 
+-rwxrwxrwx  1 0       0                13892 Jan  1  1999 BalayageZ0.wav 
+-rwxrwxrwx  1 0       0                13916 Jan  1  1999 Brosser.wav 
+-rwxrwxrwx  1 0       0                16654 Jan  1  1999 Clavier.wav 
+-rwxrwxrwx  1 0       0                 1127 Jan  1  1999 gui_sounds.xml 
+-rwxrwxrwx  1 0       0                13852 Jan  1  1999 Validation.wav 
+-rwxrwxrwx  1 0       0                16616 Jan  1  1999 Welcome.wav 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/gui_texts:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                   56 Jan  1  1999 gui_text_strings.inf 
+-rwxrwxrwx  1 0       0               129630 Jan  1  1999 gui_text_strings_BR.xml.bin 
+-rwxrwxrwx  1 0       0               126250 Jan  1  1999 gui_text_strings_CR.xml.bin 
+-rwxrwxrwx  1 0       0               124762 Jan  1  1999 gui_text_strings_CZ.xml.bin 
+-rwxrwxrwx  1 0       0               129478 Jan  1  1999 gui_text_strings_DU.xml.bin 
+-rwxrwxrwx  1 0       0               131810 Jan  1  1999 gui_text_strings_FR.xml.bin 
+-rwxrwxrwx  1 0       0               119794 Jan  1  1999 gui_text_strings_GB.xml.bin 
+-rwxrwxrwx  1 0       0               130362 Jan  1  1999 gui_text_strings_GE.xml.bin 
+-rwxrwxrwx  1 0       0               125268 Jan  1  1999 gui_text_strings_HO.xml.bin 
+-rwxrwxrwx  1 0       0               131912 Jan  1  1999 gui_text_strings_IT.xml.bin 
+-rwxrwxrwx  1 0       0               130112 Jan  1  1999 gui_text_strings_PL.xml.bin 
+-rwxrwxrwx  1 0       0               134722 Jan  1  1999 gui_text_strings_PO.xml.bin 
+-rwxrwxrwx  1 0       0               129804 Jan  1  1999 gui_text_strings_RU.xml.bin 
+-rwxrwxrwx  1 0       0               135014 Jan  1  1999 gui_text_strings_SP.xml.bin 
+-rwxrwxrwx  1 0       0               127752 Jan  1  1999 gui_text_strings_TU.xml.bin 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony1:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                16854 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony2:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                32575 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony3:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                18402 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony5:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                15785 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony4:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                14794 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony7:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                67255 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony8:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                36666 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony12:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                67255 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony6:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                27314 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/boardfs/GUI_STYLE/GUIS_RESSOURCES/Harmony9:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                31097 Jan  1  1999 skin.jpg 
+
+Listing Directory Data_base/graphics:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 logo/
+
+Listing Directory Data_base/graphics/logo:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0               212320 Jan  1  1999 citroen.pkg 
+-rwxrwxrwx  1 0       0                   41 Jan  1  1999 citroen.pkg.inf 
+-rwxrwxrwx  1 0       0              1661916 Jan  1  1999 ds.pkg 
+-rwxrwxrwx  1 0       0                   36 Jan  1  1999 ds.pkg.inf 
+-rwxrwxrwx  1 0       0               696124 Jan  1  1999 peugeot.pkg 
+-rwxrwxrwx  1 0       0                   40 Jan  1  1999 peugeot.pkg.inf 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 iPodLogo/
+
+Listing Directory Data_base/graphics/logo/iPodLogo:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                43254 Jan  1  1999 iPodLogoCitroen.bmp 
+-rwxrwxrwx  1 0       0                43254 Jan  1  1999 iPodLogoPeugeot.bmp 
+
+Listing Directory Data_base/radio:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 logo/
+
+Listing Directory Data_base/radio/logo:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Large/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Medium/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Small/
+
+Listing Directory Data_base/radio/logo/Large:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                14756 Jan  1  1999 AT_FM4.png 
+-rwxrwxrwx  1 0       0                22113 Jan  1  1999 AT_Kronehit.png 
+-rwxrwxrwx  1 0       0                16245 Jan  1  1999 AT_O1.png 
+-rwxrwxrwx  1 0       0                19420 Jan  1  1999 AT_O2Karnten.png 
+-rwxrwxrwx  1 0       0                19581 Jan  1  1999 AT_O2Niederosterreich.png 
+-rwxrwxrwx  1 0       0                17422 Jan  1  1999 AT_O2Oberosterreich.png 
+-rwxrwxrwx  1 0       0                18365 Jan  1  1999 AT_O2Salzburg.png 
+-rwxrwxrwx  1 0       0                26396 Jan  1  1999 AT_O2Steiermark.png 
+-rwxrwxrwx  1 0       0                24204 Jan  1  1999 AT_O2Tirol.png 
+-rwxrwxrwx  1 0       0                24494 Jan  1  1999 AT_O3.png 
+-rwxrwxrwx  1 0       0                28323 Jan  1  1999 BE_BelRTL.png 
+-rwxrwxrwx  1 0       0               142609 Jan  1  1999 BE_ClubFM.png 
+-rwxrwxrwx  1 0       0                30754 Jan  1  1999 BE_Contact.png 
+-rwxrwxrwx  1 0       0                38819 Jan  1  1999 BE_JoeFM.png 
+-rwxrwxrwx  1 0       0                16169 Jan  1  1999 BE_Nostalgie.png 
+-rwxrwxrwx  1 0       0                30687 Jan  1  1999 BE_NostalgieVlaanderen.png 
+-rwxrwxrwx  1 0       0                20645 Jan  1  1999 BE_RTBFLaPremiere.png 
+-rwxrwxrwx  1 0       0               110422 Jan  1  1999 BE_RTBFVivacite.png 
+-rwxrwxrwx  1 0       0               169055 Jan  1  1999 BE_topradio.png 
+-rwxrwxrwx  1 0       0               122811 Jan  1  1999 BE_TwizzRadio.png 
+-rwxrwxrwx  1 0       0                12323 Jan  1  1999 CH_DRSRadioRumantsch.png 
+-rwxrwxrwx  1 0       0                10671 Jan  1  1999 CH_RSI1.png 
+-rwxrwxrwx  1 0       0                 9399 Jan  1  1999 CH_RSI2.png 
+-rwxrwxrwx  1 0       0                 8589 Jan  1  1999 CH_RSI3.png 
+-rwxrwxrwx  1 0       0                 9951 Jan  1  1999 CH_RSRCouleur3.png 
+-rwxrwxrwx  1 0       0                36135 Jan  1  1999 CH_RSREspace2.png 
+-rwxrwxrwx  1 0       0                69351 Jan  1  1999 CH_RSRLaPremiere.png 
+-rwxrwxrwx  1 0       0               220207 Jan  1  1999 CH_SRF1.png 
+-rwxrwxrwx  1 0       0               180841 Jan  1  1999 CH_SRF2.png 
+-rwxrwxrwx  1 0       0               155115 Jan  1  1999 CH_SRF3.png 
+-rwxrwxrwx  1 0       0                39170 Jan  1  1999 CZ_BeatRadio.png 
+-rwxrwxrwx  1 0       0                19009 Jan  1  1999 CZ_CRO1Radiozurnal.png 
+-rwxrwxrwx  1 0       0                16257 Jan  1  1999 CZ_CRO2Praha.png 
+-rwxrwxrwx  1 0       0                15760 Jan  1  1999 CZ_CRO3Vltava.png 
+-rwxrwxrwx  1 0       0                19508 Jan  1  1999 CZ_Frekvence1.png 
+-rwxrwxrwx  1 0       0                41794 Jan  1  1999 CZ_ImpulsRadio.png 
+-rwxrwxrwx  1 0       0                61567 Jan  1  1999 CZ_RadioCas.png 
+-rwxrwxrwx  1 0       0                16344 Jan  1  1999 CZ_RadioEvropa2.png 
+-rwxrwxrwx  1 0       0               148201 Jan  1  1999 CZ_RadioHey.png 
+-rwxrwxrwx  1 0       0                39450 Jan  1  1999 DE_AntenneBAYERN.png 
+-rwxrwxrwx  1 0       0                17078 Jan  1  1999 DE_B5Aktuell.png 
+-rwxrwxrwx  1 0       0                17788 Jan  1  1999 DE_BAYERN1.png 
+-rwxrwxrwx  1 0       0                13293 Jan  1  1999 DE_BAYERN2.png 
+-rwxrwxrwx  1 0       0                15122 Jan  1  1999 DE_BAYERN3.png 
+-rwxrwxrwx  1 0       0                81154 Jan  1  1999 DE_BRKLASSIC.png 
+-rwxrwxrwx  1 0       0                72095 Jan  1  1999 DE_Deutschlandfunk.png 
+-rwxrwxrwx  1 0       0                69786 Jan  1  1999 DE_DeutschlandradioKultur.png 
+-rwxrwxrwx  1 0       0                98845 Jan  1  1999 DE_HarmonyFm.png 
+-rwxrwxrwx  1 0       0                82769 Jan  1  1999 DE_HRInfo.png 
+-rwxrwxrwx  1 0       0                69892 Jan  1  1999 DE_KlassikRadio.png 
+-rwxrwxrwx  1 0       0                 8753 Jan  1  1999 DE_MDRFigaro.png 
+-rwxrwxrwx  1 0       0                 6606 Jan  1  1999 DE_MDRInfo.png 
+-rwxrwxrwx  1 0       0                71053 Jan  1  1999 DE_NDR2.png 
+-rwxrwxrwx  1 0       0                71635 Jan  1  1999 DE_NDRInfo.png 
+-rwxrwxrwx  1 0       0                68689 Jan  1  1999 DE_NDRKultur.png 
+-rwxrwxrwx  1 0       0                73561 Jan  1  1999 DE_NJoy.png 
+-rwxrwxrwx  1 0       0               150324 Jan  1  1999 DE_RadioBob.png 
+-rwxrwxrwx  1 0       0               135625 Jan  1  1999 DE_RSA.png 
+-rwxrwxrwx  1 0       0                78320 Jan  1  1999 DE_SWR1.png 
+-rwxrwxrwx  1 0       0                78403 Jan  1  1999 DE_SWR2.png 
+-rwxrwxrwx  1 0       0                80643 Jan  1  1999 DE_SWR3.png 
+-rwxrwxrwx  1 0       0                 7605 Jan  1  1999 DE_SWR4.png 
+-rwxrwxrwx  1 0       0                76221 Jan  1  1999 DE_WDR2.png 
+-rwxrwxrwx  1 0       0                12604 Jan  1  1999 DK_DRP4.png 
+-rwxrwxrwx  1 0       0                34656 Jan  1  1999 DK_GlobusGuld.png 
+-rwxrwxrwx  1 0       0                20194 Jan  1  1999 DK_NovaFM.png 
+-rwxrwxrwx  1 0       0                21126 Jan  1  1999 DK_Radio100.png 
+-rwxrwxrwx  1 0       0                22851 Jan  1  1999 DK_RadioAura.png 
+-rwxrwxrwx  1 0       0                24393 Jan  1  1999 DK_SkalaFM.png 
+-rwxrwxrwx  1 0       0                14757 Jan  1  1999 DK_TheVoice.png 
+-rwxrwxrwx  1 0       0                47845 Jan  1  1999 ES_Cadena100.png 
+-rwxrwxrwx  1 0       0                27199 Jan  1  1999 ES_CadenaDial.png 
+-rwxrwxrwx  1 0       0                54107 Jan  1  1999 ES_CadenaSer.png 
+-rwxrwxrwx  1 0       0                18138 Jan  1  1999 ES_CanalExtremadura.png 
+-rwxrwxrwx  1 0       0                20911 Jan  1  1999 ES_CanalFiestaRadio.png 
+-rwxrwxrwx  1 0       0                21066 Jan  1  1999 ES_CanalSurRadio.png 
+-rwxrwxrwx  1 0       0                23887 Jan  1  1999 ES_CatalunyaInformacio.png 
+-rwxrwxrwx  1 0       0                14752 Jan  1  1999 ES_CatalunyaMusica.png 
+-rwxrwxrwx  1 0       0                17247 Jan  1  1999 ES_CatalunyaRadio.png 
+-rwxrwxrwx  1 0       0                72410 Jan  1  1999 ES_COPE.png 
+-rwxrwxrwx  1 0       0                75301 Jan  1  1999 ES_esRadio.png 
+-rwxrwxrwx  1 0       0                11178 Jan  1  1999 ES_EuropaFM.png 
+-rwxrwxrwx  1 0       0                13462 Jan  1  1999 ES_iCatFM.png 
+-rwxrwxrwx  1 0       0                19381 Jan  1  1999 ES_KissFM.png 
+-rwxrwxrwx  1 0       0                60678 Jan  1  1999 ES_Los40Principales.png 
+-rwxrwxrwx  1 0       0                55930 Jan  1  1999 ES_OndaCero.png 
+-rwxrwxrwx  1 0       0                10300 Jan  1  1999 ES_PuntoRadio.png 
+-rwxrwxrwx  1 0       0                33458 Jan  1  1999 ES_RadioCastillaLaMancha.png 
+-rwxrwxrwx  1 0       0                31655 Jan  1  1999 ES_RadioGalega.png 
+-rwxrwxrwx  1 0       0                56171 Jan  1  1999 ES_RadioMarca.png 
+-rwxrwxrwx  1 0       0                90882 Jan  1  1999 ES_RadioMaria.png 
+-rwxrwxrwx  1 0       0                43024 Jan  1  1999 ES_RNE3.png 
+-rwxrwxrwx  1 0       0                22527 Jan  1  1999 ES_RNE5.png 
+-rwxrwxrwx  1 0       0                34493 Jan  1  1999 ES_RNEClasica.png 
+-rwxrwxrwx  1 0       0                27477 Jan  1  1999 ES_RNENacional.png 
+-rwxrwxrwx  1 0       0                19661 Jan  1  1999 FI_Iskelma.png 
+-rwxrwxrwx  1 0       0                19038 Jan  1  1999 FI_YLE1.png 
+-rwxrwxrwx  1 0       0                 6468 Jan  1  1999 FI_YLEPuhe.png 
+-rwxrwxrwx  1 0       0                11816 Jan  1  1999 FI_YLESuomi.png 
+-rwxrwxrwx  1 0       0                19618 Jan  1  1999 FI_YLEX.png 
+-rwxrwxrwx  1 0       0                50961 Jan  1  1999 FR_Alouette.png 
+-rwxrwxrwx  1 0       0                93099 Jan  1  1999 FR_BFM.png 
+-rwxrwxrwx  1 0       0                60053 Jan  1  1999 FR_CherieFM.png 
+-rwxrwxrwx  1 0       0                22586 Jan  1  1999 FR_Contact.png 
+-rwxrwxrwx  1 0       0                20712 Jan  1  1999 FR_Europe1.png 
+-rwxrwxrwx  1 0       0                62396 Jan  1  1999 FR_FM107.7.png 
+-rwxrwxrwx  1 0       0                26257 Jan  1  1999 FR_Forum.png 
+-rwxrwxrwx  1 0       0                81397 Jan  1  1999 FR_FranceBleu.png 
+-rwxrwxrwx  1 0       0                96407 Jan  1  1999 FR_FranceCulture.png 
+-rwxrwxrwx  1 0       0                79380 Jan  1  1999 FR_FranceInfo.png 
+-rwxrwxrwx  1 0       0                90462 Jan  1  1999 FR_FranceInter.png 
+-rwxrwxrwx  1 0       0                96640 Jan  1  1999 FR_FranceMusique.png 
+-rwxrwxrwx  1 0       0                25202 Jan  1  1999 FR_FunRadio.png 
+-rwxrwxrwx  1 0       0                 5515 Jan  1  1999 FR_JazzRadio.png 
+-rwxrwxrwx  1 0       0               112914 Jan  1  1999 FR_LeMouv.png 
+-rwxrwxrwx  1 0       0                47922 Jan  1  1999 FR_MFM.png 
+-rwxrwxrwx  1 0       0                25917 Jan  1  1999 FR_Nostalgie.png 
+-rwxrwxrwx  1 0       0                45795 Jan  1  1999 FR_NRJ.png 
+-rwxrwxrwx  1 0       0                36613 Jan  1  1999 FR_RadioClassique.png 
+-rwxrwxrwx  1 0       0                32378 Jan  1  1999 FR_RCF.png 
+-rwxrwxrwx  1 0       0                37541 Jan  1  1999 FR_RFM.png 
+-rwxrwxrwx  1 0       0                66766 Jan  1  1999 FR_RireEtChansons.png 
+-rwxrwxrwx  1 0       0                76157 Jan  1  1999 FR_RMC.png 
+-rwxrwxrwx  1 0       0                59480 Jan  1  1999 FR_RTL.png 
+-rwxrwxrwx  1 0       0               155829 Jan  1  1999 FR_RTL2.png 
+-rwxrwxrwx  1 0       0                 8247 Jan  1  1999 FR_Skyrock.png 
+-rwxrwxrwx  1 0       0               201066 Jan  1  1999 FR_SudRadio.png 
+-rwxrwxrwx  1 0       0                39800 Jan  1  1999 FR_Totem.png 
+-rwxrwxrwx  1 0       0                12825 Jan  1  1999 FR_Vibration.png 
+-rwxrwxrwx  1 0       0                42566 Jan  1  1999 FR_VirginRadio.png 
+-rwxrwxrwx  1 0       0                 6124 Jan  1  1999 GB_BBCcymruwales.png 
+-rwxrwxrwx  1 0       0                75211 Jan  1  1999 GB_BBCRADIO1.png 
+-rwxrwxrwx  1 0       0                72362 Jan  1  1999 GB_BBCRADIO2.png 
+-rwxrwxrwx  1 0       0                79044 Jan  1  1999 GB_BBCRADIO3.png 
+-rwxrwxrwx  1 0       0                75637 Jan  1  1999 GB_BBCRADIO4.png 
+-rwxrwxrwx  1 0       0                28648 Jan  1  1999 GB_BBCRADIONANGAIDHEAL.png 
+-rwxrwxrwx  1 0       0               117169 Jan  1  1999 GB_BBCRADIOScotland.png 
+-rwxrwxrwx  1 0       0               109216 Jan  1  1999 GB_BBCRADIOULSTER.png 
+-rwxrwxrwx  1 0       0                 5908 Jan  1  1999 GB_BBCradiowales.png 
+-rwxrwxrwx  1 0       0                14973 Jan  1  1999 GB_CLASSICfM.png 
+-rwxrwxrwx  1 0       0               284875 Jan  1  1999 GB_RealRadio.png 
+-rwxrwxrwx  1 0       0                32310 Jan  1  1999 GR_ERA2DhefteroPrograma.png 
+-rwxrwxrwx  1 0       0                23447 Jan  1  1999 GR_ERASoprt.png 
+-rwxrwxrwx  1 0       0                12038 Jan  1  1999 GR_NET1058.png 
+-rwxrwxrwx  1 0       0                27742 Jan  1  1999 IE_Newstalk.png 
+-rwxrwxrwx  1 0       0                 6756 Jan  1  1999 IE_RTE1.png 
+-rwxrwxrwx  1 0       0                 5590 Jan  1  1999 IE_RTE2.png 
+-rwxrwxrwx  1 0       0                14661 Jan  1  1999 IE_RTELyricFM.png 
+-rwxrwxrwx  1 0       0                29724 Jan  1  1999 IE_RTERaidio.png 
+-rwxrwxrwx  1 0       0                35941 Jan  1  1999 IE_TodayFM.png 
+-rwxrwxrwx  1 0       0                78613 Jan  1  1999 IT_m2o.png 
+-rwxrwxrwx  1 0       0               168870 Jan  1  1999 IT_R101.png 
+-rwxrwxrwx  1 0       0                70695 Jan  1  1999 IT_Radio105Network.png 
+-rwxrwxrwx  1 0       0                25837 Jan  1  1999 IT_Radio24.png 
+-rwxrwxrwx  1 0       0                23680 Jan  1  1999 IT_RadioCapital.png 
+-rwxrwxrwx  1 0       0                50812 Jan  1  1999 IT_RadioCuore.png 
+-rwxrwxrwx  1 0       0                50240 Jan  1  1999 IT_RadioDeejay.png 
+-rwxrwxrwx  1 0       0                33540 Jan  1  1999 IT_RadioItalia.png 
+-rwxrwxrwx  1 0       0                26816 Jan  1  1999 IT_RadioItaliaAnni60.png 
+-rwxrwxrwx  1 0       0                42693 Jan  1  1999 IT_RadioKissKiss.png 
+-rwxrwxrwx  1 0       0                85242 Jan  1  1999 IT_RadioLatteMiele.png 
+-rwxrwxrwx  1 0       0               174598 Jan  1  1999 IT_RadioMargherita.png 
+-rwxrwxrwx  1 0       0                20963 Jan  1  1999 IT_RadioMaria.png 
+-rwxrwxrwx  1 0       0                60477 Jan  1  1999 IT_RadioMater.png 
+-rwxrwxrwx  1 0       0               159388 Jan  1  1999 IT_RadioMonteCarlo.png 
+-rwxrwxrwx  1 0       0               103446 Jan  1  1999 IT_RadioNumberOne.png 
+-rwxrwxrwx  1 0       0                85573 Jan  1  1999 IT_RadioPadaniaLibera.png 
+-rwxrwxrwx  1 0       0                26949 Jan  1  1999 IT_RadioRadicale.png 
+-rwxrwxrwx  1 0       0               218846 Jan  1  1999 IT_RadioSubasio.png 
+-rwxrwxrwx  1 0       0                63173 Jan  1  1999 IT_RAIGRParlamento.png 
+-rwxrwxrwx  1 0       0                 5367 Jan  1  1999 IT_RAIIsoradio.png 
+-rwxrwxrwx  1 0       0                66623 Jan  1  1999 IT_RAIRadio1.png 
+-rwxrwxrwx  1 0       0                67706 Jan  1  1999 IT_RAIRadio2.png 
+-rwxrwxrwx  1 0       0                68896 Jan  1  1999 IT_RAIRadio3.png 
+-rwxrwxrwx  1 0       0                34592 Jan  1  1999 IT_RDS.png 
+-rwxrwxrwx  1 0       0                24232 Jan  1  1999 IT_RTL102.5.png 
+-rwxrwxrwx  1 0       0                15476 Jan  1  1999 NL_100NL.png 
+-rwxrwxrwx  1 0       0                14422 Jan  1  1999 NL_BNRNieuwsradio.png 
+-rwxrwxrwx  1 0       0                15359 Jan  1  1999 NL_Radio538.png 
+-rwxrwxrwx  1 0       0                13274 Jan  1  1999 NL_RadioNL.png 
+-rwxrwxrwx  1 0       0                20586 Jan  1  1999 NL_RadioVeronica.png 
+-rwxrwxrwx  1 0       0                23485 Jan  1  1999 NL_SlamFM.png 
+-rwxrwxrwx  1 0       0                 6822 Jan  1  1999 NO_NRKNyheter.png 
+-rwxrwxrwx  1 0       0                79318 Jan  1  1999 NO_NRKP1.png 
+-rwxrwxrwx  1 0       0                82714 Jan  1  1999 NO_NRKP2.png 
+-rwxrwxrwx  1 0       0                12070 Jan  1  1999 NO_NRKPetre.png 
+-rwxrwxrwx  1 0       0                89724 Jan  1  1999 NO_NRK_mP3.png 
+-rwxrwxrwx  1 0       0                28751 Jan  1  1999 NO_P4RHeleNorge.png 
+-rwxrwxrwx  1 0       0                22821 Jan  1  1999 PT_RadioRenascenca.png 
+-rwxrwxrwx  1 0       0                18565 Jan  1  1999 PT_RDPAntena1.png 
+-rwxrwxrwx  1 0       0                13688 Jan  1  1999 PT_RDPAntena2.png 
+-rwxrwxrwx  1 0       0                32617 Jan  1  1999 PT_RDPAntena4.png 
+-rwxrwxrwx  1 0       0                22761 Jan  1  1999 PT_RFM.png 
+-rwxrwxrwx  1 0       0                22012 Jan  1  1999 SE_MixMegapol.png 
+-rwxrwxrwx  1 0       0                18474 Jan  1  1999 SE_RixFM.png 
+-rwxrwxrwx  1 0       0                16736 Jan  1  1999 SE_SRP1.png 
+-rwxrwxrwx  1 0       0                17115 Jan  1  1999 SE_SRP2.png 
+-rwxrwxrwx  1 0       0                17294 Jan  1  1999 SE_SRP3.png 
+-rwxrwxrwx  1 0       0                17105 Jan  1  1999 SE_SRP4.png 
+
+Listing Directory Data_base/radio/logo/Medium:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 5243 Jan  1  1999 AT_FM4.png 
+-rwxrwxrwx  1 0       0                 7879 Jan  1  1999 AT_Kronehit.png 
+-rwxrwxrwx  1 0       0                 5342 Jan  1  1999 AT_O1.png 
+-rwxrwxrwx  1 0       0                 6557 Jan  1  1999 AT_O2Karnten.png 
+-rwxrwxrwx  1 0       0                 6353 Jan  1  1999 AT_O2Niederosterreich.png 
+-rwxrwxrwx  1 0       0                 5585 Jan  1  1999 AT_O2Oberosterreich.png 
+-rwxrwxrwx  1 0       0                 5946 Jan  1  1999 AT_O2Salzburg.png 
+-rwxrwxrwx  1 0       0                 8876 Jan  1  1999 AT_O2Steiermark.png 
+-rwxrwxrwx  1 0       0                 8132 Jan  1  1999 AT_O2Tirol.png 
+-rwxrwxrwx  1 0       0                 8176 Jan  1  1999 AT_O3.png 
+-rwxrwxrwx  1 0       0                10294 Jan  1  1999 BE_BelRTL.png 
+-rwxrwxrwx  1 0       0                15199 Jan  1  1999 BE_ClubFM.png 
+-rwxrwxrwx  1 0       0                10936 Jan  1  1999 BE_Contact.png 
+-rwxrwxrwx  1 0       0                13107 Jan  1  1999 BE_JoeFM.png 
+-rwxrwxrwx  1 0       0                 5658 Jan  1  1999 BE_Nostalgie.png 
+-rwxrwxrwx  1 0       0                11628 Jan  1  1999 BE_NostalgieVlaanderen.png 
+-rwxrwxrwx  1 0       0                 8195 Jan  1  1999 BE_RTBFLaPremiere.png 
+-rwxrwxrwx  1 0       0                13458 Jan  1  1999 BE_RTBFVivacite.png 
+-rwxrwxrwx  1 0       0                21128 Jan  1  1999 BE_topradio.png 
+-rwxrwxrwx  1 0       0                13645 Jan  1  1999 BE_TwizzRadio.png 
+-rwxrwxrwx  1 0       0                 4245 Jan  1  1999 CH_DRSRadioRumantsch.png 
+-rwxrwxrwx  1 0       0                 4472 Jan  1  1999 CH_RSI1.png 
+-rwxrwxrwx  1 0       0                 4026 Jan  1  1999 CH_RSI2.png 
+-rwxrwxrwx  1 0       0                 4036 Jan  1  1999 CH_RSI3.png 
+-rwxrwxrwx  1 0       0                 3780 Jan  1  1999 CH_RSRCouleur3.png 
+-rwxrwxrwx  1 0       0                13097 Jan  1  1999 CH_RSREspace2.png 
+-rwxrwxrwx  1 0       0                18281 Jan  1  1999 CH_RSRLaPremiere.png 
+-rwxrwxrwx  1 0       0               106459 Jan  1  1999 CH_SRF1.png 
+-rwxrwxrwx  1 0       0                97007 Jan  1  1999 CH_SRF2.png 
+-rwxrwxrwx  1 0       0                89083 Jan  1  1999 CH_SRF3.png 
+-rwxrwxrwx  1 0       0                12500 Jan  1  1999 CZ_BeatRadio.png 
+-rwxrwxrwx  1 0       0                 6601 Jan  1  1999 CZ_CRO1Radiozurnal.png 
+-rwxrwxrwx  1 0       0                 5810 Jan  1  1999 CZ_CRO2Praha.png 
+-rwxrwxrwx  1 0       0                 5589 Jan  1  1999 CZ_CRO3Vltava.png 
+-rwxrwxrwx  1 0       0                 6776 Jan  1  1999 CZ_Frekvence1.png 
+-rwxrwxrwx  1 0       0                15703 Jan  1  1999 CZ_ImpulsRadio.png 
+-rwxrwxrwx  1 0       0                20121 Jan  1  1999 CZ_RadioCas.png 
+-rwxrwxrwx  1 0       0                 5583 Jan  1  1999 CZ_RadioEvropa2.png 
+-rwxrwxrwx  1 0       0                21519 Jan  1  1999 CZ_RadioHey.png 
+-rwxrwxrwx  1 0       0                15329 Jan  1  1999 DE_AntenneBAYERN.png 
+-rwxrwxrwx  1 0       0                 8664 Jan  1  1999 DE_B5Aktuell.png 
+-rwxrwxrwx  1 0       0                 9077 Jan  1  1999 DE_BAYERN1.png 
+-rwxrwxrwx  1 0       0                 7080 Jan  1  1999 DE_BAYERN2.png 
+-rwxrwxrwx  1 0       0                 7997 Jan  1  1999 DE_BAYERN3.png 
+-rwxrwxrwx  1 0       0                 9862 Jan  1  1999 DE_BRKLASSIC.png 
+-rwxrwxrwx  1 0       0                 6177 Jan  1  1999 DE_Deutschlandfunk.png 
+-rwxrwxrwx  1 0       0                 5669 Jan  1  1999 DE_DeutschlandradioKultur.png 
+-rwxrwxrwx  1 0       0                11592 Jan  1  1999 DE_HarmonyFm.png 
+-rwxrwxrwx  1 0       0                 9464 Jan  1  1999 DE_HRInfo.png 
+-rwxrwxrwx  1 0       0                 5731 Jan  1  1999 DE_KlassikRadio.png 
+-rwxrwxrwx  1 0       0                13011 Jan  1  1999 DE_MDRFigaro.png 
+-rwxrwxrwx  1 0       0                10125 Jan  1  1999 DE_MDRInfo.png 
+-rwxrwxrwx  1 0       0                 7937 Jan  1  1999 DE_NDR2.png 
+-rwxrwxrwx  1 0       0                 7625 Jan  1  1999 DE_NDRInfo.png 
+-rwxrwxrwx  1 0       0                 6587 Jan  1  1999 DE_NDRKultur.png 
+-rwxrwxrwx  1 0       0                 7931 Jan  1  1999 DE_NJoy.png 
+-rwxrwxrwx  1 0       0                18791 Jan  1  1999 DE_RadioBob.png 
+-rwxrwxrwx  1 0       0                21918 Jan  1  1999 DE_RSA.png 
+-rwxrwxrwx  1 0       0                 9591 Jan  1  1999 DE_SWR1.png 
+-rwxrwxrwx  1 0       0                 9919 Jan  1  1999 DE_SWR2.png 
+-rwxrwxrwx  1 0       0                10415 Jan  1  1999 DE_SWR3.png 
+-rwxrwxrwx  1 0       0                 8980 Jan  1  1999 DE_SWR4.png 
+-rwxrwxrwx  1 0       0                 8298 Jan  1  1999 DE_WDR2.png 
+-rwxrwxrwx  1 0       0                 4455 Jan  1  1999 DK_DRP4.png 
+-rwxrwxrwx  1 0       0                12636 Jan  1  1999 DK_GlobusGuld.png 
+-rwxrwxrwx  1 0       0                 7680 Jan  1  1999 DK_NovaFM.png 
+-rwxrwxrwx  1 0       0                 6926 Jan  1  1999 DK_Radio100.png 
+-rwxrwxrwx  1 0       0                 9390 Jan  1  1999 DK_RadioAura.png 
+-rwxrwxrwx  1 0       0                 8446 Jan  1  1999 DK_SkalaFM.png 
+-rwxrwxrwx  1 0       0                 7437 Jan  1  1999 DK_TheVoice.png 
+-rwxrwxrwx  1 0       0                16712 Jan  1  1999 ES_Cadena100.png 
+-rwxrwxrwx  1 0       0                 9345 Jan  1  1999 ES_CadenaDial.png 
+-rwxrwxrwx  1 0       0                19316 Jan  1  1999 ES_CadenaSer.png 
+-rwxrwxrwx  1 0       0                 6227 Jan  1  1999 ES_CanalExtremadura.png 
+-rwxrwxrwx  1 0       0                 7132 Jan  1  1999 ES_CanalFiestaRadio.png 
+-rwxrwxrwx  1 0       0                 7002 Jan  1  1999 ES_CanalSurRadio.png 
+-rwxrwxrwx  1 0       0                10304 Jan  1  1999 ES_CatalunyaInformacio.png 
+-rwxrwxrwx  1 0       0                 6713 Jan  1  1999 ES_CatalunyaMusica.png 
+-rwxrwxrwx  1 0       0                 7930 Jan  1  1999 ES_CatalunyaRadio.png 
+-rwxrwxrwx  1 0       0                15818 Jan  1  1999 ES_COPE.png 
+-rwxrwxrwx  1 0       0                 9305 Jan  1  1999 ES_esRadio.png 
+-rwxrwxrwx  1 0       0                 5097 Jan  1  1999 ES_EuropaFM.png 
+-rwxrwxrwx  1 0       0                 5837 Jan  1  1999 ES_iCatFM.png 
+-rwxrwxrwx  1 0       0                 6389 Jan  1  1999 ES_KissFM.png 
+-rwxrwxrwx  1 0       0                20220 Jan  1  1999 ES_Los40Principales.png 
+-rwxrwxrwx  1 0       0                21299 Jan  1  1999 ES_OndaCero.png 
+-rwxrwxrwx  1 0       0                 4371 Jan  1  1999 ES_PuntoRadio.png 
+-rwxrwxrwx  1 0       0                11623 Jan  1  1999 ES_RadioCastillaLaMancha.png 
+-rwxrwxrwx  1 0       0                11125 Jan  1  1999 ES_RadioGalega.png 
+-rwxrwxrwx  1 0       0                20900 Jan  1  1999 ES_RadioMarca.png 
+-rwxrwxrwx  1 0       0                 8645 Jan  1  1999 ES_RadioMaria.png 
+-rwxrwxrwx  1 0       0                17117 Jan  1  1999 ES_RNE3.png 
+-rwxrwxrwx  1 0       0                 7576 Jan  1  1999 ES_RNE5.png 
+-rwxrwxrwx  1 0       0                13694 Jan  1  1999 ES_RNEClasica.png 
+-rwxrwxrwx  1 0       0                10807 Jan  1  1999 ES_RNENacional.png 
+-rwxrwxrwx  1 0       0                 6374 Jan  1  1999 FI_Iskelma.png 
+-rwxrwxrwx  1 0       0                 7739 Jan  1  1999 FI_YLE1.png 
+-rwxrwxrwx  1 0       0                 2540 Jan  1  1999 FI_YLEPuhe.png 
+-rwxrwxrwx  1 0       0                 4127 Jan  1  1999 FI_YLESuomi.png 
+-rwxrwxrwx  1 0       0                 6162 Jan  1  1999 FI_YLEX.png 
+-rwxrwxrwx  1 0       0                28832 Jan  1  1999 FR_Alouette.png 
+-rwxrwxrwx  1 0       0                11432 Jan  1  1999 FR_BFM.png 
+-rwxrwxrwx  1 0       0                21466 Jan  1  1999 FR_CherieFM.png 
+-rwxrwxrwx  1 0       0                 9400 Jan  1  1999 FR_Contact.png 
+-rwxrwxrwx  1 0       0                 9587 Jan  1  1999 FR_Europe1.png 
+-rwxrwxrwx  1 0       0                 6375 Jan  1  1999 FR_FM107.7.png 
+-rwxrwxrwx  1 0       0                10911 Jan  1  1999 FR_Forum.png 
+-rwxrwxrwx  1 0       0                11258 Jan  1  1999 FR_FranceBleu.png 
+-rwxrwxrwx  1 0       0                10552 Jan  1  1999 FR_FranceCulture.png 
+-rwxrwxrwx  1 0       0                 9379 Jan  1  1999 FR_FranceInfo.png 
+-rwxrwxrwx  1 0       0                10291 Jan  1  1999 FR_FranceInter.png 
+-rwxrwxrwx  1 0       0                10483 Jan  1  1999 FR_FranceMusique.png 
+-rwxrwxrwx  1 0       0                11482 Jan  1  1999 FR_FunRadio.png 
+-rwxrwxrwx  1 0       0                18102 Jan  1  1999 FR_JazzRadio.png 
+-rwxrwxrwx  1 0       0                13615 Jan  1  1999 FR_LeMouv.png 
+-rwxrwxrwx  1 0       0                17857 Jan  1  1999 FR_MFM.png 
+-rwxrwxrwx  1 0       0                11023 Jan  1  1999 FR_Nostalgie.png 
+-rwxrwxrwx  1 0       0                17440 Jan  1  1999 FR_NRJ.png 
+-rwxrwxrwx  1 0       0                13487 Jan  1  1999 FR_RadioClassique.png 
+-rwxrwxrwx  1 0       0                14413 Jan  1  1999 FR_RCF.png 
+-rwxrwxrwx  1 0       0                15982 Jan  1  1999 FR_RFM.png 
+-rwxrwxrwx  1 0       0                23181 Jan  1  1999 FR_RireEtChansons.png 
+-rwxrwxrwx  1 0       0                 9812 Jan  1  1999 FR_RMC.png 
+-rwxrwxrwx  1 0       0                 4520 Jan  1  1999 FR_RTL.png 
+-rwxrwxrwx  1 0       0                21976 Jan  1  1999 FR_RTL2.png 
+-rwxrwxrwx  1 0       0                11558 Jan  1  1999 FR_Skyrock.png 
+-rwxrwxrwx  1 0       0                30963 Jan  1  1999 FR_SudRadio.png 
+-rwxrwxrwx  1 0       0                13648 Jan  1  1999 FR_Totem.png 
+-rwxrwxrwx  1 0       0                14435 Jan  1  1999 FR_Vibration.png 
+-rwxrwxrwx  1 0       0                16810 Jan  1  1999 FR_VirginRadio.png 
+-rwxrwxrwx  1 0       0                 9841 Jan  1  1999 GB_BBCcymruwales.png 
+-rwxrwxrwx  1 0       0                 9034 Jan  1  1999 GB_BBCRADIO1.png 
+-rwxrwxrwx  1 0       0                 9353 Jan  1  1999 GB_BBCRADIO2.png 
+-rwxrwxrwx  1 0       0                11469 Jan  1  1999 GB_BBCRADIO3.png 
+-rwxrwxrwx  1 0       0                 9914 Jan  1  1999 GB_BBCRADIO4.png 
+-rwxrwxrwx  1 0       0                11723 Jan  1  1999 GB_BBCRADIONANGAIDHEAL.png 
+-rwxrwxrwx  1 0       0                14670 Jan  1  1999 GB_BBCRADIOScotland.png 
+-rwxrwxrwx  1 0       0                10921 Jan  1  1999 GB_BBCRADIOULSTER.png 
+-rwxrwxrwx  1 0       0                 9044 Jan  1  1999 GB_BBCradiowales.png 
+-rwxrwxrwx  1 0       0                 5714 Jan  1  1999 GB_CLASSICfM.png 
+-rwxrwxrwx  1 0       0                37440 Jan  1  1999 GB_RealRadio.png 
+-rwxrwxrwx  1 0       0                13335 Jan  1  1999 GR_ERA2DhefteroPrograma.png 
+-rwxrwxrwx  1 0       0                 7944 Jan  1  1999 GR_ERASoprt.png 
+-rwxrwxrwx  1 0       0                 4210 Jan  1  1999 GR_NET1058.png 
+-rwxrwxrwx  1 0       0                10775 Jan  1  1999 IE_Newstalk.png 
+-rwxrwxrwx  1 0       0                 2696 Jan  1  1999 IE_RTE1.png 
+-rwxrwxrwx  1 0       0                 2253 Jan  1  1999 IE_RTE2.png 
+-rwxrwxrwx  1 0       0                 5612 Jan  1  1999 IE_RTELyricFM.png 
+-rwxrwxrwx  1 0       0                10665 Jan  1  1999 IE_RTERaidio.png 
+-rwxrwxrwx  1 0       0                12663 Jan  1  1999 IE_TodayFM.png 
+-rwxrwxrwx  1 0       0                27203 Jan  1  1999 IT_m2o.png 
+-rwxrwxrwx  1 0       0                22060 Jan  1  1999 IT_R101.png 
+-rwxrwxrwx  1 0       0                24771 Jan  1  1999 IT_Radio105Network.png 
+-rwxrwxrwx  1 0       0                12252 Jan  1  1999 IT_Radio24.png 
+-rwxrwxrwx  1 0       0                 9404 Jan  1  1999 IT_RadioCapital.png 
+-rwxrwxrwx  1 0       0                17279 Jan  1  1999 IT_RadioCuore.png 
+-rwxrwxrwx  1 0       0                20765 Jan  1  1999 IT_RadioDeejay.png 
+-rwxrwxrwx  1 0       0                13184 Jan  1  1999 IT_RadioItalia.png 
+-rwxrwxrwx  1 0       0                10275 Jan  1  1999 IT_RadioItaliaAnni60.png 
+-rwxrwxrwx  1 0       0                18861 Jan  1  1999 IT_RadioKissKiss.png 
+-rwxrwxrwx  1 0       0                11111 Jan  1  1999 IT_RadioLatteMiele.png 
+-rwxrwxrwx  1 0       0                21125 Jan  1  1999 IT_RadioMargherita.png 
+-rwxrwxrwx  1 0       0                 7542 Jan  1  1999 IT_RadioMaria.png 
+-rwxrwxrwx  1 0       0                20498 Jan  1  1999 IT_RadioMater.png 
+-rwxrwxrwx  1 0       0                20820 Jan  1  1999 IT_RadioMonteCarlo.png 
+-rwxrwxrwx  1 0       0                 9668 Jan  1  1999 IT_RadioNumberOne.png 
+-rwxrwxrwx  1 0       0                31385 Jan  1  1999 IT_RadioPadaniaLibera.png 
+-rwxrwxrwx  1 0       0                10123 Jan  1  1999 IT_RadioRadicale.png 
+-rwxrwxrwx  1 0       0                30498 Jan  1  1999 IT_RadioSubasio.png 
+-rwxrwxrwx  1 0       0                 6585 Jan  1  1999 IT_RAIGRParlamento.png 
+-rwxrwxrwx  1 0       0                 7016 Jan  1  1999 IT_RAIIsoradio.png 
+-rwxrwxrwx  1 0       0                 8164 Jan  1  1999 IT_RAIRadio1.png 
+-rwxrwxrwx  1 0       0                 7890 Jan  1  1999 IT_RAIRadio2.png 
+-rwxrwxrwx  1 0       0                 9359 Jan  1  1999 IT_RAIRadio3.png 
+-rwxrwxrwx  1 0       0                14075 Jan  1  1999 IT_RDS.png 
+-rwxrwxrwx  1 0       0                11413 Jan  1  1999 IT_RTL102.5.png 
+-rwxrwxrwx  1 0       0                 6168 Jan  1  1999 NL_100NL.png 
+-rwxrwxrwx  1 0       0                 5191 Jan  1  1999 NL_BNRNieuwsradio.png 
+-rwxrwxrwx  1 0       0                 7039 Jan  1  1999 NL_Radio538.png 
+-rwxrwxrwx  1 0       0                 4494 Jan  1  1999 NL_RadioNL.png 
+-rwxrwxrwx  1 0       0                 7957 Jan  1  1999 NL_RadioVeronica.png 
+-rwxrwxrwx  1 0       0                 9161 Jan  1  1999 NL_SlamFM.png 
+-rwxrwxrwx  1 0       0                13317 Jan  1  1999 NO_NRKNyheter.png 
+-rwxrwxrwx  1 0       0                 7128 Jan  1  1999 NO_NRKP1.png 
+-rwxrwxrwx  1 0       0                 7859 Jan  1  1999 NO_NRKP2.png 
+-rwxrwxrwx  1 0       0                14301 Jan  1  1999 NO_NRKPetre.png 
+-rwxrwxrwx  1 0       0                 8711 Jan  1  1999 NO_NRK_mP3.png 
+-rwxrwxrwx  1 0       0                11146 Jan  1  1999 NO_P4RHeleNorge.png 
+-rwxrwxrwx  1 0       0                 8575 Jan  1  1999 PT_RadioRenascenca.png 
+-rwxrwxrwx  1 0       0                 7986 Jan  1  1999 PT_RDPAntena1.png 
+-rwxrwxrwx  1 0       0                 5955 Jan  1  1999 PT_RDPAntena2.png 
+-rwxrwxrwx  1 0       0                11320 Jan  1  1999 PT_RDPAntena4.png 
+-rwxrwxrwx  1 0       0                 9000 Jan  1  1999 PT_RFM.png 
+-rwxrwxrwx  1 0       0                 7553 Jan  1  1999 SE_MixMegapol.png 
+-rwxrwxrwx  1 0       0                 6123 Jan  1  1999 SE_RixFM.png 
+-rwxrwxrwx  1 0       0                 5692 Jan  1  1999 SE_SRP1.png 
+-rwxrwxrwx  1 0       0                 5790 Jan  1  1999 SE_SRP2.png 
+-rwxrwxrwx  1 0       0                 5790 Jan  1  1999 SE_SRP3.png 
+-rwxrwxrwx  1 0       0                 5714 Jan  1  1999 SE_SRP4.png 
+
+Listing Directory Data_base/radio/logo/Small:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 1038 Jan  1  1999 AT_FM4.png 
+-rwxrwxrwx  1 0       0                 1336 Jan  1  1999 AT_Kronehit.png 
+-rwxrwxrwx  1 0       0                 1036 Jan  1  1999 AT_O1.png 
+-rwxrwxrwx  1 0       0                 1190 Jan  1  1999 AT_O2Karnten.png 
+-rwxrwxrwx  1 0       0                 1098 Jan  1  1999 AT_O2Niederosterreich.png 
+-rwxrwxrwx  1 0       0                 1033 Jan  1  1999 AT_O2Oberosterreich.png 
+-rwxrwxrwx  1 0       0                 1086 Jan  1  1999 AT_O2Salzburg.png 
+-rwxrwxrwx  1 0       0                 1309 Jan  1  1999 AT_O2Steiermark.png 
+-rwxrwxrwx  1 0       0                 1258 Jan  1  1999 AT_O2Tirol.png 
+-rwxrwxrwx  1 0       0                 1326 Jan  1  1999 AT_O3.png 
+-rwxrwxrwx  1 0       0                 1979 Jan  1  1999 BE_BelRTL.png 
+-rwxrwxrwx  1 0       0                 2197 Jan  1  1999 BE_ClubFM.png 
+-rwxrwxrwx  1 0       0                 1785 Jan  1  1999 BE_Contact.png 
+-rwxrwxrwx  1 0       0                 2094 Jan  1  1999 BE_JoeFM.png 
+-rwxrwxrwx  1 0       0                 1006 Jan  1  1999 BE_Nostalgie.png 
+-rwxrwxrwx  1 0       0                 1892 Jan  1  1999 BE_NostalgieVlaanderen.png 
+-rwxrwxrwx  1 0       0                 1543 Jan  1  1999 BE_RTBFLaPremiere.png 
+-rwxrwxrwx  1 0       0                 2099 Jan  1  1999 BE_RTBFVivacite.png 
+-rwxrwxrwx  1 0       0                 2875 Jan  1  1999 BE_topradio.png 
+-rwxrwxrwx  1 0       0                 2078 Jan  1  1999 BE_TwizzRadio.png 
+-rwxrwxrwx  1 0       0                  931 Jan  1  1999 CH_DRSRadioRumantsch.png 
+-rwxrwxrwx  1 0       0                  996 Jan  1  1999 CH_RSI1.png 
+-rwxrwxrwx  1 0       0                  869 Jan  1  1999 CH_RSI2.png 
+-rwxrwxrwx  1 0       0                  868 Jan  1  1999 CH_RSI3.png 
+-rwxrwxrwx  1 0       0                  984 Jan  1  1999 CH_RSRCouleur3.png 
+-rwxrwxrwx  1 0       0                 2265 Jan  1  1999 CH_RSREspace2.png 
+-rwxrwxrwx  1 0       0                 2210 Jan  1  1999 CH_RSRLaPremiere.png 
+-rwxrwxrwx  1 0       0                61218 Jan  1  1999 CH_SRF1.png 
+-rwxrwxrwx  1 0       0                60432 Jan  1  1999 CH_SRF2.png 
+-rwxrwxrwx  1 0       0                58785 Jan  1  1999 CH_SRF3.png 
+-rwxrwxrwx  1 0       0                 1864 Jan  1  1999 CZ_BeatRadio.png 
+-rwxrwxrwx  1 0       0                 1184 Jan  1  1999 CZ_CRO1Radiozurnal.png 
+-rwxrwxrwx  1 0       0                 1076 Jan  1  1999 CZ_CRO2Praha.png 
+-rwxrwxrwx  1 0       0                 1092 Jan  1  1999 CZ_CRO3Vltava.png 
+-rwxrwxrwx  1 0       0                 1219 Jan  1  1999 CZ_Frekvence1.png 
+-rwxrwxrwx  1 0       0                 2517 Jan  1  1999 CZ_ImpulsRadio.png 
+-rwxrwxrwx  1 0       0                 2969 Jan  1  1999 CZ_RadioCas.png 
+-rwxrwxrwx  1 0       0                  926 Jan  1  1999 CZ_RadioEvropa2.png 
+-rwxrwxrwx  1 0       0                 3755 Jan  1  1999 CZ_RadioHey.png 
+-rwxrwxrwx  1 0       0                 2293 Jan  1  1999 DE_AntenneBAYERN.png 
+-rwxrwxrwx  1 0       0                 1754 Jan  1  1999 DE_B5Aktuell.png 
+-rwxrwxrwx  1 0       0                 1881 Jan  1  1999 DE_BAYERN1.png 
+-rwxrwxrwx  1 0       0                 1517 Jan  1  1999 DE_BAYERN2.png 
+-rwxrwxrwx  1 0       0                 1730 Jan  1  1999 DE_BAYERN3.png 
+-rwxrwxrwx  1 0       0                 2314 Jan  1  1999 DE_BRKLASSIC.png 
+-rwxrwxrwx  1 0       0                 1431 Jan  1  1999 DE_Deutschlandfunk.png 
+-rwxrwxrwx  1 0       0                 1091 Jan  1  1999 DE_DeutschlandradioKultur.png 
+-rwxrwxrwx  1 0       0                 2583 Jan  1  1999 DE_HarmonyFm.png 
+-rwxrwxrwx  1 0       0                 2184 Jan  1  1999 DE_HRInfo.png 
+-rwxrwxrwx  1 0       0                 1640 Jan  1  1999 DE_KlassikRadio.png 
+-rwxrwxrwx  1 0       0                 3088 Jan  1  1999 DE_MDRFigaro.png 
+-rwxrwxrwx  1 0       0                 2621 Jan  1  1999 DE_MDRInfo.png 
+-rwxrwxrwx  1 0       0                 2291 Jan  1  1999 DE_NDR2.png 
+-rwxrwxrwx  1 0       0                 1956 Jan  1  1999 DE_NDRInfo.png 
+-rwxrwxrwx  1 0       0                 1677 Jan  1  1999 DE_NDRKultur.png 
+-rwxrwxrwx  1 0       0                 2316 Jan  1  1999 DE_NJoy.png 
+-rwxrwxrwx  1 0       0                 2978 Jan  1  1999 DE_RadioBob.png 
+-rwxrwxrwx  1 0       0                 4226 Jan  1  1999 DE_RSA.png 
+-rwxrwxrwx  1 0       0                 2113 Jan  1  1999 DE_SWR1.png 
+-rwxrwxrwx  1 0       0                 2142 Jan  1  1999 DE_SWR2.png 
+-rwxrwxrwx  1 0       0                 2249 Jan  1  1999 DE_SWR3.png 
+-rwxrwxrwx  1 0       0                 1742 Jan  1  1999 DE_SWR4.png 
+-rwxrwxrwx  1 0       0                 2021 Jan  1  1999 DE_WDR2.png 
+-rwxrwxrwx  1 0       0                  854 Jan  1  1999 DK_DRP4.png 
+-rwxrwxrwx  1 0       0                 1937 Jan  1  1999 DK_GlobusGuld.png 
+-rwxrwxrwx  1 0       0                 1607 Jan  1  1999 DK_NovaFM.png 
+-rwxrwxrwx  1 0       0                 1099 Jan  1  1999 DK_Radio100.png 
+-rwxrwxrwx  1 0       0                 1822 Jan  1  1999 DK_RadioAura.png 
+-rwxrwxrwx  1 0       0                 1272 Jan  1  1999 DK_SkalaFM.png 
+-rwxrwxrwx  1 0       0                 1563 Jan  1  1999 DK_TheVoice.png 
+-rwxrwxrwx  1 0       0                 2850 Jan  1  1999 ES_Cadena100.png 
+-rwxrwxrwx  1 0       0                 1556 Jan  1  1999 ES_CadenaDial.png 
+-rwxrwxrwx  1 0       0                 2826 Jan  1  1999 ES_CadenaSer.png 
+-rwxrwxrwx  1 0       0                 1135 Jan  1  1999 ES_CanalExtremadura.png 
+-rwxrwxrwx  1 0       0                 1260 Jan  1  1999 ES_CanalFiestaRadio.png 
+-rwxrwxrwx  1 0       0                 1126 Jan  1  1999 ES_CanalSurRadio.png 
+-rwxrwxrwx  1 0       0                 2058 Jan  1  1999 ES_CatalunyaInformacio.png 
+-rwxrwxrwx  1 0       0                 1644 Jan  1  1999 ES_CatalunyaMusica.png 
+-rwxrwxrwx  1 0       0                 1903 Jan  1  1999 ES_CatalunyaRadio.png 
+-rwxrwxrwx  1 0       0                 3340 Jan  1  1999 ES_COPE.png 
+-rwxrwxrwx  1 0       0                 1741 Jan  1  1999 ES_esRadio.png 
+-rwxrwxrwx  1 0       0                 1266 Jan  1  1999 ES_EuropaFM.png 
+-rwxrwxrwx  1 0       0                 1330 Jan  1  1999 ES_iCatFM.png 
+-rwxrwxrwx  1 0       0                 1061 Jan  1  1999 ES_KissFM.png 
+-rwxrwxrwx  1 0       0                 3129 Jan  1  1999 ES_Los40Principales.png 
+-rwxrwxrwx  1 0       0                 3827 Jan  1  1999 ES_OndaCero.png 
+-rwxrwxrwx  1 0       0                  994 Jan  1  1999 ES_PuntoRadio.png 
+-rwxrwxrwx  1 0       0                 1776 Jan  1  1999 ES_RadioCastillaLaMancha.png 
+-rwxrwxrwx  1 0       0                 1604 Jan  1  1999 ES_RadioGalega.png 
+-rwxrwxrwx  1 0       0                 3782 Jan  1  1999 ES_RadioMarca.png 
+-rwxrwxrwx  1 0       0                 1471 Jan  1  1999 ES_RadioMaria.png 
+-rwxrwxrwx  1 0       0                 3034 Jan  1  1999 ES_RNE3.png 
+-rwxrwxrwx  1 0       0                 1344 Jan  1  1999 ES_RNE5.png 
+-rwxrwxrwx  1 0       0                 2240 Jan  1  1999 ES_RNEClasica.png 
+-rwxrwxrwx  1 0       0                 2077 Jan  1  1999 ES_RNENacional.png 
+-rwxrwxrwx  1 0       0                 1057 Jan  1  1999 FI_Iskelma.png 
+-rwxrwxrwx  1 0       0                 1469 Jan  1  1999 FI_YLE1.png 
+-rwxrwxrwx  1 0       0                  568 Jan  1  1999 FI_YLEPuhe.png 
+-rwxrwxrwx  1 0       0                  827 Jan  1  1999 FI_YLESuomi.png 
+-rwxrwxrwx  1 0       0                 1081 Jan  1  1999 FI_YLEX.png 
+-rwxrwxrwx  1 0       0                 3413 Jan  1  1999 FR_Alouette.png 
+-rwxrwxrwx  1 0       0                 2238 Jan  1  1999 FR_BFM.png 
+-rwxrwxrwx  1 0       0                 3501 Jan  1  1999 FR_CherieFM.png 
+-rwxrwxrwx  1 0       0                 1619 Jan  1  1999 FR_Contact.png 
+-rwxrwxrwx  1 0       0                 1897 Jan  1  1999 FR_Europe1.png 
+-rwxrwxrwx  1 0       0                 2059 Jan  1  1999 FR_FM107.7.png 
+-rwxrwxrwx  1 0       0                 1798 Jan  1  1999 FR_Forum.png 
+-rwxrwxrwx  1 0       0                 2817 Jan  1  1999 FR_FranceBleu.png 
+-rwxrwxrwx  1 0       0                 2333 Jan  1  1999 FR_FranceCulture.png 
+-rwxrwxrwx  1 0       0                 2585 Jan  1  1999 FR_FranceInfo.png 
+-rwxrwxrwx  1 0       0                 2384 Jan  1  1999 FR_FranceInter.png 
+-rwxrwxrwx  1 0       0                 2391 Jan  1  1999 FR_FranceMusique.png 
+-rwxrwxrwx  1 0       0                 2020 Jan  1  1999 FR_FunRadio.png 
+-rwxrwxrwx  1 0       0                 3752 Jan  1  1999 FR_JazzRadio.png 
+-rwxrwxrwx  1 0       0                 2583 Jan  1  1999 FR_LeMouv.png 
+-rwxrwxrwx  1 0       0                 2877 Jan  1  1999 FR_MFM.png 
+-rwxrwxrwx  1 0       0                 2013 Jan  1  1999 FR_Nostalgie.png 
+-rwxrwxrwx  1 0       0                 3079 Jan  1  1999 FR_NRJ.png 
+-rwxrwxrwx  1 0       0                 2359 Jan  1  1999 FR_RadioClassique.png 
+-rwxrwxrwx  1 0       0                 2896 Jan  1  1999 FR_RCF.png 
+-rwxrwxrwx  1 0       0                 3366 Jan  1  1999 FR_RFM.png 
+-rwxrwxrwx  1 0       0                 3668 Jan  1  1999 FR_RireEtChansons.png 
+-rwxrwxrwx  1 0       0                 2399 Jan  1  1999 FR_RMC.png 
+-rwxrwxrwx  1 0       0                 1726 Jan  1  1999 FR_RTL.png 
+-rwxrwxrwx  1 0       0                 4226 Jan  1  1999 FR_RTL2.png 
+-rwxrwxrwx  1 0       0                 2662 Jan  1  1999 FR_Skyrock.png 
+-rwxrwxrwx  1 0       0                 4806 Jan  1  1999 FR_SudRadio.png 
+-rwxrwxrwx  1 0       0                 2008 Jan  1  1999 FR_Totem.png 
+-rwxrwxrwx  1 0       0                 3243 Jan  1  1999 FR_Vibration.png 
+-rwxrwxrwx  1 0       0                 3049 Jan  1  1999 FR_VirginRadio.png 
+-rwxrwxrwx  1 0       0                 1924 Jan  1  1999 GB_BBCcymruwales.png 
+-rwxrwxrwx  1 0       0                 2312 Jan  1  1999 GB_BBCRADIO1.png 
+-rwxrwxrwx  1 0       0                 2451 Jan  1  1999 GB_BBCRADIO2.png 
+-rwxrwxrwx  1 0       0                 2672 Jan  1  1999 GB_BBCRADIO3.png 
+-rwxrwxrwx  1 0       0                 2574 Jan  1  1999 GB_BBCRADIO4.png 
+-rwxrwxrwx  1 0       0                 1898 Jan  1  1999 GB_BBCRADIONANGAIDHEAL.png 
+-rwxrwxrwx  1 0       0                 2606 Jan  1  1999 GB_BBCRADIOScotland.png 
+-rwxrwxrwx  1 0       0                 1670 Jan  1  1999 GB_BBCRADIOULSTER.png 
+-rwxrwxrwx  1 0       0                 1816 Jan  1  1999 GB_BBCradiowales.png 
+-rwxrwxrwx  1 0       0                 1114 Jan  1  1999 GB_CLASSICfM.png 
+-rwxrwxrwx  1 0       0                 5052 Jan  1  1999 GB_RealRadio.png 
+-rwxrwxrwx  1 0       0                 2429 Jan  1  1999 GR_ERA2DhefteroPrograma.png 
+-rwxrwxrwx  1 0       0                 1193 Jan  1  1999 GR_ERASoprt.png 
+-rwxrwxrwx  1 0       0                  748 Jan  1  1999 GR_NET1058.png 
+-rwxrwxrwx  1 0       0                 1913 Jan  1  1999 IE_Newstalk.png 
+-rwxrwxrwx  1 0       0                  592 Jan  1  1999 IE_RTE1.png 
+-rwxrwxrwx  1 0       0                  511 Jan  1  1999 IE_RTE2.png 
+-rwxrwxrwx  1 0       0                 1130 Jan  1  1999 IE_RTELyricFM.png 
+-rwxrwxrwx  1 0       0                 1540 Jan  1  1999 IE_RTERaidio.png 
+-rwxrwxrwx  1 0       0                 2103 Jan  1  1999 IE_TodayFM.png 
+-rwxrwxrwx  1 0       0                 4288 Jan  1  1999 IT_m2o.png 
+-rwxrwxrwx  1 0       0                 3920 Jan  1  1999 IT_R101.png 
+-rwxrwxrwx  1 0       0                 3718 Jan  1  1999 IT_Radio105Network.png 
+-rwxrwxrwx  1 0       0                 2355 Jan  1  1999 IT_Radio24.png 
+-rwxrwxrwx  1 0       0                 1716 Jan  1  1999 IT_RadioCapital.png 
+-rwxrwxrwx  1 0       0                 2656 Jan  1  1999 IT_RadioCuore.png 
+-rwxrwxrwx  1 0       0                 3983 Jan  1  1999 IT_RadioDeejay.png 
+-rwxrwxrwx  1 0       0                 2521 Jan  1  1999 IT_RadioItalia.png 
+-rwxrwxrwx  1 0       0                 1688 Jan  1  1999 IT_RadioItaliaAnni60.png 
+-rwxrwxrwx  1 0       0                 3892 Jan  1  1999 IT_RadioKissKiss.png 
+-rwxrwxrwx  1 0       0                 1947 Jan  1  1999 IT_RadioLatteMiele.png 
+-rwxrwxrwx  1 0       0                 2736 Jan  1  1999 IT_RadioMargherita.png 
+-rwxrwxrwx  1 0       0                 1299 Jan  1  1999 IT_RadioMaria.png 
+-rwxrwxrwx  1 0       0                 2723 Jan  1  1999 IT_RadioMater.png 
+-rwxrwxrwx  1 0       0                 3126 Jan  1  1999 IT_RadioMonteCarlo.png 
+-rwxrwxrwx  1 0       0                 1779 Jan  1  1999 IT_RadioNumberOne.png 
+-rwxrwxrwx  1 0       0                 4419 Jan  1  1999 IT_RadioPadaniaLibera.png 
+-rwxrwxrwx  1 0       0                 1811 Jan  1  1999 IT_RadioRadicale.png 
+-rwxrwxrwx  1 0       0                 4627 Jan  1  1999 IT_RadioSubasio.png 
+-rwxrwxrwx  1 0       0                 1491 Jan  1  1999 IT_RAIGRParlamento.png 
+-rwxrwxrwx  1 0       0                 1587 Jan  1  1999 IT_RAIIsoradio.png 
+-rwxrwxrwx  1 0       0                 2119 Jan  1  1999 IT_RAIRadio1.png 
+-rwxrwxrwx  1 0       0                 2020 Jan  1  1999 IT_RAIRadio2.png 
+-rwxrwxrwx  1 0       0                 2288 Jan  1  1999 IT_RAIRadio3.png 
+-rwxrwxrwx  1 0       0                 2527 Jan  1  1999 IT_RDS.png 
+-rwxrwxrwx  1 0       0                 3042 Jan  1  1999 IT_RTL102.5.png 
+-rwxrwxrwx  1 0       0                 1364 Jan  1  1999 NL_100NL.png 
+-rwxrwxrwx  1 0       0                  992 Jan  1  1999 NL_BNRNieuwsradio.png 
+-rwxrwxrwx  1 0       0                 1789 Jan  1  1999 NL_Radio538.png 
+-rwxrwxrwx  1 0       0                  857 Jan  1  1999 NL_RadioNL.png 
+-rwxrwxrwx  1 0       0                 1715 Jan  1  1999 NL_RadioVeronica.png 
+-rwxrwxrwx  1 0       0                 1605 Jan  1  1999 NL_SlamFM.png 
+-rwxrwxrwx  1 0       0                 2871 Jan  1  1999 NO_NRKNyheter.png 
+-rwxrwxrwx  1 0       0                 1659 Jan  1  1999 NO_NRKP1.png 
+-rwxrwxrwx  1 0       0                 1748 Jan  1  1999 NO_NRKP2.png 
+-rwxrwxrwx  1 0       0                 3153 Jan  1  1999 NO_NRKPetre.png 
+-rwxrwxrwx  1 0       0                 2094 Jan  1  1999 NO_NRK_mP3.png 
+-rwxrwxrwx  1 0       0                 2070 Jan  1  1999 NO_P4RHeleNorge.png 
+-rwxrwxrwx  1 0       0                 1638 Jan  1  1999 PT_RadioRenascenca.png 
+-rwxrwxrwx  1 0       0                 1804 Jan  1  1999 PT_RDPAntena1.png 
+-rwxrwxrwx  1 0       0                 1283 Jan  1  1999 PT_RDPAntena2.png 
+-rwxrwxrwx  1 0       0                 1838 Jan  1  1999 PT_RDPAntena4.png 
+-rwxrwxrwx  1 0       0                 1958 Jan  1  1999 PT_RFM.png 
+-rwxrwxrwx  1 0       0                 1376 Jan  1  1999 SE_MixMegapol.png 
+-rwxrwxrwx  1 0       0                 1037 Jan  1  1999 SE_RixFM.png 
+-rwxrwxrwx  1 0       0                  984 Jan  1  1999 SE_SRP1.png 
+-rwxrwxrwx  1 0       0                 1017 Jan  1  1999 SE_SRP2.png 
+-rwxrwxrwx  1 0       0                 1034 Jan  1  1999 SE_SRP3.png 
+-rwxrwxrwx  1 0       0                 1007 Jan  1  1999 SE_SRP4.png 
+
+Listing Directory Data_base/sqlite:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                58368 Jan  1  1999 agenda.sqlite 
+-rwxrwxrwx  1 0       0                13312 Jan  1  1999 browser.sqlite 
+-rwxrwxrwx  1 0       0                 5120 Jan  1  1999 cheatcodes.sqlite 
+-rwxrwxrwx  1 0       0                 3072 Jan  1  1999 config.sqlite 
+-rwxrwxrwx  1 0       0                 2048 Jan  1  1999 config_options.sqlite 
+-rwxrwxrwx  1 0       0                15360 Jan  1  1999 connectivity.sqlite 
+-rwxrwxrwx  1 0       0                93184 Jan  1  1999 db_alerts.sqlite 
+-rwxrwxrwx  1 0       0                 5120 Jan  1  1999 db_manager.sqlite 
+-rwxrwxrwx  1 0       0                93184 Jan  1  1999 desktopServices.sqlite 
+-rwxrwxrwx  1 0       0                 9216 Jan  1  1999 diagnosis.sqlite 
+-rwxrwxrwx  1 0       0                10240 Jan  1  1999 diag_zi.sqlite 
+-rwxrwxrwx  1 0       0                18432 Jan  1  1999 KeyboardHistory.sqlite 
+-rwxrwxrwx  1 0       0                35840 Jan  1  1999 media_catalog.sqlite 
+-rwxrwxrwx  1 0       0                33792 Jan  1  1999 media_cdc_catalog.sqlite 
+-rwxrwxrwx  1 0       0                 6144 Jan  1  1999 media_jkb_catalog.sqlite 
+-rwxrwxrwx  1 0       0                 6144 Jan  1  1999 navigation.sqlite 
+-rwxrwxrwx  1 0       0                20480 Jan  1  1999 nav_dest.sqlite 
+-rwxrwxrwx  1 0       0                27648 Jan  1  1999 nav_poi.sqlite 
+-rwxrwxrwx  1 0       0                11264 Jan  1  1999 Pictures.sqlite 
+-rwxrwxrwx  1 0       0                31744 Jan  1  1999 RadioLogo.sqlite 
+-rwxrwxrwx  1 0       0                 6144 Jan  1  1999 Trip.sqlite 
+-rwxrwxrwx  1 0       0                25600 Jan  1  1999 tuner.sqlite 
+-rwxrwxrwx  1 0       0                 3072 Jan  1  1999 upgrade.sqlite 
+-rwxrwxrwx  1 0       0                33792 Jan  1  1999 up_common.sqlite 
+-rwxrwxrwx  1 0       0                31744 Jan  1  1999 up_config.sqlite 
+-rwxrwxrwx  1 0       0                19456 Jan  1  1999 up_user.sqlite 
+-rwxrwxrwx  1 0       0                12288 Jan  1  1999 up_user_hmi.sqlite 
+-rwxrwxrwx  1 0       0                 5120 Jan  1  1999 versions.sqlite 
+-rwxrwxrwx  1 0       0                 2048 Jan  1  1999 version_history.sqlite 
+
+Listing Directory Data_base/TMP:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 lib/
+
+Listing Directory Data_base/TMP/lib:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 fonts/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 license/
+
+Listing Directory Data_base/TMP/lib/fonts:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0               493564 Jan  1  1999 DejaVuSans.ttf 
+-rwxrwxrwx  1 0       0                 8568 Jan  1  1999 Ecube SLIDER.ttf 
+-rwxrwxrwx  1 0       0               152432 Jan  1  1999 GillSansPSA.ttf 
+-rwxrwxrwx  1 0       0                 9728 Jan  1  1999 GillSansSLIDER.ttf 
+-rwxrwxrwx  1 0       0               152396 Jan  1  1999 PLAQUESgilsans.ttf 
+-rwxrwxrwx  1 0       0                 9968 Jan  1  1999 T9typoSLIDER.ttf 
+-rwxrwxrwx  1 0       0                 7852 Jan  1  1999 TYPEC4SLIDER.ttf 
+
+Listing Directory Data_base/TMP/lib/license:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                  544 Jan  1  1999 LGPL_EXCEPTION.txt 
+-rwxrwxrwx  1 0       0                   81 Jan  1  1999 LGPL_EXCEPTION.txt.inf 
+-rwxrwxrwx  1 0       0                36941 Jan  1  1999 LICENSE.GPL3 
+-rwxrwxrwx  1 0       0                   83 Jan  1  1999 LICENSE.GPL3.inf 
+-rwxrwxrwx  1 0       0                26940 Jan  1  1999 LICENSE.LGPL 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 LICENSE.LGPL.inf 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 fonts_LICENSE/
+
+Listing Directory Data_base/TMP/lib/license/fonts_LICENSE:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                17470 Jan  1  1999 licenses-fonts.html 
+-rwxrwxrwx  1 0       0                   83 Jan  1  1999 licenses-fonts.html.inf 
+-rwxrwxrwx  1 0       0                  936 Jan  1  1999 README 
+-rwxrwxrwx  1 0       0                   81 Jan  1  1999 README.inf 
+
+Listing Directory internet_default:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 config/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 MMR/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 PMS_picto/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 portal/
+
+Listing Directory internet_default/config:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                27997 Jan  1  1999 ErreurPortail_V2.png 
+-rwxrwxrwx  1 0       0                  516 Jan  1  1999 OOM.html 
+
+Listing Directory internet_default/MMR:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                   95 Jan  1  1999 background_1.css 
+-rwxrwxrwx  1 0       0                   95 Jan  1  1999 background_2.css 
+-rwxrwxrwx  1 0       0                   94 Jan  1  1999 unrestricted.css 
+
+Listing Directory internet_default/PMS_picto:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                  252 Jan  1  1999 6306001.png 
+-rwxrwxrwx  1 0       0                  275 Jan  1  1999 6306002.png 
+-rwxrwxrwx  1 0       0                  232 Jan  1  1999 6306003.png 
+-rwxrwxrwx  1 0       0                  216 Jan  1  1999 6306004.png 
+-rwxrwxrwx  1 0       0                  242 Jan  1  1999 6306005.png 
+-rwxrwxrwx  1 0       0                  240 Jan  1  1999 6306006.png 
+-rwxrwxrwx  1 0       0                  247 Jan  1  1999 6306007.png 
+-rwxrwxrwx  1 0       0                  248 Jan  1  1999 6306008.png 
+-rwxrwxrwx  1 0       0                  252 Jan  1  1999 6306009.png 
+-rwxrwxrwx  1 0       0                  276 Jan  1  1999 6306010.png 
+-rwxrwxrwx  1 0       0                  285 Jan  1  1999 6306011.png 
+-rwxrwxrwx  1 0       0                  232 Jan  1  1999 6306012.png 
+
+Listing Directory internet_default/portal:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                31601 Jan  1  1999 index.html 
+-rwxrwxrwx  1 0       0                67373 Jan  1  1999 pgen_citroen_home_1.v2.pgen.png 
+-rwxrwxrwx  1 0       0               102219 Jan  1  1999 pgen_citroen_home_2.v2.pgen.png 
+-rwxrwxrwx  1 0       0                64712 Jan  1  1999 pgen_citroen_home_3.v2.pgen.png 
+-rwxrwxrwx  1 0       0                19496 Jan  1  1999 pgen_citroen_load.v2.pgen.png 
+-rwxrwxrwx  1 0       0                45633 Jan  1  1999 pgen_citroen_network.v2.pgen.png 
+-rwxrwxrwx  1 0       0                57178 Jan  1  1999 pgen_citroen_usb.v2.pgen.png 
+-rwxrwxrwx  1 0       0               233502 Jan  1  1999 pgen_peugeot_home_1.v2.pgen.png 
+-rwxrwxrwx  1 0       0               141996 Jan  1  1999 pgen_peugeot_home_2.v2.pgen.png 
+-rwxrwxrwx  1 0       0               136734 Jan  1  1999 pgen_peugeot_home_3.v2.pgen.png 
+-rwxrwxrwx  1 0       0               138726 Jan  1  1999 pgen_peugeot_load.v2.pgen.png 
+-rwxrwxrwx  1 0       0               145295 Jan  1  1999 pgen_peugeot_network.v2.pgen.png 
+-rwxrwxrwx  1 0       0               133157 Jan  1  1999 pgen_peugeot_usb.v2.pgen.png 
+-rwxrwxrwx  1 0       0                 6851 Jan  1  1999 sprite_offline.v2.png 
+
+Listing Directory AVR_img:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                91167 Jan  1  1999 AVR_IMG1.png 
+-rwxrwxrwx  1 0       0                80638 Jan  1  1999 AVR_IMG2.png 
+-rwxrwxrwx  1 0       0                78729 Jan  1  1999 AVR_IMG3.png 
+-rwxrwxrwx  1 0       0                52867 Jan  1  1999 AVR_IMG4.png 
+-rwxrwxrwx  1 0       0                39783 Jan  1  1999 AVR_IMG5.png 
+-rwxrwxrwx  1 0       0                37170 Jan  1  1999 AVR_IMG6.png 
+-rwxrwxrwx  1 0       0                67941 Jan  1  1999 AVR_IMG7.png 
+-rwxrwxrwx  1 0       0                87235 Jan  1  1999 AVR_IMG8.png 
+value = 0 = 0x0
+-> devs
+drv name                
+  0 /null               
+  1 /tyCo/0             
+  1 /tyCo/1             
+  1 /tyCo/2             
+  1 /tyCo/3             
+  7 /romfs              
+  4 /S                  
+  3 /SYSTEM_DATA        
+  3 /ram                
+ 13 /tgtsvr             
+ 14 /spi/0              
+ 15 /spi/1              
+ 16 /i2c1               
+ 17 /i2s0               
+ 17 /i2s5               
+ 17 /i2s1               
+ 17 /i2s2               
+ 17 /i2s3               
+ 17 /i2s4               
+ 18 /sound/dsp_mp3cd    
+ 18 /sound/dsp_usb      
+ 18 /sound/dsp_cda      
+ 18 /sound/dsp_mic      
+ 18 /sound/tuner        
+ 18 /sound/dsp_a2dp     
+ 18 /sound/ipod         
+ 18 /sound/wav          
+ 18 /sound/tts          
+ 18 /sound/ts           
+ 18 /sound/bt_wav       
+ 19 /G                  
+ 22 /dev/tap            
+ 23 /DevFp              
+ 24 /DevNet             
+ 25 /DevDiag            
+ 26 /DevKbd             
+ 28 /DevEol             
+  3 /sdhc:1             
+  3 /sdhc:0             
+  3 /SYSTEM             
+  3 /SYSTEM_TMP_DATA    
+  3 /USER_DATA          
+  3 /USER_DATA_BACKUP   
+  3 /EXTENDED_PARTITION 
+ 16 /i2c0               
+ 30 /kim                
+ 31 /ts                 
+  2 /pipe/qt_099247b0   
+ 27 /seri/1             
+  3 /PORTAL_RAMDISK_CACHE
+  2 /pipe/qt_048de2e0   
+  3 /bd0                
+ 11 /usb2Msc0           
+  5 stdio_pty_6a07020.S 
+  6 stdio_pty_6a07020.M 
+value = 25 = 0x19
+-> cd /. ."USER. .. .. .. ./USERC(. .. ._DATA"
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 CRC/
+-rwxrwxrwx  1 0       0                  769 Jan  1  1999 ManufacturingData.txt 
+-rwxrwxrwx  1 0       0                    9 Jan  1  1999 ManufacturingData.txt.inf 
+-rwxrwxrwx  1 0       0                    0 Jan  1  1999 MOUNT_SAFE_FLAG.tst 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 user_data/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 welcome_screen/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 address_book/
+drwxrwxrwx  1 0       0                 4096 Jan 11 18:11 internet_user/
+value = 0 = 0x0
+-> llr
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 CRC/
+-rwxrwxrwx  1 0       0                  769 Jan  1  1999 ManufacturingData.txt 
+-rwxrwxrwx  1 0       0                    9 Jan  1  1999 ManufacturingData.txt.inf 
+-rwxrwxrwx  1 0       0                    0 Jan  1  1999 MOUNT_SAFE_FLAG.tst 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 user_data/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 welcome_screen/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 address_book/
+drwxrwxrwx  1 0       0                 4096 Jan 11 18:11 internet_user/
+
+Listing Directory CRC:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                   16 Jan  1  1999 CRC.INF 
+
+Listing Directory user_data:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:05 sqlite/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Audio/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 TTS/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 T2BF/
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 Nav/
+
+Listing Directory user_data/sqlite:
+drwxrwxrwx  1 0       0                 4096 Jan 20 18:05 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                17902 Jan 19 11:48 agenda.sqlite 
+-rwxrwxrwx  1 0       0                 6144 Jan 20 17:24 navigation.sqlite 
+-rwxrwxrwx  1 0       0                   48 Jan 20 18:05 diagnosis.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 20 17:46 up_common.sqlite.inf 
+-rwxrwxrwx  1 0       0                 1100 Jan 20 18:05 diagnosis.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 20 18:05 up_user_hmi.sqlite.inf 
+-rwxrwxrwx  1 0       0                 8167 Jan 20 17:46 up_common.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan  1  2007 up_config.sqlite.inf 
+-rwxrwxrwx  1 0       0                 3620 Jan 20 18:05 up_user_hmi.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 20 17:46 up_user.sqlite.inf 
+-rwxrwxrwx  1 0       0                10192 Jan  1  2007 up_config.sqlite 
+-rwxrwxrwx  1 0       0                   48 Nov  4  2017 config_options.sqlite.inf 
+-rwxrwxrwx  1 0       0                 5055 Jan 20 17:46 up_user.sqlite 
+-rwxrwxrwx  1 0       0                   49 Jan 20 17:46 Pictures.sqlite.inf 
+-rwxrwxrwx  1 0       0                  610 Nov  4  2017 config_options.sqlite 
+-rwxrwxrwx  1 0       0                 4411 Jan 20 17:46 Pictures.sqlite 
+-rwxrwxrwx  1 0       0                20480 Aug 26  2018 nav_dest.sqlite 
+-rwxrwxrwx  1 0       0                  266 Jan  1  2007 version_history.sqlite 
+-rwxrwxrwx  1 0       0                  557 Feb  1  2000 media_jkb_catalog.sqlite 
+-rwxrwxrwx  1 0       0                 2635 Feb  1  2000 diag_zi.sqlite 
+-rwxrwxrwx  1 0       0                   48 Feb  1  2000 media_jkb_catalog.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Feb  1  2000 diag_zi.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 20 17:41 Trip.sqlite.inf 
+-rwxrwxrwx  1 0       0                 6044 Jan 20 17:41 Trip.sqlite 
+-rwxrwxrwx  1 0       0                   48 Jan  1  2007 version_history.sqlite.inf 
+-rwxrwxrwx  1 0       0                   49 Jan 19 11:48 agenda.sqlite.inf 
+
+Listing Directory user_data/Audio:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                 2933 Jan 20 17:46 Tuner.dat 
+-rwxrwxrwx  1 0       0                   53 Jan 20 17:46 Tuner.dat.inf 
+-rwxrwxrwx  1 0       0                 9029 Jan 20 17:46 Radio.dat 
+-rwxrwxrwx  1 0       0                   54 Jan 20 17:46 Radio.dat.inf 
+
+Listing Directory user_data/TTS:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+
+Listing Directory user_data/T2BF:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                39410 Jan 20 18:13 T2BF.dat 
+-rwxrwxrwx  1 0       0                   56 Jan 20 18:13 T2BF.dat.inf 
+
+Listing Directory user_data/Nav:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                  651 Jan 20 17:46 Loc.dat 
+-rwxrwxrwx  1 0       0                   52 Jan 20 17:46 Loc.dat.inf 
+-rwxrwxrwx  1 0       0                  356 Jan 20 17:46 DR.dat 
+-rwxrwxrwx  1 0       0                   51 Jan 20 17:46 DR.dat.inf 
+-rwxrwxrwx  1 0       0                  130 Jan 20 17:46 DB.dat 
+-rwxrwxrwx  1 0       0                   51 Jan 20 17:46 DB.dat.inf 
+
+Listing Directory welcome_screen:
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+
+Listing Directory address_book:
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+
+Listing Directory internet_user:
+drwxrwxrwx  1 0       0                 4096 Jan 11 18:11 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                17408 Jan 11 18:11 WebpageIcons.db 
+-rwxrwxrwx  1 0       0                  636 Sep  3  2017 6baca7282f4189d89757d142d5c76495.png 
+-rwxrwxrwx  1 0       0                  636 Nov 10  2017 c1aefa74ce5a80fe808267337d3cf0b5.png 
+-rwxrwxrwx  1 0       0                  636 Nov  3  2017 a86d192813f24394e468dc62352f0355.png 
+-rwxrwxrwx  1 0       0                  636 Nov  3  2017 334b7fb3f7680f3dfbe3e5ca6fb23104.png 
+-rwxrwxrwx  1 0       0                  636 Nov  3  2017 dae415d7e987a897987d489c261b91a5.png 
+-rwxrwxrwx  1 0       0                  636 Nov  3  2017 1a314b2e6f14db6f77730908ea8ca0d1.png 
+-rwxrwxrwx  1 0       0                  636 Jan 11 08:53 ab9e3dc4e10e5726a37d0de82985b926.png 
+-rwxrwxrwx  1 0       0                  636 Jan 10 21:35 867ce1fe9d3048d791c7586a8a609b27.png 
+-rwxrwxrwx  1 0       0                  636 Jan 10 20:53 ef03e6a66754c4d0433a789ce6766ff3.png 
+value = 0 = 0x0
+-> devs
+drv name                
+  0 /null               
+  1 /tyCo/0             
+  1 /tyCo/1             
+  1 /tyCo/2             
+  1 /tyCo/3             
+  7 /romfs              
+  4 /S                  
+  3 /SYSTEM_DATA        
+  3 /ram                
+ 13 /tgtsvr             
+ 14 /spi/0              
+ 15 /spi/1              
+ 16 /i2c1               
+ 17 /i2s0               
+ 17 /i2s5               
+ 17 /i2s1               
+ 17 /i2s2               
+ 17 /i2s3               
+ 17 /i2s4               
+ 18 /sound/dsp_mp3cd    
+ 18 /sound/dsp_usb      
+ 18 /sound/dsp_cda      
+ 18 /sound/dsp_mic      
+ 18 /sound/tuner        
+ 18 /sound/dsp_a2dp     
+ 18 /sound/ipod         
+ 18 /sound/wav          
+ 18 /sound/tts          
+ 18 /sound/ts           
+ 18 /sound/bt_wav       
+ 19 /G                  
+ 22 /dev/tap            
+ 23 /DevFp              
+ 24 /DevNet             
+ 25 /DevDiag            
+ 26 /DevKbd             
+ 28 /DevEol             
+  3 /sdhc:1             
+  3 /sdhc:0             
+  3 /SYSTEM             
+  3 /SYSTEM_TMP_DATA    
+  3 /USER_DATA          
+  3 /USER_DATA_BACKUP   
+  3 /EXTENDED_PARTITION 
+ 16 /i2c0               
+ 30 /kim                
+ 31 /ts                 
+  2 /pipe/qt_099247b0   
+ 27 /seri/1             
+  3 /PORTAL_RAMDISK_CACHE
+  2 /pipe/qt_048de2e0   
+  3 /bd0                
+ 11 /usb2Msc0           
+  5 stdio_pty_6a07020.S 
+  6 stdio_pty_6a07020.M 
+value = 25 = 0x19
+-> cd "/EXTENDED_PARTITION"
+value = 0 = 0x0
+-> ll
+value = 0 = 0x0
+-> cd "/PORTAL_RAMDISK_CACHE"
+value = 0 = 0x0
+-> ll
+value = 0 = 0x0
+-> cd "/ram"
+value = 0 = 0x0
+-> ll
+value = 0 = 0x0
+-> cd "/SYSTM. .EM_DATA"
+value = 0 = 0x0
+-> ll
+-rwxrwxrwx  1 0       0                  103 Jan  1  1999 ssm_boot.out.inf 
+-rwxrwxrwx  1 0       0               212469 Jan  1  1999 SSM_BOOT.OUT 
+drwxrwxrwx  1 0       0                 2048 Jan  1  1999 CRC/
+-rwxrwxrwx  1 0       0                  769 Jan  1  1999 ManufacturingData.txt 
+-rwxrwxrwx  1 0       0                    9 Jan  1  1999 ManufacturingData.txt.inf 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 trace_ssm_boot.log 
+-rwxrwxrwx  1 0       0                    0 Jan  1  1999 MOUNT_SAFE_FLAG.tst 
+-rwxrwxrwx  1 0       0                   12 Sep 13  2018 Harmony.ini 
+-rwxrwxrwx  1 0       0                   39 Jan 15 18:45 SD_regen.inf 
+-rwxrwxrwx  1 0       0                   40 Jan 15 09:06 SD_regen_backup.inf 
+-rwxrwxrwx  1 0       0                  103 Jan  1  1999 StartApp.txt 
+value = 0 = 0x0
+-> llr
+-rwxrwxrwx  1 0       0                  103 Jan  1  1999 ssm_boot.out.inf 
+-rwxrwxrwx  1 0       0               212469 Jan  1  1999 SSM_BOOT.OUT 
+drwxrwxrwx  1 0       0                 2048 Jan  1  1999 CRC/
+-rwxrwxrwx  1 0       0                  769 Jan  1  1999 ManufacturingData.txt 
+-rwxrwxrwx  1 0       0                    9 Jan  1  1999 ManufacturingData.txt.inf 
+-rwxrwxrwx  1 0       0                  101 Jan  1  1999 trace_ssm_boot.log 
+-rwxrwxrwx  1 0       0                    0 Jan  1  1999 MOUNT_SAFE_FLAG.tst 
+-rwxrwxrwx  1 0       0                   12 Sep 13  2018 Harmony.ini 
+-rwxrwxrwx  1 0       0                   39 Jan 15 18:45 SD_regen.inf 
+-rwxrwxrwx  1 0       0                   40 Jan 15 09:06 SD_regen_backup.inf 
+-rwxrwxrwx  1 0       0                  103 Jan  1  1999 StartApp.txt 
+
+Listing Directory CRC:
+drwxrwxrwx  1 0       0                 2048 Jan  1  1999 ./
+drwxrwxrwx  1 0       0                 2048 Jan  1  1999 ../
+-rwxrwxrwx  1 0       0                   16 Jan  1  1999 CRC.INF 
+value = 0 = 0x0
+-> cp "StartApp.txt","/bd0"
+copying file StartApp.txt -> /bd0/StartApp.txt
+value = 0 = 0x0
+-> exit
+Au revoir!
+.

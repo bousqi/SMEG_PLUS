@@ -1,0 +1,202 @@
+......
+-> ......ll
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 spy/
+-rwxrwxrwx  1 0       0                36480 Dec  4  2017 traces.bin 
+-rwxrwxrwx  1 0       0                    0 Jan  1  1999 MOUNT_SAFE_FLAG.tst 
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 user_data/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 qtembedded-0/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 picture_cache/
+drwxrwxrwx  1 0       0                 4096 Jan  1  2007 internet_online/
+-rwxrwxrwx  1 0       0                    8 Jan  1  2007 HarmoniesChecked.tst 
+-rwxrwxrwx  1 0       0                94964 Jan 18 08:46 cover_art_mp3_z0 
+value = 0 = 0x0
+-> cd ","/bd0/"???. .. .. .. .. .. .. .. .. .. .. .
+0x002acecc vxTaskEntry  +0x48 : 0x004c839c ()
+0x004c839c shellTask    +0x4f8: shellExec ()
+0x004c7d00 shellExec    +0x80 : 0x004c5a14 ()
+0x004c5a78 shellTaskDefaultBaseNameGet+0x42c: ledRead ()
+0x004af930 ledRead      +0x9c : 0x004cf6d8 ()
+0x004cf898 viLedLibInit +0x1e4: read ()
+0x00490048 close        +0xc8 : 0x00491e4c ()
+0x00491e94 iosRead      +0x4c : 0x00495b3c ()
+0x00495b88 ptyDevRemove +0x264: tyRead ()
+0x00497a84 tyRead       +0x28 : semTake ()
+0x0058409c semTake      +0xbc : semBTake ()
+
+Shell task 'tShellRem111185800' restarted...
+
+-> stty erase ^H
+"erase" is overloaded - Please select:
+    1: std::_Tree
+    2: std::_Tree
+Enter <number> to select, anything else to stop: 1.. .
+C interp: unknown symbol name 'stty'.
+-> cd "/SYSTEM_TMP_DATA/spy/"
+value = 0 = 0x0
+-> ll
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 13 10:59 UPG/
+-rwxrwxrwx  1 0       0                 3689 Jan 15 18:45 log_error.txt 
+-rwxrwxrwx  1 0       0                12044 Jan  1  1999 reboot.txt 
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 SELF/
+drwxrwxrwx  1 0       0                 4096 Jan 10 21:22 TAR/
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 Log_error/
+value = 0 = 0x0
+-> ll ?r. .. .. .r
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ./
+drwxrwxrwx  1 0       0                 4096 Jan  1  1999 ../
+drwxrwxrwx  1 0       0                 4096 Jan 13 10:59 UPG/
+-rwxrwxrwx  1 0       0                 3689 Jan 15 18:45 log_error.txt 
+-rwxrwxrwx  1 0       0                12044 Jan  1  1999 reboot.txt 
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 SELF/
+drwxrwxrwx  1 0       0                 4096 Jan 10 21:22 TAR/
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 Log_error/
+
+Listing Directory UPG:
+drwxrwxrwx  1 0       0                 4096 Jan 13 10:59 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0                  612 Jan  1  2007 UPG_log.txt 
+-rwxrwxrwx  1 0       0               962635 Jan  1  1999 UPG_log.txt_1 
+-rwxrwxrwx  1 0       0                 1267 Jan 13 10:59 UPG_history.txt 
+-rwxrwxrwx  1 0       0                 8476 Jan 13 10:59 UPG_ZAR_log.txt_1 
+-rwxrwxrwx  1 0       0                 6165 Dec 31  2018 UPG_ZAR_log.txt_2 
+-rwxrwxrwx  1 0       0                 6165 Sep 16  2018 UPG_ZAR_log.txt_3 
+
+Listing Directory SELF:
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+drwxrwxrwx  1 0       0                 4096 Oct 21  2018 18702/
+
+Listing Directory SELF/18702:
+drwxrwxrwx  1 0       0                 4096 Oct 21  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 23  2018 ../
+-rwxrwxrwx  1 0       0                  132 Aug 23  2018 01_201808230852.bin.gz 
+-rwxrwxrwx  1 0       0                  132 Aug 23  2018 02_201808230915.bin.gz 
+-rwxrwxrwx  1 0       0                  140 Aug 27  2018 03_201808271831.bin.gz 
+-rwxrwxrwx  1 0       0                  131 Sep  2  2018 04_201809021133.bin.gz 
+-rwxrwxrwx  1 0       0                  131 Oct 21  2018 05_201810211036.bin.gz 
+
+Listing Directory TAR:
+drwxrwxrwx  1 0       0                 4096 Jan 10 21:22 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0               720220 Aug 28  2018 01_201808281754-USER.tar.gz 
+-rwxrwxrwx  1 0       0               660186 Jan 10 21:22 02_201901102123-USER.tar.gz 
+
+Listing Directory Log_error:
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ./
+drwxrwxrwx  1 0       0                 4096 Aug 28  2018 ../
+-rwxrwxrwx  1 0       0                 4715 Aug 28  2018 01_201808281754.txt.gz 
+value = 0 = 0x0
+-> 0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device remove notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - /bd0 has been unmounted
+0x7ed0040 (BusM A): INFO: usb2Msc - Storage driver got a device attach notification.
+0x7ed0040 (BusM A): INFO: usb2Msc - Mounting device (PDT 0x0 PQ 0x0 RMB 0x1) VID = Multiple : PID = Card  Reader     : REV = 1.00
+0x7ed0040 (BusM A): INFO: usb2Msc - Device 0x3 LUN 0 of 3864576 (KB) will be mounted with base name /bd0
+0x7ed0040 (BusM A): usb2MscXbdMount: mediumPresent TRUE
+0x7eb4530 (tErfTask): INFO: usb2Msc - Device /bd0 has been claimed by filesystem
+0x84af6e0 (tUsb2FsAppNotifierTask): USB2FS_NOTIFY : DEVICE /bd0 READY
+0x11e1c6a8 (tBootRomInterruptBootTask): BootRomInterruptBootTask searching on device /bd0
+0x11e1c6a8 (tBootRomInterruptBootTask): BootRomInterruptBootTask start
+0x4759c90 (BCM_UPGRADE): 349819 - (C_UPG_PLUGIN_Interface) Constructor : init of attributes 
+349822 - (C_ZAR_UPG_PLUGIN) << Start of LOGS >>
+0x4759c90 (BCM_UPGRADE): Create Log file '/SYSTEM_TMP_DATA/spy/UPG/UPG_ZAR_log.txt'
+
+
+
+*************************************
+*************************************
+(C_ZAR_UPGRADE_PLUGIN) Date : 2019/01/20
+(C_ZAR_UPGRADE_PLUGIN) Time : 20:18
+(C_ZAR_UPGRADE_PLUGIN) SubVersion of Plugin : ZAR_UMZ_4.5.8
+*************************************
+*************************************
+349842 - (C_ZAR_UPG_PLUGIN) GetVersionOfInterface : 6
+349844 - (C_ZAR_UPG_PLUGIN) GetVersionOfPlugin : 100
+349844 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+349845 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+349846 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+349847 - (C_BCM_UPGRADE) << CheckTrustedSource + >>
+350281 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/SMEG_PLUS_UPG/upgplugin.out' 
+350282 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+350282 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 1809204570 
+350496 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE1/ZAR_POI.BIN' 
+350497 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+350497 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 1855364445 
+350712 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE1/ZAR_POI.BIN.inf' 
+350712 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+350713 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 204573625 
+350926 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE2/ZAR_POI.BIN' 
+350927 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+350927 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 3123814414 
+351142 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : File path is '/DATA/BASE2/ZAR_POI.BIN.inf' 
+351143 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : Check type is 2 
+351143 - 	(C_BCM_UPGRADE) CheckTrustedSourcetype : value_to_check is 4252614933 
+Size of (/bd0//SMEG_PLUS_UPG/upgplugin.out) = 164539
+Size of (/bd0//DATA/BASE1/ZAR_POI.BIN) = 1506026
+Size of (/bd0//DATA/BASE1/ZAR_POI.BIN.inf) = 216
+Size of (/bd0//DATA/BASE2/ZAR_POI.BIN) = 1502061
+Size of (/bd0//DATA/BASE2/ZAR_POI.BIN.inf) = 216
+351464 - (C_BCM_UPGRADE) << CheckTrustedSource - >>
+351468 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+351469 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+351470 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+ ==================  STEP 1  ===================
+                 CHECK COMPATIBILITY 
+ ===============================================
+check Proto type 'AudioBT' or 'NAV'
+	This is a 'NAV' Proto!
+GetMediaInfosFromUSBkey() Get Media Info From USB Key! 
+	MEDIA_NAME: MM_ZAR_2018_12_cat6
+	CONTINENT_ID: 01
+	VERSION: 20181203
+	CONTINENT_NAME: EUROPE
+	POI_PROVIDER: PSA
+Check Symbols : 
+	BCM_NAV_BUILD_DEST symbol  : OK
+	StopUpgrade symbol  : OK
+	StartUpgrade symbol  : OK
+	RemovePOIForUpgrade symbol  : OK
+	unlockSD symbol  : OK
+	SetMediaContinentID symbol  : OK
+	SetMediaContinentID with param symbol  : OK
+Check RADAR activation status : 
+	Radar status activated  : OK
+Continent Upgrade Is Authorised?
+351498 - (C_UPG_PLUGIN_Interface) << GetInstalledContinent + >>
+	Continents are the same on media: 1 = 1
+	SetMediaContinentID(t_continent_id) address found!
+351501 - (C_BCM_UPGRADE) << SetMediaContinentID + >>
+351502 - (C_BCM_UPGRADE) SetMediaContinentID : m_media_installed_continent = 112485948
+351504 - (C_BCM_UPGRADE) << SetMediaContinentID - >>
+Check Version
+ZAR_POI.BIN.inf path : /sdhc:0/MAPPE/POI_USER/ZAR_POI.BIN.inf
+Check if ZAR_POI.BIN.inf Is present? 
+	ZAR_POI.BIN.inf IS FOUND!
+	Installed VERSION: 20181105
+	Installed Version= 20181105; upgrade version= 20181203
+Check Size
+	Available space :'1211727872' 
+351517 - (C_UPG_PLUGIN_Interface) <<GetCIDSize + >>
+	m_plugin_partition_block_size = 32768
+	plugin Size [CID_SIZE_32] = 2621440
+	plugin Size as double = 0.000000
+	ZAR Size :0.000000 
+	UPGRADE CAN BE LAUNCHED!
+CHECK COMPATIBILITY TASK SUCCEED 
+ Go on Step 2
+0x6b5d040 (UPG_Plug): 351525 - (C_UPG_PLUGIN_Interface) << StaticCheckCompatibilityTask : l_upgrade_state = 3 >>
+351532 - (C_ZAR_UPG_PLUGIN) UpgradeType : 65541
+351533 - (C_BCM_UPGRADE) << GetUpgradeTypeName + >>
+351534 - (C_BCM_UPGRADE) << GetUpgradeTypeName - >>
+351535 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos + >>
+351536 - (C_ZAR_UPG_PLUGIN) << SetIndexOfInfos - >>
+351537 - (C_ZAR_UPG_PLUGIN) GetVersionOfData : 112581442
+351538 - (C_ZAR_UPG_PLUGIN) GetOldSizeOfData : 0
+351538 - (C_ZAR_UPG_PLUGIN) GetSizeOfData : 1
+351540 - (C_ZAR_UPG_PLUGIN) <GetIdentifier + >
+351541 - (C_ZAR_UPG_PLUGIN) <GetIdentifier - >
+0x11e95b58 (UPG_Plug): 358627 - (C_UPG_PLUGIN_Interface) << StaticCheckMediaTask : Key still pluged >>
+ ==================  STEP 2  ===================
+                  CHECK MEDIA 
+ ===============================================
