@@ -1,0 +1,225 @@
+flasher.crc:
+	4 octets binary file containing the CRC32 in "raw" form (not text) of
+	the flasher.inf file in the same folder.
+
+flasher.inf:
+	Each line:
+	- Paths to some image
+	- Unknown (flags ?)
+	- CRC32 of the image
+
+One line *.inf:
+	- line 1: CRC32 represented as signed decimal number.
+	          To obtain the binary CRC32, convert the decimal value to its
+		  binary two's complement 32 bits representation.
+
+*.inf with CRC32 and SIZE, SIZE_1, SIZE_2, etc...:
+	The the corresponding .bin file should normally be a simple .tar.gz.
+	- line 1: CRC32 in same format as above.
+	- line "SIZE:": sum of the exact true size of all the files in the
+			decompressed and extracted .tar.gz. "Exact true size"
+			means that space wasted by unused left space at end of
+			cluster(s) is not accounted for.
+	- lines "SIZE_X": sum of the real occupied space on disk of all the
+			  files on a filesystem with X Kio clusters.
+	Beware, in .tar.gz with subfolders, the "size" of the subfolders
+	(often 4096 octets) are never accounted for in the SIZEs. You can use
+	the following command to find the true real size (SIZE) of files in a
+	directory:
+		find dir/ -type f -print0 | du -b -c --files0-from=-
+	The last line of output give the SIZE.
+
+Others *.inf:
+	- line 1: first 4 hexadecimal characters, CRC16 of the .inf excepted
+	          theses 4 characters. Following 4 hex chars, CRC16 of the
+		  corresponding binary file. The CRC16 seems to be custom,
+		  see below.
+	- Others lines: metadata about the corresponding .bin file.
+		* TYPE:RELOCATABLE, relocatable ELF
+		* ENTRY:YES, the ELF is an executable program
+		* ENTRY:NO, the ELF is a library.
+	The CRC-16 seems to be a custom one, see
+http://www.planete-citroen.com/forum/showthread.php?152326-Ing%C3%A9nierie-inverse-du-RT6
+	for the C source code of a program that compute this CRC-16.
+
+upgrade.out:
+	ELF file, updater seems to be executed by the vxWorks kernel to update
+	firmware. String "/bd0/SMEG_PLUS_UPG/upgrade.out" and
+	"/bd0/SMEG_UPG/upgrade.out" in vxWorks.bin.
+	-> Does the vxWorks kernel in the flash execute upgrade.out or does
+	U-Boot load the vxWorks.bin image from the USB ?
+
+upgrade_lib.out:
+	- Flash FX Pro, NAND flash driver library.
+	- Used by upgrade.out
+
+dbsystem.bin:
+	- All values seems to be Big Endian.
+	* offset 0x0, 4 octets: flags ? -> same value as unkown flasher.inf 
+				line value.
+	* offset 0x4, 4 octets: size of vxWorks.bin
+	* offset 0x8, 4 octets: CRC32 of vxWorks.bin
+	* Others: all 0x0 unknown, padding ?
+	* offset 0x24, 4 octets: CRC32 of the file (dbsystem.bin) without
+	                         theses 4 octets, i.e. CRC32 of the first 36
+				 octets.
+
+*ctrl.bin:
+	- 48 octets header followed by 264 octets entries, then a CRC32.
+	Header 48 octets:
+	* offset 0x0, 10 octets: ASCII date
+	* offset 0x0A: end of string indicator ?
+	* offset 0x0B: padding ?
+	* offset 0x0C: ACSII version
+	* others: all 0x0 unkown
+	* offset 0x2C: part of the number of entry ?
+	* offset 0x2D: part of the number of entry ?
+	* offset 0x2E, 2 octets: entry count
+
+	Each entry, 264 octets:
+	* offset 0x0: ASCII string, filename of a firmware file.
+	* others: all 0x0, room for longer strings + unknown
+	* offset 0x100, 3 bytes: part of the group of the next offset ?
+	* 0x103: Check value type.
+		~ 0x0: No check, check value ignored
+		~ 0x1: size of the file (used for instance for ctrl.bin)
+		~ 0x2: CRC32
+		~ 0x3: (custom ?) CRC16, the CRC16 is interpreted as signed 16
+		       bits number and then sign-extended to 32 bits to form
+		       the check value.
+	* 0x104, 4 octets: Check value (i.e., crc32, size, crc16) for the
+			   named file
+
+	Footer 4 octets:
+	* CRC32 of the entire file without theses 4 octets.
+
+ctrl.bin:
+	- contains itself as an entry with CheckType 0x1 and its size as check
+	  value.
+
+*.bin:
+	Some .bin file are indeed just normal .tar.gz files and be can be
+	opened by changing their extensions.
+
+BIG_HARMONY.bin:
+	Custom archive format containing severals HARMONY.bin.gz
+	(For BIGHARMONY struct version 01.00.00.b)
+	- Seems to be divided in 2Kio block.
+	- offset 0x0: BIGHARMONY in ASCII, magic number
+	- between: all 0x0, padding to 2Kio ?
+	- offset 0x800 (2048): header start
+		* Length/size of header determined by BIG_HARMONY.bin.inf
+	- between: all 0x0, padding to 2Kio ?
+	- offset 0x1000 (4096): data start, contains several files padded to a
+				2Kio boundary and then concatenated together.
+	Header (36 octets):
+		* offset 0x0, length max 32 ?: version of the file ?
+		* offset 0x20, 0x21, 0x22: part of the entry count ?
+		* offset 0x23: entry count
+	Header entry (216 octets):
+		Each header entry refer to one files inside the data section.
+		* offset 0x0, probably 100 octets: ASCII string, name ?
+			content ?
+		* offset 0x64, at least 2 octets, max 32 ?: unknown, seems to
+			always be 0x3130. ASCII string ?
+		* offset 0x84, probably 32 octets: version in ASCII.
+		* offset 0x0A4, probably 32 octets: filename of the Harmony in
+			ASCII.
+		* offset 0x0C4, 4 octets: unknown
+		* offset 0x0C8, 4 octets: Harmony ID
+		* offset 0x0CC, 4 octets: offset in 2Kio block,
+			file octet offset = 2 Kio offset * 2048
+		* offset 0x0D0, 4 octets: size in octet
+		* offset 0x0D4, 4 octets: CRC32 of data represented by this
+				          header.
+
+BIG_HARMONY.bin.inf:
+	- line 1: first 4 hexadecimal characters, CRC16 of the .inf excepted
+	          theses 4 characters. Following 4 hex chars, CRC16 of the
+		  corresponding binary file.
+	- line 2: BigHarmony name, then a ":", then a list separated by ";" of
+		  the Harmony ID contained in the BigHarmony.
+	- line 3: version
+	- line 4: size of the header starting at offset 0x800 in the
+	          corresponding BIG_HARMONY.bin.
+	- line 5: CRC32 of the header just mentioned.
+	- line 6: version of the BigHarmony file format used in the
+	          corresponding BIG_HARMONY.bin.
+
+f_BigQuick.bin:
+	Header (2Kio): list of 32 octets entry
+	Header entry (32 octets):
+	- offset 0x0, 4 octets:
+		* first entry: 0x00010004, unknown
+		* second entry: offset in 2Kio block starting at 0x800,
+				file offset = (2 Kio offset + 1) * 2048
+	- offset 0x4, 4 octets: uncompressed size.
+	- offset 0x14, 4 octets: data size
+	- offset 0x1C, 4 octets: seemingly not used, always 0xDEADBEEF, padding?
+	- others offset: unknown, seems to all be some king of sizes.
+
+USERGUIDE directory:
+	- contains files of built-in user's manual of the car. The manual is
+	  in HTML/CSS/JavaScript and is probably viewed with the built-in
+	  browser of the SMEG+i (V1).
+	- AUDIO_BT subfolder: userguides for cars without GPS.
+	- NAV subfolder: userguides for cars with GPS.
+	- Car codes:
+		A94: Peugeot 2008
+		A901: Peugeot 208, BEWARE ! Some 208 have a SMEG and not a
+		      SMEG+i.
+		B7: Citroën C4 II Phase 2 ?, corresponding files not present.
+		B78: Citroën C4 Picasso
+		E3: Citroën C4 Cactus
+		T9: Peugeot 308
+		W2: Peugeot 508 ?, corresponding files not present.
+	- *userguide.ini:
+		* syntax described in userguide.ini
+		* "//": comment
+	- *.rcc: Qt external binary resource files, can be extracted with
+	  some russian modified rcc.exe (
+http://forum.vingrad.ru/s/7ed8057d7c2e92b23f6019ca14e16986/act-Attach/type/post/id-2333788.html
+	  you must be registered on the site to view this page)
+	  If you can no longer find the modified rcc.exe simply make your own
+	  Qt application that use the QRessource API to load
+	  (registerResource(...)) the .rcc file and extract the files within.
+	  The *.rcc files contains HTML/CSS, images, and json files.
+	- This features could be used to make simple (but safe) homebrew 
+	  application for the SMEG+i by putting custom HTML/CSS/JavaScript
+	  files in a .rcc file and flashing this custom .rcc files in the
+	  SMEG+i. The homebrew(s) can then be launched by opening the
+	  userguide on the SMEG+i.
+
+AUDIO_BT(_256) directory:
+	contains files specific to the SMEG+i without GPS support.
+
+NAV directory:
+	contains files specific to the SMEG+i with GPS support.
+
+BSP directory:
+	Board Support Package, contains the firmware proper: VxWorks 6.7 and
+	drivers. May also contains RTP applications in an embedded ROMFS.
+
+Random remarks:
+	- There exists a leaked Hardware Technical Specification for the SMEG+i
+	  V1, it can be found easily in the WWW. It gives information about the
+	  the SMEG+i hardware (CPU used, etc...).
+	- *_256 files/directories: from a leaked SMEG+i Hardware Technical
+	  specification, it seems there are 512 MiB RAM/Flash and 256 MiB
+	  RAM/Flash version of the SMEG+i. Maybe PSA is using the two flavors. 
+	  Files ending in _256 or contained in directories ending in _256 may
+	  be targeted at the 256 MiB version.
+	- Audio BT (Bluetooth?): car without (software?) GPS support.
+	- NAV: car with GPS support.
+	- SMEG+i NAV are never _256 variant, therefore they seems to have
+	  512 Mib RAM and Flash.
+	- A least some part of the firmware are probaly made in C++ using Qt.
+	- The CRC-32 is the CRC32 with polynom 0x04C11DB7 used in ISO 3309,
+	  PKZIP, ITU-T V.42 (and many others places). The program crc32 in
+	  package perl-archive-zip (Arch Linux) can be used to compute this
+	  CRC32.
+	- One could probably make a custom program/ELF targeted at VxWorks 6.7
+	  for PowerPC e300 processors and put this program on an USB key at the
+	  path SMEG_PLUS_UPG/upgrade.out. This way the custom program should
+	  execute with sufficient rights to dump the NAND of the SMEG+i. Maybe
+	  Flash FX Pro (upgrade_lib.out) could be used for this purpose.

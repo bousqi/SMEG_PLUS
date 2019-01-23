@@ -1,0 +1,2 @@
+- Add the following in the VxWorks login script:
+stty erase ^H
