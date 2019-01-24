@@ -14,6 +14,9 @@ Thanks to @MWyann that developped a RaspberryPi USB key that acts as a connected
     Boot line:
     usb(0,0)host:vxWorks h=192.168.10.2 e=192.168.10.1 u=5121 pw=5121 f=0x0 tn=DB600
 
+Board reference on WindRiver<br>
+https://marketplace.windriver.com/index.php?bsp&on=details&bsp=6901
+
 ## Links
 
 - https://www.forum-peugeot.com/Forum/threads/rooter-le-smeg.9541
