@@ -17,6 +17,9 @@ Thanks to @MWyann that developped a RaspberryPi USB key that acts as a connected
 Board reference on WindRiver<br>
 https://marketplace.windriver.com/index.php?bsp&on=details&bsp=6901
 
+MCU reference on NXP<br>
+https://www.nxp.com/products/processors-and-microcontrollers/power-architecture-processors/mpc5xxx-55xx-32-bit-mcus/mobilegt-51xx-52xx/32-bit-power-architecture-microcontrollers:MPC5121e
+
 ## Links
 
 - https://www.forum-peugeot.com/Forum/threads/rooter-le-smeg.9541
