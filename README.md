@@ -22,6 +22,22 @@ https://marketplace.windriver.com/index.php?bsp&on=details&bsp=6901
 MCU reference on NXP<br>
 https://www.nxp.com/products/processors-and-microcontrollers/power-architecture-processors/mpc5xxx-55xx-32-bit-mcus/mobilegt-51xx-52xx/32-bit-power-architecture-microcontrollers:MPC5121e
 
+## SMEG Partitions
+
+Type | Device Name         | Usage
+---: | ------------------- | ---
+   7 | /romfs              | vxWorks itself (in NAND) ?
+   3 | /ram                | RAM
+   3 | /sdhc:0             | Cartographie GPS
+   3 | /sdhc:1             | User Guide
+   3 | /bd0                | USB Mass Storage device
+   3 | /SYSTEM             | NAND Flash ?
+   3 | /SYSTEM_DATA        | NAND Flash ?
+   3 | /SYSTEM_TMP_DATA    | NAND Flash ?
+   3 | /USER_DATA          | NAND Flash ?
+   3 | /USER_DATA_BACKUP   | NAND Flash ?
+   3 | /EXTENDED_PARTITION |
+
 ## SMEG Firmware
 
 SMEG relies on vxWorks binary.
