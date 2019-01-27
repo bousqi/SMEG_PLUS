@@ -24,30 +24,64 @@ https://www.nxp.com/products/processors-and-microcontrollers/power-architecture-
 
 ## SMEG Partitions
 
-Type | Device Name         | Usage
----: | ------------------- | ---
-   7 | /romfs              | vxWorks itself (in NAND) ?
-   3 | /ram                | RAM
-   3 | /sdhc:0             | Cartographie GPS
-   3 | /sdhc:1             | User Guide
-   3 | /bd0                | USB Mass Storage device
-   3 | /SYSTEM             | NAND Flash ?
-   3 | /SYSTEM_DATA        | NAND Flash ?
-   3 | /SYSTEM_TMP_DATA    | NAND Flash ?
-   3 | /USER_DATA          | NAND Flash ?
-   3 | /USER_DATA_BACKUP   | NAND Flash ?
+Type | Device Name         | Usage             | Contents
+---: | ------------------- | ----------------- | -------------
+   7 | /romfs              | Internal NAND     | Debug binaries for audio & scheduler.bin
+   3 | /ram                | RAM               | Contains config files, but not readable from telnet
+   3 | /sdhc:0             | Internal µSD      | Cartographie GPS + Cheat Codes x3 + TTS
+   3 | /sdhc:1             | Internal µSD      | User Guide
+   3 | /bd0                | USB Mass Storage  | 
+   3 | /SYSTEM             | Internal NAND ?   | 
+   3 | /SYSTEM_DATA        | Internal NAND ?   | 
+   3 | /SYSTEM_TMP_DATA    | Internal NAND ?   | 
+   3 | /USER_DATA          | Internal NAND ?   | 
+   3 | /USER_DATA_BACKUP   | Internal NAND ?   | 
    3 | /EXTENDED_PARTITION |
 
 ## SMEG Firmware
 
-SMEG relies on vxWorks binary.
+SMEG relies on U-Boot and vxWorks softwares.
+
+### U-Boot
+
+    To Fill : U-Boot version
+This software part is stored in NAND Flash out of any filesystem at location 0x????????<br>
+For updates, this binary is located in "TBD", with a filename **u-boot-nand.bin**<br>
 
 ### vxWorks
 
     VxWorks (for Freescale MPC5121E ADS (Rev 0.1)) version 6.7.
-This binary is located in "TBD" in a file named **vxWorks.bin**<br>
+This software part is stored in NAND Flash out of any filesystem at location 0x200000<br>
+For updates, this binary is located in "TBD", with a filename **vxWorks.bin**<br>
 <br>
-Base address for this binary is 0x200000 (helps getting a correct dissasembly)
+One interesting command "**d**" allows to display memory 
+
+	-> d 0x200000
+	NOTE: memory values are displayed in hexadecimal.
+	0x00200000:  9421 ffe0 7c08 02a6 9001 0024 93e1 001c  *.!..|......$....*
+	0x00200010:  7c3f 0b78 907f 0008 807f 0008 4801 a445  *|?.x........H..E*
+	0x00200020:  8161 0000 800b 0004 7c08 03a6 83eb fffc  *.a......|.......*
+	0x00200030:  7d61 5b78 4e80 0020 7c67 1b78 7c63 1a78  *}a[xN.. |g.x|c.x*
+	0x00200040:  7c00 04ac 7c60 0124 4c00 012c 7c70 43a6  *|...|`.$L..,|pC.*
+	0x00200050:  7c71 43a6 7c72 43a6 7c73 43a6 4c00 012c  *|qC.|rC.|sC.L..,*
+	0x00200060:  7c60 01a4 4c00 012c 7c61 01a4 4c00 012c  *|`..L..,|a..L..,*
+	0x00200070:  7c62 01a4 4c00 012c 7c63 01a4 4c00 012c  *|b..L..,|c..L..,*
+
+When comparing with **vxWorks.bin** file contents :
+
+	0000h: 94 21 FF E0 7C 08 02 A6 90 01 00 24 93 E1 00 1C  
+	0010h: 7C 3F 0B 78 90 7F 00 08 80 7F 00 08 48 01 A4 45 
+
+vxWorks allows direct read to NAND Flash.
+
+----------------
+
+Another vxWorks **lkup** allows to find all symbols with there associated address
+
+	-> lkup "UBoot"
+	UBootVersionShow          0x0024727c text     
+	getUBootVersion           0x00246fe8 text     
+	g_UBootVersion            0x007a14a8 data     
 
 ### Upgrade Process
 

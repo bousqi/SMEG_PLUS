@@ -1,0 +1,11 @@
+/romfs/. 
+/romfs/.. 
+/romfs/axe 
+/romfs/axe/. 
+/romfs/axe/.. 
+/romfs/axe/scheduler.bin 
+/romfs/axe/debug_wmadec.bin 
+/romfs/axe/debug_sarco.bin 
+/romfs/axe/debug_ovdec.bin 
+/romfs/axe/debug_mp3dec.bin 
+/romfs/axe/debug_aacdec.bin 
