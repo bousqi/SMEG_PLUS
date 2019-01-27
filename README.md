@@ -109,6 +109,8 @@ These steps have not yet been analysed, however a simple string dump is verbose 
 **TODO : associate picture of the update to these phases**
 
 ---------------
+Phase 0: 
+![alt text](./pictures/IMG_20171104_092450.jpg "Phase 0")
 
 	.text:00151F04  aPhase0:        .string "Phase 0"    
 	.text:00151F0C aFormatingSyste:.string "Formating /SYSTEM, Then saving spy on /SYSTEM"
@@ -174,6 +176,8 @@ These steps have not yet been analysed, however a simple string dump is verbose 
 	.text:00152574 aManageSystemDa:.string "Manage /SYSTEM/Data_base in developer mode"
 
 ---------------
+Phase 3: 
+![alt text](./pictures/IMG_20171104_092525.jpg "Phase 3")
 
 	.text:001525A0 aPhase3:        .string "Phase 3"    
 	.text:001525A8 aManageSystem_0:.string "Manage /SYSTEM/ in developer mode"
@@ -194,6 +198,12 @@ These steps have not yet been analysed, however a simple string dump is verbose 
 	.text:0015272C aPhase4:        .string "Phase 4"    
 	.text:00152734 aConfigDbusSess:.string "/config/dbus/session.conf"
 	.text:00152750 aSystemConfigDb:.string "/SYSTEM/config/dbus/session.conf"
+
+---------------
+
+Phase 5: 
+![alt text](./pictures/IMG_20171104_092808.jpg "Phase 5")
+
 	.text:00152774 aPhase5:        .string "Phase 5"    
 	.text:0015277C a16GbMsdManages:.string "16 Gb mSD : ManageSDMultiPartitions"
 	.text:001527A0 a8GbMsdManage_1:.string "8 Gb mSD : ManageSD_8GB"
@@ -227,6 +237,9 @@ These steps have not yet been analysed, however a simple string dump is verbose 
 	.text:00152A94 aDeviceSdCapa_0:.string "<< Device SD capacity unknown !! >>"
 
 ---------------
+
+Phase 6: 
+![alt text](./pictures/IMG_20171104_093604.jpg "Phase 6")
 
 	.text:00152AB8 aPhase6:        .string "Phase 6"    
 	.text:00152AC0 aSmeg_inf:      .string "/smeg.inf"  
