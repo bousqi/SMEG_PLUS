@@ -24,19 +24,19 @@ https://www.nxp.com/products/processors-and-microcontrollers/power-architecture-
 
 ## SMEG Partitions
 
-Type | Device Name         | Usage             | Contents
----: | ------------------- | ----------------- | -------------
-   7 | /romfs              | Internal NAND     | Debug binaries for audio & scheduler.bin
-   3 | /ram                | RAM               | Contains config files, but not readable from telnet
-   3 | /sdhc:0             | Internal µSD      | Cartographie GPS + Cheat Codes x3 + TTS
-   3 | /sdhc:1             | Internal µSD      | User Guide
-   3 | /bd0                | USB Mass Storage  | 
-   3 | /SYSTEM             | Internal NAND ?   | 
-   3 | /SYSTEM_DATA        | Internal NAND ?   | 
-   3 | /SYSTEM_TMP_DATA    | Internal NAND ?   | 
-   3 | /USER_DATA          | Internal NAND ?   | 
-   3 | /USER_DATA_BACKUP   | Internal NAND ?   | 
-   3 | /EXTENDED_PARTITION |
+Type | Device Name                                           | Usage             | Contents
+---: | ----------------------------------------------------- | ----------------- | -------------
+   7 | [/romfs](./tree_dump/romfs.txt)                       | Internal NAND     | Debug binaries for audio & scheduler.bin
+   3 | /ram                                                  | RAM               | Contains config files, but not readable from telnet
+   3 | [/sdhc:0](./tree_dump/sdhc_0.txt)                     | Internal µSD      | Cartographie GPS + Cheat Codes x3 + TTS
+   3 | [/sdhc:1](./tree_dump/sdhc_1.txt)                     | Internal µSD      | User Guide
+   3 | /bd0                                                  | USB Mass Storage  | 
+   3 | [/SYSTEM](./tree_dump/system.txt)                     | Internal NAND ?   | 
+   3 | /SYSTEM_DATA                                          | Internal NAND ?   | 
+   3 | [/SYSTEM_TMP_DATA](./tree_dump/system_tmp_data.txt)   | Internal NAND ?   | 
+   3 | [/USER_DATA](./tree_dump/user_data.txt)               | Internal NAND ?   | 
+   3 | [/USER_DATA_BACKUP](./tree_dump/user_data_backup.txt) | Internal NAND ?   | 
+   3 | /EXTENDED_PARTITION                                   |
 
 ## SMEG Firmware
 
