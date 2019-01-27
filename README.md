@@ -45,7 +45,9 @@ SMEG relies on vxWorks binary.
 ### vxWorks
 
     VxWorks (for Freescale MPC5121E ADS (Rev 0.1)) version 6.7.
-This binary is located in "TBD" in a file named vxWorks.bin
+This binary is located in "TBD" in a file named **vxWorks.bin**<br>
+<br>
+Base address for this binary is 0x200000 (helps getting a correct dissasembly)
 
 ### Upgrade Process
 
