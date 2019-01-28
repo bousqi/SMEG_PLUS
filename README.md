@@ -54,6 +54,8 @@ For updates, this binary is located in "TBD", with a filename **u-boot-nand.bin*
 This software part is stored in NAND Flash out of any filesystem at location 0x200000<br>
 For updates, this binary is located in "TBD", with a filename **vxWorks.bin**<br>
 <br>
+vxWorks kernel seems to always expect for CDC_EEM devices. Thus any damage performed in file system that would brick SMEG, might be fixable if shell could be reached through CDC_EEM rather than BT Internet sharing (that requires interactions on screen).
+<br>
 One interesting command "**d**" allows to display memory 
 
 	-> d 0x200000
@@ -82,6 +84,8 @@ Another vxWorks **lkup** allows to find all symbols with there associated addres
 	UBootVersionShow          0x0024727c text     
 	getUBootVersion           0x00246fe8 text     
 	g_UBootVersion            0x007a14a8 data     
+
+**vxWorks** disassembly almost complete thanks to full dump of symbols.
 
 ### Upgrade Process
 
