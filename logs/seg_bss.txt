@@ -1,0 +1,1147 @@
+0x008671f0 sysProcNum
+0x008671f4 flashDelayShift
+0x008671f8 flashDelayAdj
+0x00867200 gSdMountStat
+0x00867204 gSdMountTry
+0x00867218 sysSymPhysMemBottom
+0x0086721c edrLibInstalled
+0x00867224 vxfs_ramdisk_init_hook
+0x00867228 ipcom_vxshell_add_cmd_hook
+0x0086722c ipcom_shell_find_cmd_hook
+0x00867230 ipnet_cmd_route_hook
+0x00867234 ipnet_cmd_ifconfig_hook
+0x00867238 ipnet_cmd_qc_hook
+0x0086723c ipcom_forwarder_ipsec_sa_cache_size
+0x00867240 ipcom_forwarder_ipsec_single_output_queue
+0x00867244 ipnet_conf_cache_bufsiz
+0x00867248 ipnet_qc_unif_config_hook
+0x0086724c ipppp_work_once
+0x00867254 netDevBootFlag
+0x00867258 netAttachFlag
+0x00867260 fFxInitStatus
+0x00867264 fFxInitSem
+0x00867268 intStackOverflowProtectErrno
+0x0086726c intStackUnderflowProtectErrno
+0x00867274 g_UsbGen2EndAttachCallback
+0x0086727c usb2WvFilter
+0x00867280 dbgGceLinksysWusb54End
+0x00867288 wdbNumMemRegions
+0x0086728c pWdbMemRegions
+0x00867290 wdbIsInitialized
+0x008672a8 linkDataSyms
+0x008672c4 kernelPgTblCtx
+0x008672c8 currentPgTbl
+0x008672cc ppcVsidIncrement
+0x00867328 dbgPrintFpp
+0x0086732c dbgPrintDsp
+0x00867330 dbgPrintSimd
+0x00867348 vxdbgLockUnbreakable
+0x0086734c vxdbgSafeUnbreakable
+0x00867350 vxdbgUnbreakableOld
+0x00867358 mmuGlobalTransTbl
+0x0086735c aimMmuContextTbl
+0x00867360 aimMmuNullRegionTbl
+0x00867364 aimMmuNullPageTbl
+0x0086739c CCI_APP_PROVIDER_ID
+0x008673a0 CCI_DEF_PROVIDER_ID
+0x008673a4 cci_default_rng_seed_functptr
+0x008673a8 _ginstanceCtx
+0x008673ac _gInternalPoolSize
+0x008673b0 _gCtxPool
+0x008673b4 _gJobQueueEvent
+0x008673b8 _gJobQueueMtx
+0x008673bc _gTaskPriority
+0x008673c0 _gCCISdOpenProc
+0x008673c4 _gCCISdUnmapDeleteProc
+0x008673c8 _gCCIVmTranslateProc
+0x008673cc _gSharedRegionSize
+0x008673d0 _gHeapMemPartId
+0x008673d4 _gSharedMemId
+0x008673d8 _gPhysicalMemAddr
+0x008673dc _gVirtualMemAddr
+0x008673e0 _gInstanceMemId
+0x008673e4 _gMessageCtxMtx
+0x008673e8 _gRTPSyncSemId
+0x008673ec _gKRNSyncSemId
+0x008673f0 _gKernelRegionId
+0x008673f4 _gRTPCtxMtx
+0x008673f8 _gRTPCtxSemId
+0x00867410 RngBufTAPtoEND
+0x00867414 RxRingBufferDataSize
+0x00867418 SembTAPtoEND
+0x0086741c SembTxRingBuffEmpty
+0x00867420 RngBufENDtoTAP
+0x00867424 SembENDtoTAP
+0x00867428 SemRxRingBufferEmpty
+0x0086742c TxRingBufferDataSize
+0x0086743c defaultVec
+0x0086744c pVDDC
+0x00867450 myBitsPerPixel
+0x00867454 pMibRtn
+0x00867458 _func_end2VxBusConnect
+0x0086745c _func_endEtherAddressForm
+0x00867460 _func_end8023AddressForm
+0x00867464 _func_endEtherPacketDataGet
+0x00867468 _func_endEtherPacketAddrGet
+0x0086746c testsRun
+0x00867470 testsPassed
+0x00867474 gaeTestTasks
+0x00867478 gpcInFileName
+0x0086747c gpcOutFileName
+0x00867480 gpcTaskBinFile
+0x00867484 isAAC
+0x00867488 seekOffset
+0x0086748c err
+0x00867490 giSeek_end_flag
+0x00867494 giSeekStart
+0x00867498 gulBufPlayBytesCnt
+0x0086749c gulBufSkipSize
+0x008674a0 gulBufPlaySize
+0x008674a4 programEntryPoint
+0x008674b0 _unProtoSwIndex
+0x008674b4 uncompSocketList
+0x008674bc erfHandlerDb
+0x008674c0 erfDbCatSem
+0x008674c4 erfCatDefSem
+0x008674c8 erfMaxNumCat
+0x008674ca erfMaxNumType
+0x008674cc erfMaxNumUserCat
+0x008674ce erfMaxNumUserType
+0x008674d0 erfNumUserCatDef
+0x008674d4 erfNumUserTypeDef
+0x008674d8 erfDefaultEventQueue
+0x008674dc erfCatEventQueues
+0x008674e0 ipcom_once_mutex
+0x008674f0 ipcom_h_errno
+0x008674f4 ipcrypto
+0x00867508 _shadow_DES_check_key
+0x00867518 ipcom_conf_max_link_hdr_size
+0x0086751c statusIPP
+0x00867530 iptcp
+0x00867534 applUtilLogSem
+0x00867538 panicSuspend
+0x0086753c portmapdId
+0x0086755c _dosFsNotifyAttachFunc
+0x00867568 nfsAutoClose
+0x00867578 pPartNameHook
+0x0086757c ppGlobalEnviron
+0x00867588 envLibSemId
+0x0086758c errno
+0x00867590 dummyErrno
+0x008675a0 smMemPartShowRtn
+0x008675a4 _func_classListLock
+0x008675a8 _func_classListUnlock
+0x008675ac _func_aimMmuLockRegionsImport
+0x008675b0 _func_consoleOut
+0x008675b4 _func_edrEvt
+0x008675b8 _func_eventReceive
+0x008675bc _func_eventRsrcSend
+0x008675c0 _func_eventSend
+0x008675c4 _func_eventStart
+0x008675c8 _func_eventTerminate
+0x008675cc _func_evtLogPayload
+0x008675d0 _func_evtLogPayloadString
+0x008675d4 _func_evtLogReserveTaskName
+0x008675d8 _func_evtLogSyscall
+0x008675dc pDataCollectorFunctions
+0x008675e0 _func_evtLogCpc
+0x008675e4 _func_excBaseHook
+0x008675e8 _func_excInfoShow
+0x008675ec _func_excIntHook
+0x008675f0 _func_excJobAdd
+0x008675f4 _func_jobExcAdd
+0x008675f8 _func_excPanicHook
+0x008675fc _func_exit
+0x00867600 _func_fastUdpErrorNotify
+0x00867604 _func_fastUdpInput
+0x00867608 _func_fastUdpPortTest
+0x0086760c _func_fioFltFormatRtn
+0x00867610 _func_fioFltScanRtn
+0x00867614 _func_fclose
+0x00867618 _func_ftpLs
+0x0086761c _func_ioGlobalStdGet
+0x00867620 _func_ioTaskStdSet
+0x00867624 _func_iosRtpIoTableSizeGet
+0x00867628 _func_iosRtpIoTableSizeSet
+0x0086762c _func_jobAdd
+0x00867630 _func_jobTaskWorkAdd
+0x00867634 _func_logMsg
+0x00867638 _func_memalign
+0x0086763c _func_signalMmanHook
+0x00867640 _func_netLsByName
+0x00867644 _func_objHandleToObjId
+0x00867648 _func_objOwnerListAdd
+0x0086764c _func_objOwnerListRemove
+0x00867650 _func_objOwnerReclaim
+0x00867654 _func_objOwnerSetBaseInternal
+0x00867658 _func_objOwnerSetInternal
+0x0086765c _func_pgMgrPageAlloc
+0x00867660 _func_pgMgrPageMap
+0x00867664 _func_pgMgrPageFree
+0x00867668 _func_printErr
+0x0086766c _func_loadRtpDeltaBaseAddrApply
+0x00867670 _func_loadRtpSymsPolicyOverride
+0x00867674 _func_pthread_testandset_canceltype
+0x00867678 _func_regsShow
+0x0086767c _func_remCurIdGet
+0x00867680 _func_remCurIdSet
+0x00867684 _func_rtpDelete
+0x00867688 _func_rtpIdVerify
+0x0086768c _func_rtpPause
+0x00867690 _func_rtpSigaction
+0x00867694 _func_rtpSigExcKill
+0x00867698 _func_rtpSigPendDestroy
+0x0086769c _func_rtpSigpending
+0x008676a0 _func_rtpSigPendInit
+0x008676a4 _func_rtpSigPendKill
+0x008676a8 _func_rtpSigprocmask
+0x008676ac _func_rtpSigqueue
+0x008676b0 _func_rtpSigsuspend
+0x008676b4 _func_rtpSigtimedwait
+0x008676b8 _func_rtpSpawn
+0x008676bc _func_rtpTaskKill
+0x008676c0 _func_rtpTaskSigPendKill
+0x008676c4 _func_rtpTaskSigqueue
+0x008676c8 _func_rtpTaskSigBlock
+0x008676cc _func_rtpPreCreateHookAdd
+0x008676d0 _func_rtpPreCreateHookDelete
+0x008676d4 _func_rtpPostCreateHookAdd
+0x008676d8 _func_rtpPostCreateHookDelete
+0x008676dc _func_rtpInitCompleteHookAdd
+0x008676e0 _func_rtpInitCompleteHookDelete
+0x008676e4 _func_rtpDeleteHookAdd
+0x008676e8 _func_rtpDeleteHookDelete
+0x008676ec _func_rtpHandleIdGet
+0x008676f0 _func_rtpShow
+0x008676f4 _func_rtpShlSymbolsRegister
+0x008676f8 _func_rtpShlSymbolsUnregister
+0x008676fc _func_rtpVarAdd
+0x00867700 _func_scMemValidate
+0x00867704 _func_sdUnmapAll
+0x00867708 _func_selPtyAdd
+0x0086770c _func_selPtyDelete
+0x00867710 _func_selTyAdd
+0x00867714 _func_selTyDelete
+0x00867718 _func_selWakeup
+0x0086771c _func_selWakeupAll
+0x00867720 _func_selWakeupListInit
+0x00867724 _func_selWakeupListTerm
+0x00867728 _func_shlRtpDeleteAll
+0x0086772c _func_shlRtpInfoGet
+0x00867730 _func_sigExcKill
+0x00867734 _func_sigeventInit
+0x00867738 _func_sigprocmask
+0x0086773c _func_sigfillset
+0x00867740 _func_sigTimeoutRecalc
+0x00867744 _func_smObjObjShow
+0x00867748 _func_spy
+0x0086774c _func_spyStop
+0x00867750 _func_spyClkStart
+0x00867754 _func_spyClkStop
+0x00867758 _func_spyReport
+0x0086775c _func_spyTask
+0x00867760 _func_symEach
+0x00867764 _func_symFindByName
+0x00867768 _func_symFindByValueAndType
+0x0086776c _func_symFindByValue
+0x00867770 _func_symFindSymbol
+0x00867774 _func_symNameGet
+0x00867778 _func_symRegister
+0x0086777c _func_symTblShutdown
+0x00867780 _func_symValueGet
+0x00867784 _func_symTypeGet
+0x00867788 _func_taskCreateHookAdd
+0x0086778c _func_taskDeleteHookAdd
+0x00867790 _func_taskMemCtxSwitch
+0x00867794 _func_taskStackAlloc
+0x00867798 _func_taskStackFree
+0x0086779c _func_tmrStamp
+0x008677a0 _func_tmrStampLock
+0x008677a4 _func_tmrFreq
+0x008677a8 _func_tmrPeriod
+0x008677ac _func_tmrConnect
+0x008677b0 _func_tmrEnable
+0x008677b4 _func_tmrDisable
+0x008677b8 _func_valloc
+0x008677bc _func_virtSegInfoGet
+0x008677c0 _func_virtExtraMapInfoGet
+0x008677c4 _func_workQDbgTextDump
+0x008677c8 _func_moduleSegInfoGet
+0x008677cc _func_kernelModuleListIdGet
+0x008677d0 _func_moduleIdFigure
+0x008677d4 _func_unldByModuleId
+0x008677d8 _func_taskPxAttrSet
+0x008677dc _func_taskPxAttrCreate
+0x008677e0 _func_taskPxAttrGet
+0x008677e4 _func_windTickAnnounceHook
+0x008677e8 _func_pxCpuTimerStart
+0x008677ec _func_pxCpuTimerDelete
+0x008677f0 _func_pxCpuTimerCancel
+0x008677f4 _func_pxCpuTimerCreate
+0x008677f8 _func_pxSSThreadIntHook
+0x008677fc _func_pxSSThreadStateInit
+0x00867800 _func_vxbIntDynaConnect
+0x00867804 _func_vxbIntDynaVecProgram
+0x00867808 _func_vxbIntDynaVecEnable
+0x0086780c _func_vxbIntDynaVecDisable
+0x00867810 _func_vxbIntDynaVecAlloc
+0x00867814 _func_vxbIntDynaVecOwnerFind
+0x00867818 _func_vxbIntDynaVecDevMultiProgram
+0x0086781c _func_vxbIntDynaCtlrInputInit
+0x00867820 _func_vxbIntConnect
+0x00867824 _func_vxbIntDisconnect
+0x00867828 _func_vxbIntEnable
+0x0086782c _func_vxbIntDisable
+0x00867830 _func_mmuCacheFlushLoadAdrsGet
+0x00867834 _func_coprocShow
+0x00867838 _func_coprocTaskRegsShow
+0x0086783c excExcepHook
+0x00867840 _func_rtpTaskSigCheck
+0x00867844 _func_envGet
+0x00867848 _func_shellExcPrint
+0x0086784c __rta_longjmp
+0x00867850 _func_utf8ToCP
+0x00867854 _func_utf16ToCP
+0x00867858 _func_CPToUtf8
+0x0086785c _func_CPToUtf16
+0x00867860 _func_utflen8
+0x00867864 _func_utflen16
+0x00867868 _func_proofUtf8String
+0x0086786c _func_utf8ToUtf16String
+0x00867870 _func_utf16ToUtf8String
+0x00867874 _func_utf8ToUtf16StringBOM
+0x00867878 _func_utf16ToUtf8StringBOM
+0x0086787c semSmShowRtn
+0x00867880 semSmInfoRtn
+0x00867884 pWvNetEventMap
+0x00867888 _func_vxbPciDevCfgRead
+0x0086788c _func_vxbPciDevCfgWrite
+0x00867890 msgQDistShowRtn
+0x00867894 msgQDistInfoGetRtn
+0x00867898 msgQSmShowRtn
+0x0086789c msgQSmInfoGetRtn
+0x008678a0 _func_wdbIsNowExternal
+0x008678a4 pM2TrapRtn
+0x008678a8 pM2TrapRtnArg
+0x008678ac salEvtRtn
+0x008678b0 isrIdCurrent
+0x008678b4 _func_isrConnect
+0x008678b8 _func_isrDisconnect
+0x008678bc _func_isrCreate
+0x008678c0 _func_isrDispatcher
+0x008678c4 _func_isrInfo
+0x008678c8 _func_isrDelete
+0x008678d4 _func_ownerListLock
+0x008678d8 _func_ownerListUnlock
+0x008678dc _func_handleFreeAll
+0x008678e0 _func_handleAlloc
+0x008678e4 _func_objCoreRelease
+0x008678f8 _func_objNameVerifiedSet
+0x008678fc pRebootHookTbl
+0x00867900 sigEvtRtn
+0x00867908 _pSigQueueFreeHead
+0x00867910 vxCpuSetReserved
+0x00867914 iosDvList
+0x0086791c iosMaxDrivers
+0x00867920 drvTable
+0x00867924 iosMaxFiles
+0x00867928 iosFdTable
+0x0086792c _func_iosPathFdEntryIoctl
+0x00867930 _func_iosPosixFdEntryIoctl
+0x00867934 pIosRemovableDevDrv
+0x00867938 pIosSuspendedDevDrv
+0x0086793c pIosFdEntrySetRtn
+0x00867944 pNullFd
+0x0086795c edrRootTaskInfo
+0x00867970 mmuInvalidState
+0x00867974 mmuProtStateTransTbl
+0x00867978 mmuCacheStateTransTbl
+0x0086797c mmuValidStateTransTbl
+0x00867980 mmuMaskTransTbl
+0x0086798c sysctlCtxList
+0x00867994 sysctl__children
+0x00867998 spyTotalTicks
+0x0086799c spyIncTicks
+0x008679a0 spyKernelTotalTicks
+0x008679a4 spyInterruptTotalTicks
+0x008679a8 spyIdleTotalTicks
+0x008679ac spyCpuTbl
+0x008679d4 pLoaderHooksCall
+0x008679d8 kernelModuleListId
+0x008679dc pUnloaderHooksCall
+0x008679e0 shellInterpCleng
+0x008679f0 shellInterpCtext
+0x00867a34 _pthread_setcanceltype
+0x00867a48 rBuffShowRtn
+0x00867a4c optarg
+0x00867a50 optopt
+0x00867a54 optreset
+0x00867a5c pmaplist
+0x00867a60 linksyswusb54Handle
+0x00867a64 linksyswusb54NodeID
+0x00867a68 linksyswusb54Mutex
+0x00867a6c linksyswusb54DevList
+0x00867a70 reqList
+0x00867a74 gsmEventQueue
+0x00867a7c ossMallocFuncPtr
+0x00867a80 ossFreeFuncPtr
+0x00867a8c usbtuClientList
+0x00867a90 usbtuDevList
+0x00867a94 usbtuMutex
+0x00867aa8 g_USBDRequestFunctions
+0x00867ab0 gpGlobalBus
+0x00867ab4 Porta0address
+0x00867ab8 Porta1address
+0x00867abc netJobQueueId
+0x00867ac4 netTaskId
+0x00867ac8 _func_netDaemonIxToQId
+0x00867acc _func_netDaemonQIdToIx
+0x00867ad0 _func_netPoolShow
+0x00867ad4 _func_netAttrReg
+0x00867ad8 _func_netAttrDeReg
+0x00867adc netBufLock
+0x00867ae0 netBufClOffset
+0x00867ae4 _pNetDpool
+0x00867ae8 _pNetSysPool
+0x00867aec max_linkhdr
+0x00867af0 max_protohdr
+0x00867af4 max_hdr
+0x00867afc mux2OverEndOutputFilterChainDrops
+0x00867b00 muxMblkToIpcomPktTxChainDrops
+0x00867b04 muxMblkToIpcomPktMallocDrops
+0x00867b08 vxmux_null_pool
+0x00867b24 __wdbEventListIsEmpty
+0x00867b28 _func_wdbSuspendSystem
+0x00867b2c _func_wdbExternNotifyHost
+0x00867b30 _func_wdbExternRcvHook
+0x00867b34 _func_wdbResumeSystem
+0x00867b38 _func_wdbExternEnterHookAdd
+0x00867b3c _func_wdbExternExitHookAdd
+0x00867b40 _func_wdbTaskBpByIdRemove
+0x00867b5c wdbPort
+0x00867b60 pWdbRtIf
+0x00867b64 wdbMode
+0x00867b68 wdbAvailModes
+0x00867b6c pWdbXport
+0x00867b70 pWdbCommIf
+0x00867bc4 _func_kernelRoundRobinHook
+0x00867bc8 roundRobinOn
+0x00867bcc roundRobinSlice
+0x00867bd0 rootTaskId
+0x00867bd4 pRootMemStart
+0x00867bd8 rootMemNBytes
+0x00867bdc vxIntStackEnd
+0x00867be0 vxIntStackBase
+0x00867be4 msgQSmSendRtn
+0x00867be8 msgQSmReceiveRtn
+0x00867bec msgQSmNumMsgsRtn
+0x00867bf0 msgQDistSendRtn
+0x00867bf4 msgQDistReceiveRtn
+0x00867bf8 msgQDistNumMsgsRtn
+0x00867bfc msgQLibInstalled
+0x00867c08 taskIdCurrent
+0x00867c0c smObjTcbFreeRtn
+0x00867c10 smObjTcbFreeFailRtn
+0x00867c14 smObjTaskDeleteFailRtn
+0x00867c18 taskBpHook
+0x00867c20 _func_taskRegsShowRtn
+0x00867c28 vxAbsTicks
+0x00867c30 smObjPoolMinusOne
+0x00867c34 localToGlobalOffset
+0x00867c38 kernelIsIdle
+0x00867c3c kernelState
+0x00867c40 workQIsEmpty
+0x00867c44 workQWorkInProgress
+0x00867c48 workQPanicHook
+0x00867c4c wvLogMsgString1
+0x00867c50 wvLogMsgString2
+0x00867c54 wvUploadName
+0x00867c58 wvMaximumLogs
+0x00867c5c _func_wvOnUploadPathCreate
+0x00867c60 _func_wvOnUploadPathClose
+0x00867c64 pmPartId
+0x00867c68 evtBufferId
+0x00867c88 cacheLineSize
+0x00867c8c cacheAddrAlign
+0x00867c90 cacheLineMask
+0x00867d30 uNum
+0x00867d34 intFanDiagsem
+0x00867d38 stcmd2PwrAmp
+0x00867d3c cplusNewHdlMutex
+0x00867d40 usbovcfunc
+0x00867d44 wvDefaultBufThresh
+0x00867d48 wvUpTaskId
+0x00867d4c fd_bt
+0x00867d50 intradiotmc
+0x00867d54 ConnectivityDhcpClientHook_ptr
+0x00867d58 pSioChanStatic
+0x00867d5c VideoOutBuff
+0x00867d60 cplusDemanglerStyle
+0x00867d64 BufferPointer
+0x00867d6c pi2sTTS
+0x00867d70 cnt_size
+0x00867d74 intradiords1
+0x00867d78 Tempo_old
+0x00867d7c i2slog
+0x00867d80 wdbTaskRestartHook
+0x00867d84 pTgtName
+0x00867d88 wvDefaultBufSize
+0x00867d8c sysFlags
+0x00867d90 radiords2func
+0x00867d94 memPoolEndAdrs
+0x00867d98 irqtmc
+0x00867d9c ddnI2C
+0x00867da0 wdbCommMtu
+0x00867da4 wvDefaultBufOptions
+0x00867da8 intGpiosem
+0x00867dac IdAssign
+0x00867db0 osslog
+0x00867db4 wvDefaultBufMax
+0x00867db8 funPwrAmpsem
+0x00867dbc wvUpPathId
+0x00867dc0 intusbovc
+0x00867dc1 stcmd1PwrAmp
+0x00867dc2 skipnull
+0x00867dc4 sysCplusEnable
+0x00867dc8 vbatchangest
+0x00867dcc wvDefaultBufMin
+0x00867dd0 sthwaitblackfin
+0x00867dd4 pi2sBT
+0x00867dd8 radiords1func
+0x00867ddc wvBufId
+0x00867de0 intvKosem
+0x00867de4 PwrAmpbuff
+0x00867de8 DdrMemSize512
+0x00867dec pi2sMIC
+0x00867df0 fd_mp3
+0x00867df4 ossDrvNum
+0x00867df8 pi2sRADIO
+0x00867dfc intvlowsem
+0x00867e00 pAddrString
+0x00867e04 dataArray
+0x00867e0c pMaster
+0x00867e10 vbatkoevent
+0x00867e14 dma_channel
+0x00867e18 netmask
+0x00867e1c wdbBpSysEnterHook
+0x00867e20 Num_Spi
+0x00867e24 bsp_node
+0x00867e28 wdbBpSysExitHook
+0x00867e2c DbId
+0x00867e30 prog
+0x00867e34 statSymTbl
+0x00867e38 intclipaudiopwr
+0x00867e3c clipaudiocnt
+0x00867e40 stclipaudiopwr
+0x00867e44 pDev
+0x00867e48 UB_VERSION
+0x00867e50 wvRBuffMgrPriorityDefault
+0x00867e54 sysStartType
+0x00867e58 nvlowfunc
+0x00867e5c sysAdaEnable
+0x00867e60 bufferLen
+0x00867e64 pi2sECO
+0x00867e68 __gthr_supp_vxw_5x_o
+0x00867e6c clipaudiopwrfunc
+0x00867e70 bHWAIT_HiToLow_Trnsn
+0x00867e74 pDevName
+0x00867e78 sysSymTbl
+0x00867e7c file_ptr
+0x00867e80 fd_tts
+0x00867e84 intradiords2
+0x008720c8 I2CDrvNum
+0x008720cc i2cSemAvailable
+0x008720d0 i2cLock
+0x008720d4 FirstBD
+0x008720d8 debug_i2s
+0x008720dc m512xDmaTestSync
+0x008720e4 loop_counter
+0x008720ec syncstate
+0x008720f0 enable_log
+0x008720f4 debug_oss
+0x008720f8 req_write_buff_reset
+0x008720fc SaveDmaMode
+0x00872100 ossEnablePrint
+0x00872104 osslib_cbBefore
+0x00872108 osslib_cbAfter
+0x0087213c usbIpodAudioDebug
+0x00872140 usbIsochIpodDebug
+0x00872144 usbIpodIsochIoctlDbg
+0x00872164 semResetUsb
+0x00872168 usbIpodDebug
+0x00872554 mmapPartId
+0x0087257c badBlockCounter
+0x008728ac gSyncSem
+0x008728b0 gSyncBufGetNextSem
+0x008728b4 gPrevStatus
+0x008728b8 ViuDrvDbg
+0x008728bc ViuIntDrvDbg
+0x008728c0 ViuReadBuffDrvDbg
+0x008728f8 dataWrapper
+0x008736f8 g_debug_all_early_alert
+0x008736fc g_debug_early_alert
+0x00873700 g_early_alert_lib_com
+0x00873704 g_early_alert_log
+0x008742bc g_buffer_reg_data_index
+0x008742c0 EarlyAlert::m_instance
+0x008752cc ADV7180VideoInputsem
+0x008752d0 wvLogcounter
+0x008752d4 wvCurrentlyLogging
+0x008752e0 usbIpodAudioErrorDebug
+0x008752e4 usbIpodAudioBuffSemDebug
+0x008752e8 usbIpodAudioEmptySemDebug
+0x008752ec usbIpodAudioDestroySemDebug
+0x008752f4 tmpscroll
+0x008752f8 AudioIrpDebugEnable
+0x00875318 SAF7115VideoInputsem
+0x0087531c g_bcm_diag_dev
+0x00875320 g_bcm_eol_dev
+0x00875324 g_bcm_fp_dev
+0x00875328 g_bcm_kbd_dev
+0x0087532c g_bcm_libcom_show_msg
+0x00875330 g_bcm_libcom_dev
+0x00875334 g_bcm_net_dev
+0x00875338 g_bcm_upg_dev
+0x0087533c FpLibcomShowBmMsg
+0x00875340 C_BCM_FP_LIBCOM_PRESENTATION::m_instance
+0x00875344 FpLibcomShowMsg
+0x00875348 C_BCM_FP_LIB_COM::m_relative_time_in_ticks
+0x0087534c C_BCM_FP_LIB_COM::m_current_index
+0x00875350 C_BCM_FP_LIB_COM::m_instance
+0x00875354 g_bcm_fp_lib_com
+0x00875358 g_bcm_fp_show_msg
+0x0087535c C_BCM_FP_LIB_PROTOCOL_SPI::m_instance
+0x00875360 C_BCM_FP_LIB_SERIAL_SPY::m_instance
+0x00875364 C_BCM_FP_LIB_SERIAL_SPY::m_spy_file_stream
+0x00875368 C_BCM_FP_LIB_SERIAL_SPY::m_spy_on
+0x0087536c g_bcm_fp_serial_spy_on
+0x00875564 FpUpgShowBmMsg
+0x00875568 C_BCM_FP_UPG_PRESENTATION::m_instance
+0x0087556c C_FP_LIB_SPI::m_instance
+0x0088f3a0 debugCompile
+0x008a9c30 C_DBBootManager::m_dbBootManagerInstance
+0x008a9c34 C_DBSystemManager::m_pDBSystemInstance
+0x008a9e20 g_bIgnoreCrc
+0x008a9e30 FpLibCom::LibCom::LibComInstance
+0x008a9e34 nsLIB_COM_BoardConfig::C_LIB_COM_BoardConfig::ms_pInstance
+0x008a9e38 AvalonSpifd
+0x008a9e3c gs_LIB_COM_BoardConfig
+0x008a9e40 gs_id_LIB_COM_BoardConfig
+0x008a9e48 debug_br
+0x008a9e4c fidu
+0x008a9eac std::nothrow
+0x008a9eb0 std::_Raise_handler
+0x008adedc <unnamed>::static_mutex::mutex
+0x008adee4 std::_New_hand
+0x008adef0 std::_Fpz
+0x008adef4 std::ios_base::_Index
+0x008adf48 std::cin
+0x008adf84 std::cout
+0x008adfbc std::cerr
+0x008adff4 std::clog
+0x008ae11c std::locale::_Locimp::_Clocptr
+0x008ae120 std::locale::id::_Id_cnt
+0x008ae124 std::ctype<char>::id
+0x008ae138 _FZero
+0x008ae158 _Zero
+0x008ae718 __cplusStr_o
+0x008ae719 __cplusCore_o
+0x008c7894 pDI
+0x008c7d10 Average
+0x008c7d38 wdbRegsBuffer
+0x008c7f38 head_http
+0x008c7f48 ipcom_getopt_data
+0x008c7f6c wvDefaultRBuffParams
+0x008c7f88 lastCmdType
+0x008c7f98 _clockRealtime
+0x008c7fa8 hwMemPool
+0x008d42f8 vxKernelSchedDesc
+0x008d4304 classIdTable
+0x008d435c mmuLibFuncs
+0x008d43b4 logFd
+0x008d43c8 gStopSem
+0x008d4430 Psc_SpiDev
+0x008d4730 memEdrDb
+0x008d47cc is_ossClosed
+0x008d47f8 gDuartStruct
+0x008d4824 isrJobPool
+0x008d49e4 loginHostname
+0x008d4a30 tExcTaskExcStk
+0x008d5a30 endList
+0x008d5a3c ipradius
+0x008d5b40 cacheAimInfo
+0x008d5b70 mmuArchLibAttrs
+0x008d5bbc wdbRtIf
+0x008d5c34 g_header_logo
+0x008d6434 rebootHookTbl
+0x008d6454 sysBootHost
+0x008d64f4 gsmApn
+0x008d6514 pWdbCtxBpIf
+0x008d653c semClass
+0x008d6590 _func_vxdbgFuncs
+0x008d65ac loginUsername
+0x008d6610 I2C_VideoInp
+0x008d662c memFileDevStruct
+0x008d6654 taskSwapReference
+0x008d66a0 tExcTaskStk
+0x008d86a0 ipppp_work_queue
+0x008d86b0 I2C_VideoOut
+0x008d86cc _api_nbio
+0x008d86f4 fdClass
+0x008d8748 semhwaitblackfin
+0x008d87b0 ipcom_slab_memory_pool_list
+0x008d87c0 wvStruc
+0x008d87cc dot11TimerLib
+0x008d87e0 setClass
+0x008d8834 workQIx
+0x008d8840 mmuArchLibFuncs
+0x008d88b4 ipcom_dns
+0x008d88c4 SpiDeviceName
+0x008d88d4 MDStab
+0x008d98d4 linksyswusb54DevBaseName
+0x008d98e4 muxBindStyles
+0x008d9950 logInfo
+0x008d99e0 timerClass
+0x008d9a34 taskSwapTable
+0x008d9a78 showRtnTbl
+0x008d9aa8 ossDevCom
+0x008d9d3c socketDevHdr
+0x008d9d5c CRC
+0x008d9de0 ossDev
+0x008da01c g_usbHstFunctionList
+0x008da03c sysBootFile
+0x008da0dc ipdnsc
+0x008da0ec I2C_PwrAmp
+0x008da108 command
+0x008da124 logFdSem
+0x008da18c sysVmContext
+0x008da240 currentGsmOperator
+0x008da340 TxBuffFreeList
+0x008dad50 envLibSem
+0x008dadb8 vxdbgBpList
+0x008dadc4 ipcom_shell_cmd_head
+0x008dadd4 i2cMasterList
+0x008dade0 taskSwitchTable
+0x008dae24 RxBuffProcessList
+0x008db830 loginPassword
+0x008db894 readyQBMap
+0x008dc1bc glMsgMemory
+0x008dc31c taskCreateTable
+0x008dc370 i2cSlaveList
+0x008dc37c TxQueue
+0x008dcd88 tExcTaskTcb
+0x008dd030 tickQHead
+0x008dd040 readyQHead
+0x008dd050 vbattlowfunc
+0x008dd064 ipppp
+0x008dd11c hostList
+0x008dd128 gInitSem
+0x008dd190 gapMsgFreeList
+0x008dd1b0 vxbDiuStatusMsg
+0x008dd278 pJobPool
+0x008dd678 muxEndStyles
+0x008dd6f0 unsw
+0x008dd724 VideoInpBuff
+0x008dd828 syscallGroupName
+0x008dd868 sockLibMap
+0x008dd8f0 ioDefPath
+0x008ddcf0 dosFsNotifyUsbHandle
+0x008ddd40 defaultDrv
+0x008ddd64 sysBootParams
+0x008de018 lastSourceType
+0x008de024 spinLockIsrEhcd
+0x008de268 taskDeleteTable
+0x008de2bc remUser
+0x008de320 fdInvalidDrv
+0x008de344 _null_auth
+0x008de350 syscallGroupTbl
+0x008de3d0 remPasswd
+0x008de434 I2C_dev
+0x008de59c priv_targetName
+0x008de5dc UBOOT_BUILD_DATE
+0x008de5f4 _gMemory
+0x008de648 undomain
+0x04757010 (LTTS7_lang.bin) _ctors
+0x04757014 (LTTS7_lang.bin) _dtors
+0x0475a010 (LTTS7Juliette.bin) _ctors
+0x0475a014 (LTTS7Juliette.bin) _dtors
+0x0677ec24 (LTTS7Kernel.bin) tts_bMultimedia
+0x08d14038 (SSM_boot.out) C_MONITOR_CPU::m_instance
+0x08d1403c (SSM_boot.out) C_MONITOR_CPU::m_tableMMI500msSize
+0x08d14040 (SSM_boot.out) C_MONITOR_CPU::m_tableMMI500msSum
+0x08d14044 (SSM_boot.out) C_MONITOR_CPU::m_tableMMI500msSumMax
+0x08d14048 (SSM_boot.out) C_MONITOR_CPU::m_tableMMI5sSumMax
+0x08d1404c (SSM_boot.out) C_MONITOR_CPU::m_tableMMI5sSize
+0x08d14050 (SSM_boot.out) C_MONITOR_CPU::m_tableMMI5sSum
+0x08d14054 (SSM_boot.out) C_MONITOR_CPU::m_tableMMI
+0x08d14058 (SSM_boot.out) C_MONITOR_CPU::m_tableMMIIndexIn
+0x08d1405c (SSM_boot.out) C_MONITOR_CPU::m_tableMMI500msIndexOut
+0x08d14060 (SSM_boot.out) C_MONITOR_CPU::m_tableMMI5sIndexOut
+0x08d14064 (SSM_boot.out) C_MONITOR_CPU::m_MMI_id0_ID
+0x08d14068 (SSM_boot.out) C_MONITOR_CPU::m_MMIisActive
+0x08d1406c (SSM_boot.out) C_MONITOR_CPU::m_monitorPeriod
+0x08d14070 (SSM_boot.out) C_MONITOR_RAM::m_instance
+0x08d14078 (SSM_boot.out) C_MONITOR_ROM::m_instance
+0x08d1407c (SSM_boot.out) C_SSM_BOOT_MONITOR::m_instance
+0x08d14088 (SSM_boot.out) g_appli_boot_time
+0x08d1408c (SSM_boot.out) g_ssm_boot_flying_doctor_called
+0x08d14090 (SSM_boot.out) g_ssm_boot_time_entry
+0x08d14094 (SSM_boot.out) g_mount_time_start
+0x08d14098 (SSM_boot.out) g_mount_time_end
+0x08d1409c (SSM_boot.out) g_ssm_boot_time_b_load_header
+0x08d140a0 (SSM_boot.out) g_ssm_boot_time_e_load_header
+0x08d140a4 (SSM_boot.out) g_ssm_boot_time_b_read_base
+0x08d140a8 (SSM_boot.out) g_ssm_boot_time_e_read_base
+0x08d140ac (SSM_boot.out) g_ssm_boot_time_b_inflate_base
+0x08d140b0 (SSM_boot.out) g_ssm_boot_time_e_inflate_base
+0x08d140b4 (SSM_boot.out) g_ssm_boot_time_b_exec_base
+0x08d140b8 (SSM_boot.out) g_ssm_boot_time_e_exec_base
+0x08d140bc (SSM_boot.out) g_ssm_boot_time_b_read_postponed
+0x08d140c0 (SSM_boot.out) g_ssm_boot_time_e_read_postponed
+0x08d140c4 (SSM_boot.out) g_ssm_boot_time_b_inflate_postponed
+0x08d140c8 (SSM_boot.out) g_ssm_boot_time_e_inflate_postponed
+0x08d140cc (SSM_boot.out) g_ssm_boot_time_b_exec_postponed
+0x08d140d0 (SSM_boot.out) g_ssm_boot_time_e_exec_postponed
+0x08d140d4 (SSM_boot.out) g_sem_need_end_mount_base
+0x08d140d8 (SSM_boot.out) g_sem_need_end_exec_base
+0x08d140dc (SSM_boot.out) g_sem_synchro_end_read_base_harmony
+0x08d140e0 (SSM_boot.out) g_sem_synchro_end_read_harmony_base
+0x08d140e4 (SSM_boot.out) g_sem_synchro_end_read_harmony_mount
+0x08d140e8 (SSM_boot.out) g_sem_synchro_end_unzip_base_harmony
+0x08d140ec (SSM_boot.out) g_sem_synchro_end_preload_harmony
+0x08d140f0 (SSM_boot.out) g_header_bigquick
+0x08d14cf4 (SSM_boot.out) g_aPreLoadFiles
+0x08d14d10 (SSM_boot.out) g_harmony_header
+0x0c0f0010 (LTTS7Bernard.bin) _ctors
+0x0c0f0014 (LTTS7Bernard.bin) _dtors
+0x10139668 (DB_dwnl_gl.out) trcNoCd
+0x1013966c (DB_dwnl_gl.out) (local) std::_Ios_init
+0x1013966d (DB_dwnl_gl.out) (local) std::_Ios_init
+0x1013966e (DB_dwnl_gl.out) (local) std::_Ios_init
+0x10139670 (DB_dwnl_gl.out) logbufTable
+0x10139674 (DB_dwnl_gl.out) sem_buff_table
+0x1013967c (DB_dwnl_gl.out) buff_part_coord_to_from
+0x10139680 (DB_dwnl_gl.out) ptr_buff_part_coord_to_from
+0x10139684 (DB_dwnl_gl.out) buff_part_dirlen_to_from
+0x10139688 (DB_dwnl_gl.out) ptr_buff_part_dirlen_to_from
+0x1013968c (DB_dwnl_gl.out) buff_part_dets_from_sum
+0x10139690 (DB_dwnl_gl.out) ptr_buff_part_dets_from_sum
+0x10139694 (DB_dwnl_gl.out) buff_part_coords_from_sum
+0x10139698 (DB_dwnl_gl.out) ptr_buff_part_coords_from_sum
+0x1013969c (DB_dwnl_gl.out) buff_part_map_draw
+0x101396a0 (DB_dwnl_gl.out) buff_part_id_seg_map
+0x101396a4 (DB_dwnl_gl.out) ptr_buff_part_id_seg_map
+0x101396a8 (DB_dwnl_gl.out) buff_part_coords_lgr
+0x101396ac (DB_dwnl_gl.out) flag_memory_large
+0x101396b0 (DB_dwnl_gl.out) db_main_part
+0x101396b4 (DB_dwnl_gl.out) buff_table
+0x1013c594 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x1013c595 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x1013c598 (DB_dwnl_gl.out) guide_on_cid
+0x1013c6b0 (DB_dwnl_gl.out) Auto_service_flag
+0x1013c6b4 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x1013c6b8 (DB_dwnl_gl.out) (local) sem_data_champerard
+0x1013c6c0 (DB_dwnl_gl.out) (local) sem_POI_MM
+0x1013c6c8 (DB_dwnl_gl.out) (local) international_prefix_table
+0x1013c6cc (DB_dwnl_gl.out) (local) tot_country
+0x1013c6d0 (DB_dwnl_gl.out) (local) loaded_champerard
+0x1013c6d4 (DB_dwnl_gl.out) (local) n_champ_record
+0x1013c6d8 (DB_dwnl_gl.out) (local) size_buff_descr
+0x1013c6dc (DB_dwnl_gl.out) (local) ptr_record_champ
+0x1013c6e0 (DB_dwnl_gl.out) (local) ptr_to_descr_champerard
+0x1013c6e4 (DB_dwnl_gl.out) Macro_complete
+0x1015c6e2 (DB_dwnl_gl.out) Macro_ridotte
+0x1017c6e0 (DB_dwnl_gl.out) flag_fonemi_files
+0x1017c708 (DB_dwnl_gl.out) flag_nomservDAT_files
+0x1017c730 (DB_dwnl_gl.out) flag_EPC_files
+0x1017c758 (DB_dwnl_gl.out) flag_letEPC_files
+0x1017c780 (DB_dwnl_gl.out) path_map
+0x1017c7d0 (DB_dwnl_gl.out) name_country
+0x1017c7d8 (DB_dwnl_gl.out) name_country_ridotto
+0x1017c7e0 (DB_dwnl_gl.out) id_country_map
+0x1017c7e4 (DB_dwnl_gl.out) year_map
+0x1017c7e8 (DB_dwnl_gl.out) quarter_map
+0x1017c7ec (DB_dwnl_gl.out) POI_MM_on_cid
+0x101862ec (DB_dwnl_gl.out) POI_MM_info
+0x1029cb2c (DB_dwnl_gl.out) mapinfrec
+0x1029cb30 (DB_dwnl_gl.out) naz_guida_sx
+0x1029cb44 (DB_dwnl_gl.out) version_cd_cartogr
+0x1029cba8 (DB_dwnl_gl.out) time_geo
+0x1029cbac (DB_dwnl_gl.out) time_geo_ridotto
+0x1029cbb0 (DB_dwnl_gl.out) vers_navi
+0x1029d7e0 (DB_dwnl_gl.out) fhandle_lzw_dpa
+0x1029e820 (DB_dwnl_gl.out) lzw_proc_dpa
+0x1029e8c0 (DB_dwnl_gl.out) fhandle_lzw_det
+0x1029f900 (DB_dwnl_gl.out) tot_rec_file_dg
+0x1029f9a0 (DB_dwnl_gl.out) fileexdss
+0x102a09e0 (DB_dwnl_gl.out) filefacdsp
+0x102a1a20 (DB_dwnl_gl.out) fileexdps
+0x102a2b00 (DB_dwnl_gl.out) fileexrid
+0x102a3b40 (DB_dwnl_gl.out) file_deg
+0x102a4b80 (DB_dwnl_gl.out) filenomLGRtopdat
+0x102a5bc0 (DB_dwnl_gl.out) fhandle_MFT
+0x102a6c00 (DB_dwnl_gl.out) filePoiSccDst
+0x102a7c40 (DB_dwnl_gl.out) status_db
+0x102a7c44 (DB_dwnl_gl.out) flag_lock
+0x102a7c48 (DB_dwnl_gl.out) ptr_header
+0x102a7cec (DB_dwnl_gl.out) ptr_header_BCR
+0x102a7d90 (DB_dwnl_gl.out) grp_file
+0x102a8e38 (DB_dwnl_gl.out) grp_file_BCR
+0x102a9ee0 (DB_dwnl_gl.out) nr_file_group
+0x102a9f34 (DB_dwnl_gl.out) scc_imp_file
+0x102a9fd4 (DB_dwnl_gl.out) jv_group_fd
+0x102aa03c (DB_dwnl_gl.out) numJVFiles
+0x102aa040 (DB_dwnl_gl.out) sizeBiggerFile
+0x102aa044 (DB_dwnl_gl.out) pt_JVFilesArchive
+0x102aa048 (DB_dwnl_gl.out) JVImagesExtracted
+0x102aa438 (DB_dwnl_gl.out) pt_JVFilesReadBuffer
+0x102aa43c (DB_dwnl_gl.out) sem_JVFiles
+0x102aa444 (DB_dwnl_gl.out) tab_country_presence
+0x102aa4c3 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102aa4c4 (DB_dwnl_gl.out) (local) sem_file_error
+0x102aa4cc (DB_dwnl_gl.out) (local) list_damaged_cid
+0x102ab214 (DB_dwnl_gl.out) (local) num_damaged_cid
+0x102ab218 (DB_dwnl_gl.out) (local) cid_on_dev_saved
+0x102ab240 (DB_dwnl_gl.out) (local) max_cid_saved
+0x102ab244 (DB_dwnl_gl.out) min_size_heap_avail
+0x102ab248 (DB_dwnl_gl.out) max_size_heap_avail
+0x102ab24c (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102ab250 (DB_dwnl_gl.out) tastiera
+0x102ab2b4 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102ab2b8 (DB_dwnl_gl.out) (local) tastiera_punt
+0x102ab2ec (DB_dwnl_gl.out) (local) num_punt
+0x102ab2f0 (DB_dwnl_gl.out) tastiera_utf8
+0x102abac0 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102abac4 (DB_dwnl_gl.out) sem_lgr_table
+0x102abacc (DB_dwnl_gl.out) lgr_table
+0x102abad0 (DB_dwnl_gl.out) sem_cache_info_lgr
+0x102abad8 (DB_dwnl_gl.out) file_drl
+0x102afbd8 (DB_dwnl_gl.out) file_lgr_deg
+0x102b3cd8 (DB_dwnl_gl.out) file_dpl
+0x102b7dd8 (DB_dwnl_gl.out) name_file_drl
+0x102bafd8 (DB_dwnl_gl.out) name_file_lgr_deg
+0x102be1d8 (DB_dwnl_gl.out) name_file_dpl
+0x102c13d8 (DB_dwnl_gl.out) cache_info_lgr
+0x102c1630 (DB_dwnl_gl.out) tot_dim_s
+0x102c1634 (DB_dwnl_gl.out) cnt_parc_s
+0x102c1638 (DB_dwnl_gl.out) tot_bck_s
+0x102c163c (DB_dwnl_gl.out) tot_dim_d
+0x102c1640 (DB_dwnl_gl.out) cnt_parc_d
+0x102c1644 (DB_dwnl_gl.out) tot_bck_d
+0x102c1648 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c1649 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c164a (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c164c (DB_dwnl_gl.out) lzw_proc_other
+0x102c1650 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c1654 (DB_dwnl_gl.out) dim_parc
+0x102c1658 (DB_dwnl_gl.out) dim_super_parc
+0x102c165c (DB_dwnl_gl.out) dim_macro_parc
+0x102c1660 (DB_dwnl_gl.out) parc_hid_table
+0x102c1664 (DB_dwnl_gl.out) sem_parc_table
+0x102c166c (DB_dwnl_gl.out) sem_cache_dat_dpa
+0x102c1674 (DB_dwnl_gl.out) ptr_macro_red
+0x102c1714 (DB_dwnl_gl.out) sem_macro_red
+0x102c171c (DB_dwnl_gl.out) dim_mem_macro_red
+0x102c17bc (DB_dwnl_gl.out) ptr_table_red
+0x102c185c (DB_dwnl_gl.out) sem_table_red
+0x102c1864 (DB_dwnl_gl.out) dim_mem_table_red
+0x102c1868 (DB_dwnl_gl.out) max_elem_table_red
+0x102c1908 (DB_dwnl_gl.out) g_tot_row_parc
+0x102c190c (DB_dwnl_gl.out) g_tot_col_parc
+0x102c1910 (DB_dwnl_gl.out) g_tot_row_super
+0x102c1914 (DB_dwnl_gl.out) g_tot_col_super
+0x102c1918 (DB_dwnl_gl.out) g_tot_row_macro
+0x102c191c (DB_dwnl_gl.out) g_tot_col_macro
+0x102c1920 (DB_dwnl_gl.out) g_tot_macro
+0x102c1924 (DB_dwnl_gl.out) cid_tot_macro
+0x102c19c4 (DB_dwnl_gl.out) verStrutture
+0x102c19ec (DB_dwnl_gl.out) verDCN_CAT
+0x102c1a14 (DB_dwnl_gl.out) verDCN_EPC_CAT
+0x102c1a3c (DB_dwnl_gl.out) verXXXDCP_CAT
+0x102c1a64 (DB_dwnl_gl.out) verPOI_DAT
+0x102c1a8c (DB_dwnl_gl.out) verDET_DRS
+0x102c1ab4 (DB_dwnl_gl.out) verEX_RID
+0x102c1adc (DB_dwnl_gl.out) verEX_DSS
+0x102c1b04 (DB_dwnl_gl.out) num_tot_el_in_hash
+0x102c1b08 (DB_dwnl_gl.out) point_part_alloc_parc
+0x102c1b0c (DB_dwnl_gl.out) parc_table_mem_id
+0x102c1b10 (DB_dwnl_gl.out) MAX_EL_IN_HASH
+0x102c1b14 (DB_dwnl_gl.out) MAX_EL_PARC_TABLE
+0x102c1b18 (DB_dwnl_gl.out) num_tot
+0x102c1b1c (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c1b20 (DB_dwnl_gl.out) (local) num_col_parc_macro
+0x102c1b24 (DB_dwnl_gl.out) (local) tot_count_coll
+0x102c1b28 (DB_dwnl_gl.out) (local) mem_tot_deg
+0x102c1b2c (DB_dwnl_gl.out) (local) tot_parc_deg
+0x102c1b30 (DB_dwnl_gl.out) (local) mem_tot_fac
+0x102c1b34 (DB_dwnl_gl.out) (local) tot_parc_fac
+0x102c1b38 (DB_dwnl_gl.out) (local) mem_tot_pp
+0x102c1b3c (DB_dwnl_gl.out) (local) tot_parc_pp
+0x102c1b40 (DB_dwnl_gl.out) (local) in_use_parc
+0x102c1b44 (DB_dwnl_gl.out) (local) dim_mem_tot_pp
+0x102c1b48 (DB_dwnl_gl.out) (local) dim_mem_tot_fac
+0x102c1b4c (DB_dwnl_gl.out) (local) dim_mem_tot_deg
+0x102c1b50 (DB_dwnl_gl.out) (local) cache_dat_dpa
+0x102c59d0 (DB_dwnl_gl.out) (local) save_red_cid1
+0x102c59d4 (DB_dwnl_gl.out) (local) save_pt_ind_super1
+0x102c59d8 (DB_dwnl_gl.out) (local) save_red_cid2
+0x102c59dc (DB_dwnl_gl.out) (local) save_pt_ind_super2
+0x102c59e0 (DB_dwnl_gl.out) (local) num_row_parc_macro
+0x102c59e4 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c59e8 (DB_dwnl_gl.out) task_db_manager_cd
+0x102c59ec (DB_dwnl_gl.out) db_queue_msg
+0x102c5a18 (DB_dwnl_gl.out) task_db_read
+0x102c5aa8 (DB_dwnl_gl.out) queue_sync_result
+0x102c6048 (DB_dwnl_gl.out) sem_queue_result
+0x102c6050 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c6054 (DB_dwnl_gl.out) lzw_debug
+0x102c6058 (DB_dwnl_gl.out) debug_print_ides
+0x102c605c (DB_dwnl_gl.out) start_lzw
+0x102c6060 (DB_dwnl_gl.out) open_lzw
+0x102c6064 (DB_dwnl_gl.out) read_lzw
+0x102c6068 (DB_dwnl_gl.out) seek_lzw
+0x102c606c (DB_dwnl_gl.out) end_lzw
+0x102c6070 (DB_dwnl_gl.out) osx_debug
+0x102c6074 (DB_dwnl_gl.out) close_osx
+0x102c6078 (DB_dwnl_gl.out) open_osx
+0x102c607c (DB_dwnl_gl.out) read_osx
+0x102c6080 (DB_dwnl_gl.out) seek_osx
+0x102c6084 (DB_dwnl_gl.out) size_osx
+0x102c6088 (DB_dwnl_gl.out) sem_handler_osx
+0x102c6090 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c6094 (DB_dwnl_gl.out) NUL_FAC_CODE
+0x102c609c (DB_dwnl_gl.out) NUL_FAC_CODE_DB4
+0x102c60a4 (DB_dwnl_gl.out) stop_load_no_cd
+0x102c60a8 (DB_dwnl_gl.out) m_language
+0x102c60a9 (DB_dwnl_gl.out) NUL_NJT_TABLE
+0x102c60b1 (DB_dwnl_gl.out) rec_seg_det_vuoto
+0x102c60d4 (DB_dwnl_gl.out) rec_seg_dss_vuoto
+0x102c6107 (DB_dwnl_gl.out) rec_seg_rid_vuoto
+0x102c613a (DB_dwnl_gl.out) save_gen_query
+0x102c618c (DB_dwnl_gl.out) save_div_query
+0x102c61e0 (DB_dwnl_gl.out) Get_car_pos_ptr
+0x102c61e4 (DB_dwnl_gl.out) Call_action_ptr
+0x102c61e8 (DB_dwnl_gl.out) trcPrint_ptr
+0x102c61ec (DB_dwnl_gl.out) Get_media_type_ptr
+0x102c61f0 (DB_dwnl_gl.out) Cmd_set_cd_nav_ptr
+0x102c61f4 (DB_dwnl_gl.out) Cmd_lock_ptr
+0x102c61f8 (DB_dwnl_gl.out) Cmd_unlock_ptr
+0x102c61fc (DB_dwnl_gl.out) Set_error_ptr
+0x102c6200 (DB_dwnl_gl.out) Get_error_ptr
+0x102c6204 (DB_dwnl_gl.out) Cmd_set_hd_nav_ptr
+0x102c6208 (DB_dwnl_gl.out) Cmd_write_data_ptr
+0x102c620c (DB_dwnl_gl.out) Get_data_ptr
+0x102c6210 (DB_dwnl_gl.out) Set_status_db_residente_ptr
+0x102c6214 (DB_dwnl_gl.out) Cmd_set_sd_nav_safe_ptr
+0x102c6218 (DB_dwnl_gl.out) ident_DB
+0x102c621c (DB_dwnl_gl.out) rneg_sys
+0x102c6220 (DB_dwnl_gl.out) poi_nav_no_cd
+0x102c6224 (DB_dwnl_gl.out) city_nav_no_cd
+0x102c6228 (DB_dwnl_gl.out) new_cat_poi
+0x102c622c (DB_dwnl_gl.out) mediamobile
+0x102c6230 (DB_dwnl_gl.out) loc_table_payed
+0x102c6231 (DB_dwnl_gl.out) loc_table_on_cd
+0x102c6234 (DB_dwnl_gl.out) map_lgr_filter
+0x102c6238 (DB_dwnl_gl.out) dealership_value
+0x102c623c (DB_dwnl_gl.out) badCD_ptr
+0x102c6240 (DB_dwnl_gl.out) Get_poi_ptr
+0x102c6244 (DB_dwnl_gl.out) enable_User_POI
+0x102c6248 (DB_dwnl_gl.out) is_countryLang_ori
+0x102c6348 (DB_dwnl_gl.out) g_curr_continent
+0x102c634c (DB_dwnl_gl.out) cnt_mes
+0x102c6350 (DB_dwnl_gl.out) cd_map_inserted
+0x102c6354 (DB_dwnl_gl.out) ricevuto_eject
+0x102c6358 (DB_dwnl_gl.out) ptr_tcart
+0x102c635c (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c6360 (DB_dwnl_gl.out) (local) errno_db_spy
+0x102c6364 (DB_dwnl_gl.out) (local) name_function_error_spy
+0x102c63c8 (DB_dwnl_gl.out) (local) task_called_spy
+0x102c642c (DB_dwnl_gl.out) (local) why_no_cd_nav
+0x102c64c4 (DB_dwnl_gl.out) (local) buff_tick
+0x102c64c8 (DB_dwnl_gl.out) (local) current_pos
+0x102c64cc (DB_dwnl_gl.out) (local) buff_full
+0x102c64d0 (DB_dwnl_gl.out) (local) corruptedFile
+0x102c6520 (DB_dwnl_gl.out) (local) cid_for_corruptedFile
+0x102c6524 (DB_dwnl_gl.out) (local) counter_insert
+0x102c6528 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c6530 (DB_dwnl_gl.out) g_num_segs_in_black_list
+0x102c6534 (DB_dwnl_gl.out) g_pt_segs_in_black_list
+0x102c6538 (DB_dwnl_gl.out) abilita_printf
+0x102c653c (DB_dwnl_gl.out) flag_pendenza_20
+0x102c6540 (DB_dwnl_gl.out) eco_dal_dettaglio
+0x102c6544 (DB_dwnl_gl.out) flag_urban_cross
+0x102c6548 (DB_dwnl_gl.out) flag_eco_pstop_cross_cl
+0x102c654c (DB_dwnl_gl.out) PS_NODO_2_3_N_E
+0x102c6550 (DB_dwnl_gl.out) PS_NODO_2_2_S_E
+0x102c6554 (DB_dwnl_gl.out) PS_NODO_2_1_S_E
+0x102c6558 (DB_dwnl_gl.out) PS_NODO_1_3_N_E
+0x102c655c (DB_dwnl_gl.out) PS_NODO_1_2_S_E
+0x102c6560 (DB_dwnl_gl.out) PS_NODO_1_1_S_E
+0x102c6564 (DB_dwnl_gl.out) PS_NODO_1_1_D_E
+0x102c6568 (DB_dwnl_gl.out) PS_NODO_1_1_D_CL1
+0x102c656c (DB_dwnl_gl.out) PS_SEMAF_2_3
+0x102c6570 (DB_dwnl_gl.out) PS_SEMAF_01_3
+0x102c6574 (DB_dwnl_gl.out) NULL_PREV_SEG
+0x102c6598 (DB_dwnl_gl.out) speed_dal_dettaglio
+0x102c659c (DB_dwnl_gl.out) CROSS_1_2_3_D_E
+0x102c65a0 (DB_dwnl_gl.out) CROSS_1_1_3_S_E
+0x102c65a4 (DB_dwnl_gl.out) cnt_prev_seg_philippine
+0x102c65a6 (DB_dwnl_gl.out) prev_seg_philippine
+0x102c666e (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c6670 (DB_dwnl_gl.out) (local) Initialization guard variable for CdCartogr::Get_seg_data_path_4_TP(TYPE_ID_SEG, unsigned char, TYPE_ID_SEG, unsigned char, unsigned char, int, int, unsigned char, int, int, tm
+0x102c6678 (DB_dwnl_gl.out) (local) CdCartogr::Get_seg_data_path_4_TP(TYPE_ID_SEG, unsigned char, TYPE_ID_SEG, unsigned char, unsigned char, int, int, unsigned char, int, int, tm
+0x102c667c (DB_dwnl_gl.out) (local) CdCartogr::Get_seg_data_path_4_TP(TYPE_ID_SEG, unsigned char, TYPE_ID_SEG, unsigned char, unsigned char, int, int, unsigned char, int, int, tm
+0x102c6680 (DB_dwnl_gl.out) (local) CdCartogr::Get_seg_data_path_4_TP(TYPE_ID_SEG, unsigned char, TYPE_ID_SEG, unsigned char, unsigned char, int, int, unsigned char, int, int, tm
+0x102c66a8 (DB_dwnl_gl.out) (local) Initialization guard variable for CdCartogr::Get_seg_data_path_3_eco_ZTL(TYPE_ID_SEG, unsigned char, TYPE_ID_SEG, unsigned char, unsigned char, int, int, unsigned char, int, tm
+0x102c66b0 (DB_dwnl_gl.out) (local) CdCartogr::Get_seg_data_path_3_eco_ZTL(TYPE_ID_SEG, unsigned char, TYPE_ID_SEG, unsigned char, unsigned char, int, int, unsigned char, int, tm
+0x102c66b4 (DB_dwnl_gl.out) (local) CdCartogr::Get_seg_data_path_3_eco_ZTL(TYPE_ID_SEG, unsigned char, TYPE_ID_SEG, unsigned char, unsigned char, int, int, unsigned char, int, tm
+0x102c66b8 (DB_dwnl_gl.out) (local) CdCartogr::Get_seg_data_path_3_eco_ZTL(TYPE_ID_SEG, unsigned char, TYPE_ID_SEG, unsigned char, unsigned char, int, int, unsigned char, int, tm
+0x102c66dc (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c66e0 (DB_dwnl_gl.out) MAX_BRANDS_X_CAT
+0x102c66e2 (DB_dwnl_gl.out) MAX_DIFF_BRANDS
+0x102c66e4 (DB_dwnl_gl.out) MAX_BRAND_CODE
+0x102c66e8 (DB_dwnl_gl.out) g_iconbrands_present
+0x102c66ec (DB_dwnl_gl.out) db_china
+0x102c66f0 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102c66f4 (DB_dwnl_gl.out) (local) CdCartogr::GetAvailableCatList(TYPE_CATEGORY_STRUCT *&, unsigned int *)::num_cat_pres
+0x102c66f8 (DB_dwnl_gl.out) (local) CdCartogr::GetAvailableCatList(TYPE_CATEGORY_STRUCT *&, unsigned int *)::TabPresServizi
+0x102cb668 (DB_dwnl_gl.out) (local) trasf_codice_db4_db3(unsigned short, unsigned short *)::code_db3
+0x102cb794 (DB_dwnl_gl.out) (local) trasf_codice_db4_db3(unsigned short, unsigned short *)::first_time
+0x102cb795 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102cb798 (DB_dwnl_gl.out) filare_cid
+0x102cb7c0 (DB_dwnl_gl.out) nam_str_loaded
+0x102cb7c4 (DB_dwnl_gl.out) esiste_namstr
+0x102cb7c8 (DB_dwnl_gl.out) loc_cod_loaded
+0x102cb7cc (DB_dwnl_gl.out) Ploc_cod_loaded
+0x102cb7d0 (DB_dwnl_gl.out) Lloc_cod_loaded
+0x102cb7d4 (DB_dwnl_gl.out) Aloc_cod_loaded
+0x102cb7d8 (DB_dwnl_gl.out) deve_loaded
+0x102cb7dc (DB_dwnl_gl.out) esiste_ploc
+0x102cb7e0 (DB_dwnl_gl.out) old_lang
+0x102cb7e4 (DB_dwnl_gl.out) Seg_to_loc_loaded
+0x102cb7e8 (DB_dwnl_gl.out) old_country_code
+0x102cb7e9 (DB_dwnl_gl.out) old_ltn
+0x102cb7ec (DB_dwnl_gl.out) counter_LC
+0x102cb7f0 (DB_dwnl_gl.out) buffer_road
+0x102cb7f4 (DB_dwnl_gl.out) sem_buff_road_rds
+0x102cb7fc (DB_dwnl_gl.out) sem_ploc
+0x102cb804 (DB_dwnl_gl.out) old_cid
+0x102cb808 (DB_dwnl_gl.out) lzw_proc_ploc
+0x102cb80c (DB_dwnl_gl.out) fhandle_lzw_ploc
+0x102cb874 (DB_dwnl_gl.out) lzw_proc_namstr
+0x102cb878 (DB_dwnl_gl.out) fhandle_lzw_namstr
+0x102cb8e0 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102cb8e4 (DB_dwnl_gl.out) (local) pos_seg
+0x102cb8e8 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102cb8e9 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102cb8ec (DB_dwnl_gl.out) misc_ed
+0x102cb8f0 (DB_dwnl_gl.out) obj_read_file_dbg
+0x102cb8f4 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102cb8f5 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102cb8f8 (DB_dwnl_gl.out) sin_cos_tab
+0x102cb8fc (DB_dwnl_gl.out) misc_prova
+0x102cb900 (DB_dwnl_gl.out) misc_conve
+0x102cb904 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102cb908 (DB_dwnl_gl.out) NUL_SEM_BINARY
+0x102cb910 (DB_dwnl_gl.out) (local) std::_Ios_init
+0x102cb914 (DB_dwnl_gl.out) (local) object$899
