@@ -5,7 +5,19 @@ This repo will centralize few item founds on forums regarding SMEG firmware.
 Thanks to @DarkSino and @pixx for their notes on SMEG inner mecanics.
 Thanks to @MWyann that developped a RaspberryPi USB key that acts as a connected key from PSA.
 
-Rather than trying to understand **vxWorks** that seems to act similarly to a kernel in linux, I bent digged into the upgrade process which sets everything at it's right place. Thus it offers the perfect opportunity to understand how the SMEG works. Cherry on the cake, the upgrade binary is in ELF format, and consequently analysis will be far more easy ! 
+Rather than trying to understand **vxWorks** that seems to act similarly to a kernel in linux, I digged into the upgrade process which sets everything at it's right place. Thus it offers the perfect opportunity to understand how the SMEG works. Cherry on the cake, the upgrade binary is in ELF format, and consequently analysis will be far more easy ! <br>
+Thanks to a first pass on upgrade proccess, now I'm able to analyze efficiently the **vxWorks.bin**
+
+## TODO
+- Create an RPI0W hotspot for longer remote acess to shell
+- Complete vxWorks disassembly
+- List all USB devices supported : VID/PID + class (EEM/MS/any other)
+- List all internal commands
+- Dig on 3333 port server (GPS related)
+- Dig on 20000 port server
+- Find U-Boot location + dump ?
+- Finish upgrade process analysis
+
 
 ## SMEG Hardware
 
@@ -85,7 +97,11 @@ Another vxWorks **lkup** allows to find all symbols with there associated addres
 	getUBootVersion           0x00246fe8 text     
 	g_UBootVersion            0x007a14a8 data     
 
-**vxWorks** disassembly almost complete thanks to full dump of symbols.
+**vxWorks** disassembly almost complete thanks to full dump of symbols.<br>
+There are three identified segments :
+- [.text (all symbols)](./logs/seg_text.txt)
+- [.data (all symbols)](./logs/seg_data.txt)
+- [.bss (all symbols)](./logs/seg_bss.txt)
 
 ### Upgrade Process
 
