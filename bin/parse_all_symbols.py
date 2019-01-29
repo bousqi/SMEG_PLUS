@@ -1,7 +1,5 @@
 #!/usr/bin/python2.7
 
-import re
-
 symb_file = "../logs/symbols.dump"
 kernel_only = False
 
