@@ -3,10 +3,23 @@
 This repo will centralize few item founds on forums regarding SMEG firmware.
 
 Thanks to @DarkSino and @pixx for their notes on SMEG inner mecanics.
-Thanks to @MWyann that developped a RaspberryPi USB key that acts as a connected key from PSA.
+Thanks to [@MWyann](https://github.com/Mwyann/psakey) that developped a RaspberryPi USB key that acts as a connected key from PSA.
 
 Rather than trying to understand **vxWorks** that seems to act similarly to a kernel in linux, I digged into the upgrade process which sets everything at it's right place. Thus it offers the perfect opportunity to understand how the SMEG works. Cherry on the cake, the upgrade binary is in ELF format, and consequently analysis will be far more easy ! <br>
 Thanks to a first pass on upgrade proccess, now I'm able to analyze efficiently the **vxWorks.bin**
+
+## Table of contents
+- [SMEG+ Firmware Analysis](#smeg--firmware-analysis)
+  * [Table of contents](#table-of-contents)
+  * [TODO](#todo)
+  * [Hardware](#smeg-hardware)
+  * [Partitions](#smeg-partitions)
+  * [Firmware](#smeg-firmware)
+    + [U-Boot](#u-boot)
+    + [vxWorks](#vxworks)
+    + [Upgrade Process](#upgrade-process)
+  * [Links](#links)
+
 
 ## TODO
 - Create an RPI0W hotspot for longer remote acess to shell
@@ -19,7 +32,7 @@ Thanks to a first pass on upgrade proccess, now I'm able to analyze efficiently 
 - Finish upgrade process analysis
 
 
-## SMEG Hardware
+## SMEG+ Hardware
 
     -> version
     VxWorks (for Freescale MPC5121E ADS (Rev 0.1)) version 6.7.
@@ -34,7 +47,7 @@ https://marketplace.windriver.com/index.php?bsp&on=details&bsp=6901
 MCU reference on NXP<br>
 https://www.nxp.com/products/processors-and-microcontrollers/power-architecture-processors/mpc5xxx-55xx-32-bit-mcus/mobilegt-51xx-52xx/32-bit-power-architecture-microcontrollers:MPC5121e
 
-## SMEG Partitions
+## SMEG+ Partitions
 
 Type | Device Name                                           | Usage             | Contents
 ---: | ----------------------------------------------------- | ----------------- | -------------
@@ -50,7 +63,7 @@ Type | Device Name                                           | Usage            
    3 | [/USER_DATA_BACKUP](./tree_dump/user_data_backup.txt) | Internal NAND ?   | 
    3 | /EXTENDED_PARTITION                                   |
 
-## SMEG Firmware
+## SMEG+ Firmware
 
 SMEG relies on U-Boot and vxWorks softwares.
 
