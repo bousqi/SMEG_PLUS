@@ -97,6 +97,20 @@ def symbols_summary(symbols):
 		print ("- %4s : %5d entries..." %(segment, len(symbols[segment])))
 	print ("Total %d entries" %count)
 
+def createFuncName(fNameList, fName):
+	# Name symbol is available
+	if not fName in fNameList:
+		return fName
+
+	# not available
+	index = 1
+	while True:
+		newName = fName + "_%.2d"%index
+		if not newName in fNameList:
+			break
+		index+=1
+	return newName
+	
 def main():
 
 	symbols = read_symbols_from_dump(symb_file)

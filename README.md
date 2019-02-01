@@ -76,7 +76,13 @@ For updates, this binary is located in "TBD", with a filename **u-boot-nand.bin*
 ### vxWorks
 
     VxWorks (for Freescale MPC5121E ADS (Rev 0.1)) version 6.7.
-This software part is stored in NAND Flash out of any filesystem at location 0x200000<br>
+This software part is stored in NAND Flash out of any filesystem.<br>
+Image caracteristics are :
+* Base Addr : 0x00200000
+* TOC : 0x007A5F80
+* SDA(r13) : 0x0086DBB0
+<br>
+
 For updates, this binary is located in "TBD", with a filename **vxWorks.bin**<br>
 <br>
 vxWorks kernel seems to always expect for CDC_EEM devices. Thus any damage performed in file system that would brick SMEG, might be fixable if shell could be reached through CDC_EEM rather than BT Internet sharing (that requires interactions on screen).
@@ -115,6 +121,113 @@ There are three identified segments :
 - [.text (all symbols)](./logs/seg_text.txt)
 - [.data (all symbols)](./logs/seg_data.txt)
 - [.bss (all symbols)](./logs/seg_bss.txt)
+
+#### Supported hardware
+
+- Linksys WUSB54, one of the Wireless device in this list : (https://www.linksys.com/fr/search?text=WUSB54)
+- CDC-EEM USB tokens (VID/PID to be listed)
+- CDC-ACM
+
+#### Internal commands
+
+##### Basic
+
+ command       | alias | help
+---------------|-------|------
+set history    |       | 
+show history   | h     | 
+show lasterror |       | 
+alias          |       | 
+unalias        |       | 
+unset config   |       | 
+expr           |       | 
+repeat         |       | 
+echo           |       | 
+set prompt     |       | 
+set config     |       | 
+set env        |       | 
+reboot         |       | 
+set bootline   | bootChange | 
+show bootline  |       | 
+show devices   | devs  | 
+show drivers   |       | 
+show fds       |       | 
+string free    | strFree | 
+version        |       | 
+sleep          |       | 
+exit           | quit  | 
+logout         |       | 
+set deploy     |       | 
+print errno    | printErrno, errno | 
+func call      |       | 
+vi             | vi    | 
+emacs          | emacs | 
+
+##### Mem
+
+ command       | alias   | help
+---------------|---------|------
+mem dump       | d       | 
+mem modify     | m       | 
+mem info       | memShow | 
+
+##### Interpreter, Object, Module, Various
+
+ command       | alias  | help
+---------------|--------|------
+C              |       | This command switches the shell to the C interpreter or <br> evaluates the following statement by the C interpreter.
+object info    | obj    | 
+object handle  | handle | 
+module unload  | unld  | 
+help           |       | 
+               |       | 
+
+##### File System
+
+ command       | alias
+---------------|-------
+file create -d | mkdir 
+file copy      | cp
+file move      | mv
+file remove    | rm
+file concat    | cat
+file list      | ls
+pwd            | pwd
+
+##### Tasks
+
+ command       | alias | help
+---------------|-------|------
+task           | i
+task info      | ti
+task suspend   | ts
+task delete    | td
+task default   |
+task regs      |
+task hooks     |
+task stop      |
+task resume    | tr
+task wait      |      
+task wait -a   | w
+task wait -d   | tw
+task stack     | checkStack
+task spawn     | tsp
+
+##### Symbols
+
+ command       | alias
+---------------|-------
+set symbol     | set
+demangle       |
+lookup         | lkup
+lookup -a      | lkAddr
+printf         | 
+
+##### Net
+
+ command       | alias | help
+---------------|-------|------
+               |       | 
 
 ### Upgrade Process
 
