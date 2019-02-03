@@ -9,15 +9,31 @@ Rather than trying to understand **vxWorks** that seems to act similarly to a ke
 Thanks to a first pass on upgrade proccess, now I'm able to analyze efficiently the **vxWorks.bin**
 
 ## Table of contents
-- [SMEG+ Firmware Analysis](#smeg--firmware-analysis)
+- [SMEG+ Firmware Analysis](#smeg-firmware-analysis)
   * [Table of contents](#table-of-contents)
   * [TODO](#todo)
-  * [Hardware](#smeg-hardware)
-  * [Partitions](#smeg-partitions)
-  * [Firmware](#smeg-firmware)
+  * [SMEG+ Hardware](#smeg-hardware)
+  * [SMEG+ Partitions](#smeg-partitions)
+  * [SMEG+ Firmware](#smeg-firmware)
     + [U-Boot](#u-boot)
     + [vxWorks](#vxworks)
+      - [Binary Format](#binary-format)
+      - [Supported hardware](#supported-hardware)
+      - [Internal commands](#internal-commands)
+        * [Basic](#basic)
+        * [Mem](#mem)
+        * [Interpreter, Object, Module, Various](#interpreter--object--module--various)
+        * [File System](#file-system)
+        * [Tasks](#tasks)
+        * [Symbols](#symbols)
+        * [Net](#net)
     + [Upgrade Process](#upgrade-process)
+      - [1) UpgradeTask](#1--c-upgrade--upgradetask-c-upgrade---this-)
+      - [2) ManageUBootUpdateAndReboot](#2--c-upgrade--manageubootupdateandreboot-c-upgrade---this-)
+      - [3) ManageBootRomUpdateAndReboot](#3--c-upgrade--managebootromupdateandreboot-c-upgrade---this-)
+      - [4) ManageRenesasUpdateAndReboot](#4--c-upgrade--managerenesasupdateandreboot-c-upgrade---this-)
+      - [5) ManageBigQuickUpdate](#5--c-upgrade--managebigquickupdate-c-upgrade---this-)
+      - [6) UpgradeHarmoniesIfNeeded](#6--c-upgrade--upgradeharmoniesifneeded-c-upgrade---this-)
   * [Links](#links)
 
 
@@ -49,6 +65,9 @@ https://www.nxp.com/products/processors-and-microcontrollers/power-architecture-
 
 ## SMEG+ Partitions
 
+Based on TFFS (True Flash File System).<br>
+vxWorks creates the following parts :
+
 Type | Device Name                                           | Usage             | Contents
 ---: | ----------------------------------------------------- | ----------------- | -------------
    7 | [/romfs](./tree_dump/romfs.txt)                       | Internal NAND     | Debug binaries for audio & scheduler.bin
@@ -77,10 +96,6 @@ For updates, this binary is located in "TBD", with a filename **u-boot-nand.bin*
 
     VxWorks (for Freescale MPC5121E ADS (Rev 0.1)) version 6.7.
 This software part is stored in NAND Flash out of any filesystem.<br>
-Image caracteristics are :
-* Base Addr : 0x00200000
-* TOC : 0x007A5F80
-* SDA(r13) : 0x0086DBB0
 <br>
 
 For updates, this binary is located in "TBD", with a filename **vxWorks.bin**<br>
@@ -93,12 +108,6 @@ One interesting command "**d**" allows to display memory
 	NOTE: memory values are displayed in hexadecimal.
 	0x00200000:  9421 ffe0 7c08 02a6 9001 0024 93e1 001c  *.!..|......$....*
 	0x00200010:  7c3f 0b78 907f 0008 807f 0008 4801 a445  *|?.x........H..E*
-	0x00200020:  8161 0000 800b 0004 7c08 03a6 83eb fffc  *.a......|.......*
-	0x00200030:  7d61 5b78 4e80 0020 7c67 1b78 7c63 1a78  *}a[xN.. |g.x|c.x*
-	0x00200040:  7c00 04ac 7c60 0124 4c00 012c 7c70 43a6  *|...|`.$L..,|pC.*
-	0x00200050:  7c71 43a6 7c72 43a6 7c73 43a6 4c00 012c  *|qC.|rC.|sC.L..,*
-	0x00200060:  7c60 01a4 4c00 012c 7c61 01a4 4c00 012c  *|`..L..,|a..L..,*
-	0x00200070:  7c62 01a4 4c00 012c 7c63 01a4 4c00 012c  *|b..L..,|c..L..,*
 
 When comparing with **vxWorks.bin** file contents :
 
@@ -109,7 +118,8 @@ vxWorks allows direct read to NAND Flash.
 
 ----------------
 
-Another vxWorks **lkup** allows to find all symbols with there associated address
+Another vxWorks **lkup** allows to find all symbols with there associated address<br>
+(these dumps are totally useless as vxWorks.bin embed its own symbols)
 
 	-> lkup "UBoot"
 	UBootVersionShow          0x0024727c text     
@@ -122,13 +132,100 @@ There are three identified segments :
 - [.data (all symbols)](./logs/seg_data.txt)
 - [.bss (all symbols)](./logs/seg_bss.txt)
 
+----------------
+#### Binary Format
+Image characteristics are :
+* Base Addr : 0x00200000
+* TOC : 0x007A5F80
+* SDA(r13) : 0x0086DBB0
+<br>
+
+At 0x00822024 there is a Symbol Table which is made of 13853 symbols.<br>
+One symbol is identified:
+
+	struct s_Symbol
+	{
+	  int unk1;
+	  void *name;
+	  void *address;
+	  int unk2;
+	  int type;
+	};
+
+Type is defined as :
+
+	enum symbolType
+	{
+	  unk = 0x100,
+	  func = 0x400,
+	  data = 0x800,
+	  ext = 0x1000,
+	};
+
+With some smart scripts, the disassembly can be populated with symbol section (done).
+
+----------------
 #### Supported hardware
 
 - Linksys WUSB54, one of the Wireless device in this list : (https://www.linksys.com/fr/search?text=WUSB54)
 - CDC-EEM USB tokens (VID/PID to be listed)
 - CDC-ACM
+<br>
+USB to Ethernet devices supported (TBC)
 
+		.string "ADMtek ADM8515 USB Ethernet"
+		.string "ADMtek ADM8513 USB Ethernet"
+		.string "ADMtek ADM8511 USB Ethernet"
+		.string "D-Link DSB-650TX USB Ethernet Adapter"
+		.string "Belkin F5D5050 USB Ethernet"
+		.string "NETGEAR FA101 USB Ethernet Adapter"
+		.string "IO DATA USB Ethernet Adapter ET/TX-S"
+		.string "3Com USB Ethernet 3C460B"
+		.string "SpeedStream USB Ethernet"
+		.string "SMC 2206 USB Ethernet"
+		.string "SmartNIC USB Ethernet Adapter"
+		.string "Microsoft MN-110 USB Ethernet Adapter"
+		.string "Linksys USB10T Ethernet Adapter"
+		.string "Linksys USB Ethernet Adapter USB100TX"
+		.string "Linksys USB10TXX USB Ethernet Adapter"
+
+<br>
+DM9601 Devices: (TBC)
+
+		.string "DM9601 USB Ethernet Adapter"
+		.string "Hirose DM9601 USB Ethernet Adapter"
+		.string "Davicom DM9601 USB Ethernet Adapter"
+		.string "Corega DM9601 USB Ethernet Adapter"
+
+<br>
+USB Modem devices : (TBC)
+
+		.string "Huawei USB 3G Modem"
+		.string "Huawei SFR USB 3G Modem"
+
+
+----------------
 #### Internal commands
+
+ifconfig
+netstat
+route
+pppconfig
+Interpeak IPRADIUS radius client command
+localhost:4433
+ssl_clt
+wifi
+ftp
+ping
+nfsMount
+edrShow
+sysctl
+spyHelp
+:
+mem info 
+afi
+
+Usb Test Compliance
 
 ##### Basic
 
@@ -227,7 +324,7 @@ printf         |
 
  command       | alias | help
 ---------------|-------|------
-               |       | 
+ ping          |       | 
 
 ### Upgrade Process
 
