@@ -38,8 +38,9 @@ Thanks to a first pass on upgrade proccess, now I'm able to analyze efficiently 
 
 
 ## TODO
-- Create an RPI0W hotspot for longer remote acess to shell
-- Complete vxWorks disassembly
+- ~~Create an RPi Zero0W hotspot for longer remote acess to shell~~<br>
+  \+ two mass storage luns (one for music, and another for automtic ZAR and Maps download from car)
+- ~~Complete vxWorks disassembly~~
 - List all USB devices supported : VID/PID + class (EEM/MS/any other)
 - List all internal commands
 - Dig on 3333 port server (GPS related)
