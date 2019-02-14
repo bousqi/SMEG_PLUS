@@ -168,8 +168,10 @@ With some smart scripts, the disassembly can be populated with symbol section (d
 #### Supported hardware
 
 - Linksys WUSB54, one of the Wireless device in this list : (https://www.linksys.com/fr/search?text=WUSB54)
-- CDC-EEM USB tokens (VID/PID to be listed)
+- CDC-EEM USB tokens (VID/PID to be listed)<br>
+  RNDIS/ECM/NCM classes are not supported
 - CDC-ACM
+- Mass Storage (multiple volumes on same token seems to be supported)
 <br>
 USB to Ethernet devices supported (TBC)
 
