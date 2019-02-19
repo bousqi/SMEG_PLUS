@@ -44,7 +44,7 @@ Thanks to a first pass on upgrade proccess, now I'm able to analyze efficiently 
   * ~~parse and process embedded Symbol table~~
   * ~~parse all strings~~
   * ~~define shell commands structures~~
-  * find the correct r13 (TOC) value.<br> **LOOKING for a PowerPC expert to understand**
+  * find the correct r2 (TOC) value.<br> **LOOKING for a PowerPC expert to understand**
 - List all USB devices supported : VID/PID + class (EEM/MS/any other)
 - List all internal commands
 - Dig on 3333 port server (GPS related)
