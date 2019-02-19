@@ -22,7 +22,7 @@ Thanks to a first pass on upgrade proccess, now I'm able to analyze efficiently 
       - [Internal commands](#internal-commands)
         * [Basic](#basic)
         * [Mem](#mem)
-        * [Interpreter, Object, Module, Various](#interpreter--object--module--various)
+        * [Interpreter, Object, Module, Various](#interpreter-object-module-various)
         * [File System](#file-system)
         * [Tasks](#tasks)
         * [Symbols](#symbols)
@@ -40,7 +40,11 @@ Thanks to a first pass on upgrade proccess, now I'm able to analyze efficiently 
 ## TODO
 - ~~Create an RPi Zero0W hotspot for longer remote acess to shell~~<br>
   \+ two mass storage luns (one for music, and another for automtic ZAR and Maps download from car)
-- ~~Complete vxWorks disassembly~~
+- vxWorks disassembly
+  * ~~parse and process embedded Symbol table~~
+  * ~~parse all strings~~
+  * ~~define shell commands structures~~
+  * find the correct r13 (TOC) value.<br> **LOOKING for a PowerPC expert to understand**
 - List all USB devices supported : VID/PID + class (EEM/MS/any other)
 - List all internal commands
 - Dig on 3333 port server (GPS related)
@@ -137,7 +141,7 @@ There are three identified segments :
 #### Binary Format
 Image characteristics are :
 * Base Addr : 0x00200000
-* TOC : 0x007A5F80
+* TOC : ~~0x007A5F80~~ <br>**(Problem, it points in the middle of a very large data array, an deflated bmp picture).**
 * SDA(r13) : 0x0086DBB0
 <br>
 
