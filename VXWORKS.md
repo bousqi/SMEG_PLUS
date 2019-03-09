@@ -257,13 +257,3 @@ printf         | ?
  route         |       | ipnet_cmd_route
  radiusc       |       | ipradius_cmd_radiusc
 
-### [Upgrade Process](UPGRADE.md#upgrade-process)
-
-## Links
-
-- https://www.forum-peugeot.com/Forum/threads/rooter-le-smeg.9541
-- https://github.com/Mwyann/psakey
-- http://www.vxdev.com/docs/vx55man/vxworks/ref/rtnIndex.htm
-- https://groups.google.com/forum/#!topic/comp.os.vxworks/njEArmJWxzU
-
-<br>
