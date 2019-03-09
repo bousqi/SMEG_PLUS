@@ -44,7 +44,10 @@ There are three identified segments :
 #### Binary Format
 Image characteristics are :
 * Base Addr : `0x00200000`
-* TOC  (r2) : ~~`0x007A5F80`~~ <br>**(Problem, it points in the middle of a very large data array, an deflated bmp picture).**
+* TOC  (r2) : ~~`0x007A5F80`~~ <br>
+	**(Problem, it points in the middle of a very large data array, an deflated bmp picture).**<br>
+	Could be ok if r2 is a computed value to optimized opcode... not confident on that hypothesis
+
 * SDA (r13) : `0x0086DBB0`
 <br>
 
@@ -98,6 +101,20 @@ Type is defined as :
 	};
 
 With some smart scripts, the disassembly can be populated with symbol section (done).
+
+#### Interesting structures
+
+* vxSymTbl      `@0x00822024`
+* opcodeTbl     `@0x007a2bf8`
+* registerTbl   `@0x007a3540`
+* wifiRegionTbl `@0x0081CD6C`
+* partTbl       `@0x00741250`
+
+* fpRegs 	  `@0x007A2524`
+* fpCtrlRegs  `@0x007A262C`
+* taskRegs    `@0x007A263C`
+
+
 
 ----------------
 #### Supported hardware
