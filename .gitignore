@@ -3,3 +3,5 @@ C4PII_Config/
 disasm/
 pictures/orig
 bin
+ghidra/*
+!ghidra/*.gar
