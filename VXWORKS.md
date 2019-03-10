@@ -104,16 +104,17 @@ With some smart scripts, the disassembly can be populated with symbol section (d
 
 #### Interesting structures
 
-* vxSymTbl      `@0x00822024`
-* opcodeTbl     `@0x007a2bf8`
-* registerTbl   `@0x007a3540`
-* wifiRegionTbl `@0x0081CD6C`
-* partTbl       `@0x00741250`
+```
+* vxSymTbl      @0x00822024
+* opcodeTbl     @0x007a2bf8
+* registerTbl   @0x007a3540
+* wifiRegionTbl @0x0081CD6C
+* partTbl       @0x00741250
 
-* fpRegs 	  `@0x007A2524`
-* fpCtrlRegs  `@0x007A262C`
-* taskRegs    `@0x007A263C`
-
+* fpRegs 	    @0x007A2524
+* fpCtrlRegs    @0x007A262C
+* taskRegs      @0x007A263C
+```
 
 
 ----------------
