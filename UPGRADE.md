@@ -16,7 +16,7 @@ As a summary, the upgrade procedure is made of X steps :
 2. Upgrade UBoot if necessary, which will be in **BSP/SMEG_PLUS_512/u-boot-nand.bin**
 3. Upgrade BootRom, which will be **BSP/SMEG_PLUS_512/vxWorks.bin**
 4. Upgrade Renesas
-5. BisQuick upgrade, related to **/AUDIO_BT/AppBin/f_BigQuick.bin**
+5. BigQuick upgrade, related to **/AUDIO_BT/AppBin/f_BigQuick.bin**
 6. Upgrade Harmonies if needed
 
 Finally performs some cleaning by removing **StartUsb.txt** that is locate in **/SYSTEM_TMP_DATA/StartUsb.txt**

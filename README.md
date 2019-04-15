@@ -16,7 +16,9 @@ GHIDRA archives are located in [ghidra](./ghidra) subdirectory.
 - [SMEG+ Firmware Analysis](#smeg-firmware-analysis)
   * [Table of contents](#table-of-contents)
   * [TODO](#todo)
+  * [Findings](#findings)
   * [SMEG+ Hardware](#smeg-hardware)
+  * [SMEG+ Memory Mapping](#smeg-memory-mapping)
   * [SMEG+ Partitions](#smeg-partitions)
   * [SMEG+ Firmware](#smeg-firmware)
     + [U-Boot](#u-boot)
@@ -31,13 +33,14 @@ GHIDRA archives are located in [ghidra](./ghidra) subdirectory.
         * [Tasks](VXWORKS.md#tasks)
         * [Symbols](VXWORKS.md#symbols)
         * [Net](VXWORKS.md#net)
-    + [Upgrade Process](UPGRADE.md#upgrade-process)
+    + [FW Upgrade Process](UPGRADE.md#upgrade-process)
       - [1) UpgradeTask](UPGRADE.md#1--c-upgrade--upgradetask-c-upgrade---this-)
       - [2) ManageUBootUpdateAndReboot](UPGRADE.md#2--c-upgrade--manageubootupdateandreboot-c-upgrade---this-)
       - [3) ManageBootRomUpdateAndReboot](UPGRADE.md#3--c-upgrade--managebootromupdateandreboot-c-upgrade---this-)
       - [4) ManageRenesasUpdateAndReboot](UPGRADE.md#4--c-upgrade--managerenesasupdateandreboot-c-upgrade---this-)
       - [5) ManageBigQuickUpdate](UPGRADE.md#5--c-upgrade--managebigquickupdate-c-upgrade---this-)
       - [6) UpgradeHarmoniesIfNeeded](UPGRADE.md#6--c-upgrade--upgradeharmoniesifneeded-c-upgrade---this-)
+    + [MAP Upgrade Process](#map-upgrade-process)
   * [Links](#links)
 
 
@@ -50,6 +53,9 @@ GHIDRA archives are located in [ghidra](./ghidra) subdirectory.
   * ~~parse all strings~~
   * ~~define shell commands structures~~
   * find the correct r2 (TOC) value.<br> **LOOKING for a PowerPC expert to understand**
+- ~~Work on License file for maps update~~
+  * ~~identify format and location~~
+  * Test License file
 - List all USB devices supported : VID/PID + class (EEM/MS/any other)
 - List all internal commands (WIP)
 - ~~test vxWorks commands~~ -> UPDATE of command list
@@ -57,6 +63,17 @@ GHIDRA archives are located in [ghidra](./ghidra) subdirectory.
 - Dig on 20000 port server
 - Find U-Boot location + dump ?
 - Finish upgrade process analysis
+
+
+## Findings
+
+### License File (Activation Key)
+Thanks to analysis of Upgrade process, it appears that any map upgrade that needs and Activation key to be typed on SMEG unit, can be skipped if the key is stored in a specific file.<br>
+Just create a text file ```SMEG_PLUS_UPG/DATA/Licence``` with the 16 char of the key.<br>
+No CRC files are required on this License file.<br>
+**Not yet tested.**
+
+### ????
 
 
 ## SMEG+ Hardware
@@ -93,6 +110,15 @@ Type | Device Name                                           | Usage            
    3 | [/USER_DATA_BACKUP](./tree_dump/user_data_backup.txt) | Internal NAND ?   | 
    3 | /EXTENDED_PARTITION                                   |
 
+
+## SMEG+ Memory Mapping
+
+Offset | Binary                | Comments
+----------: | :--------------------- | -----------------
+  0x00010000 | ELF files             | Dedicated space to load ELF files
+  0x00200000 | vxWorks.bin           |     
+  0x01000000 | f_BigQuick.bin@0x801  | Nav Binary is located in f_BigQuick.bin. The later embeds for ZLIB part. The first is the Nav binary. It can be extracted with binwalk              
+
 ## SMEG+ Firmware
 
 SMEG relies on U-Boot and vxWorks softwares.
@@ -104,10 +130,28 @@ This software part is stored in NAND Flash out of any filesystem at location 0x?
 For updates, this binary is located in "TBD", with a filename **u-boot-nand.bin**<br>
 
 ### [vxWorks](VXWORKS.md#vxworks) 
-(dedicated page)
+[(dedicated page)](VXWORKS.md#vxworks) 
 
-### [Upgrade Process](UPGRADE.md#upgrade-process) 
-(dedicated page)
+### [FW Upgrade Process](UPGRADE.md#upgrade-process) 
+This section details the Upgrade process for SMEG+ FW, based on ```upgrade.out``` located in the root of archive<br>
+[(dedicated page)](UPGRADE.md#upgrade-process)
+
+### [MAP Upgrade Process](MAP_UP.md#upgrade-process) 
+This section details the Upgrade process for MAPS / ZAR, based on ```UpgPlugin.out``` located in the root of archive<br>
+
+the upgrade process seems to be managed by the following function :
+  
+    _DWORD C_UPGRADE::UpgradeTask(C_UPGRADE *__hidden this)
+
+As a summary, the upgrade procedure is made of many steps, no details to share so far.<br>
+However, at some point in the time, the following steps applies :
+1. ```CheckCompatibilityTask();``` - which initialize callback in plugin instance
+2. ```CheckPresenceOfDRMOnMedia(this);``` - Check if DRM id available on SD<br>
+   It verifies of the following file exists ```SMEG_PLUS_UPG/DATA/Licence```
+3. ```CheckDRMMedia(this);``` - check DRM content and validity if DRM available on SD
+4. and finally starts the upgrade.
+
+
 
 ## Links
 
