@@ -91,6 +91,9 @@ https://marketplace.windriver.com/index.php?bsp&on=details&bsp=6901
 MCU reference on NXP<br>
 https://www.nxp.com/products/processors-and-microcontrollers/power-architecture-processors/mpc5xxx-55xx-32-bit-mcus/mobilegt-51xx-52xx/32-bit-power-architecture-microcontrollers:MPC5121e
 
+Opened SMEG Unit (for physical UART connection)<br>
+![](./pictures/SMEG_Unit-Back.jpg =250x)
+
 ## SMEG+ Partitions
 
 Based on TFFS (True Flash File System).<br>
