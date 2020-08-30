@@ -71,9 +71,9 @@ GHIDRA archives are located in [ghidra](./ghidra) subdirectory.
 Thanks to analysis of Upgrade process, it appears that any map upgrade that needs and Activation key to be typed on SMEG unit, can be skipped if the key is stored in a specific file.<br>
 Just create a text file ```SMEG_PLUS_UPG/DATA/Licence``` with the 16 char of the key.<br>
 No CRC files are required on this License file.<br>
-**Not yet tested.**
+**Tested and approved.**
 
-### ????
+### ???? (others to come)
 
 
 ## SMEG+ Hardware
